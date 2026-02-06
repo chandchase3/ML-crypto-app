@@ -1,0 +1,28 @@
+/* PanelToggleButton.module.css */
+
+/* Toggle button base */
+.toggleBtn { width: 100%;
+  
+  background-color: #000; /* dark 2026 theme */
+  color: #9ca3af;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Chevron flip */
+.reversedIcon {
+  transition: transform 0.1s ease;
+}
+
+.reversedIcon.open {
+  transform: rotate(180deg);
+}
+
+/* Collapsed button extra styling */
+.toggleCollapsed {
+  border-radius: 0;
+}

@@ -1,0 +1,97 @@
+/* ==============================
+   Scoped Scanner Module Variables
+   ============================== */
+.container {
+  /* Local color and spacing constants */
+  --scanner-bg: #000000;
+  --input-bg: #000000;
+  --input-border: #333;
+  --input-border-focus: #555;
+  --input-placeholder: #414141;
+  --button-bg: #1f1f1f;
+  --button-bg-hover: #2a2a2a;
+  --button-bg-active: #574545;
+  --button-border: #333;
+  --button-border-hover: #555;
+  --button-color: #eee;
+  --font-size: 14px;
+  --padding-y: 6px;
+  --padding-x: 10px;
+
+  display: flex;
+  width: 100%;
+  background-color: var(--scanner-bg);
+  /* border-radius: 3px; */
+}
+
+/* ==============================
+   Input
+   ============================== */
+.container .input {
+  flex: 1;
+  background-color: var(--input-bg);
+  border: none;
+  color: black;
+  padding: var(--padding-y) var(--padding-x);
+  font-size: var(--font-size);
+  outline: none;
+  border-radius: 0;
+
+  /* subtle motion */
+  transition:
+    background-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
+}
+
+.container .input::placeholder {
+  color: var(--input-placeholder);
+}
+
+/* Hover: very light lift + glow */
+.container .input:hover {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04),
+              0 4px 8px rgba(0, 0, 0, 0.35);
+  transform: translateY(-1px);
+}
+
+/* Focus: same lift, slightly stronger presence */
+.container .input:focus {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08),
+              0 6px 12px rgba(0, 0, 0, 0.45);
+  transform: translateY(-1px);
+}
+
+/* ==============================
+   Button
+   ============================== */
+.container .button {
+  background-color: var(--button-bg);
+  border-radius: 0;
+  border-left: none;
+  color: var(--button-color);
+  padding: var(--padding-y) 14px;
+  font-size: var(--font-size);
+  cursor: pointer;
+
+  /* subtle motion */
+  transition:
+    background-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
+}
+
+/* Hover: same lift language as input */
+.container .button:hover {
+  background-color: var(--button-bg-hover);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.04),
+              0 4px 8px rgba(0, 0, 0, 0.35);
+  transform: translateY(-1px);
+}
+
+/* Active: tiny press-in */
+.container .button:active {
+  background-color: var(--button-bg-active);
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}

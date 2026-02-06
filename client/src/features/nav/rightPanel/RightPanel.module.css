@@ -1,0 +1,107 @@
+/* Scoped right panel variables */
+.rightPanel {
+  --panel-bg: #000000;
+  --panel-border: #1f1f1f;
+  --toggleBtn-bg: #000000;
+  --toggleBtn-hover-bg: #000000;
+  --toggleBtn-color: #9ca3af;
+  --toggleBtn-hover-color: #ffffff;
+  --navLink-color: #d7d7d7;
+  --navLink-hover-bg: #1f1f1f;
+  --navLink-active-bg: #111827;
+  --navLink-active-color: #60a5fa;
+
+  width: 200px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.25s ease;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+}
+
+/* Collapsed state */
+.rightPanel.collapsed {
+  width: 48px;
+}
+
+/* Toggle button */
+.rightPanel .toggleBtn {
+  height: 40px;
+  width: 100%;
+  background-color: #000000;
+  color: #9ca3af;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.15s ease;
+}
+
+/* Chevron rotation */
+.rightPanel .reversedIcon {
+  transition: transform 0.1s ease;
+}
+
+.rightPanel .reversedIcon.open {
+  transform: rotate(180deg);
+}
+
+/* Navigation links container */
+.rightPanel .navLinks {
+  padding: 0; /* removed extra padding for full-width links */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Section title */
+.rightPanel .sectionTitle {
+  font-weight: bold;
+  padding: 0 16px;
+  color: #d7d7d7;
+}
+
+/* List inside nav */
+.rightPanel .navLinks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightPanel .navLinks li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 16px;
+  color: #d7d7d7;
+  font-size: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+
+  /* Longer transition for hover pop */
+  transition: 
+    background-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.3s ease;
+}
+
+
+/* Hover effects */
+.rightPanel .navLinks li:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* Active link */
+.rightPanel .navLinks li.active {
+  background-color: #000000;
+  color: #60a5fa;
+}

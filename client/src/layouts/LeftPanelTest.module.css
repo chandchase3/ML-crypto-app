@@ -1,0 +1,116 @@
+/* Scoped sidebar variables */
+.sideNav {
+  --sideNav-bg: #000000;
+  --toggleBtn-bg: var(--sideNav-bg);
+  --toggleBtn-color: #9ca3af;
+  --navLink-color: #d7d7d7;               /* slightly darker default */
+  --navLink-hover-bg: #1f1f1f;
+  --navLink-active-bg: #111827;
+  --navLink-active-color: #60a5fa;
+  --navLink-hover-color-accent: #dce1f0;  /* subtle gray-blue tint */
+
+  width: 200px;
+  background-color: var(--sideNav-bg);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+  position: relative;
+  transition: width 0.25s ease;
+}
+
+/* Collapsed state */
+.sideNav.collapsed {
+  width: 48px;
+}
+
+/* Toggle button */
+.sideNav .toggleBtn {
+  height: 40px;
+  width: 100%;
+  background-color: var(--toggleBtn-bg);
+  color: var(--toggleBtn-color);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Chevron flip */
+.sideNav .reversedIcon {
+  transition: transform 0.1s ease;
+}
+.sideNav .reversedIcon.open {
+  transform: rotate(180deg);
+}
+
+/* Collapsed button extra styling */
+.sideNav .toggleCollapsed {
+  border-radius: 0;
+}
+
+/* Nav links container */
+.sideNav .navLinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Hide links when collapsed */
+.sideNav.collapsed .navLinks {
+  opacity: 0;
+  transform: translateX(-10px); /* slight slide left */
+  pointer-events: none;         /* disable interaction */
+}
+
+/* Section title */
+.sideNav .sectionTitle {
+  font-weight: bold;
+  padding: 0 16px;
+  color: var(--navLink-color);
+}
+
+/* List container */
+.sideNav .navLinks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Individual list items */
+.sideNav .navLinks li {
+  align-items: center;
+  width: 100%;
+  padding: 10px 16px;
+  color: var(--navLink-color);
+  font-size: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.25s ease, color 0.25s ease, transform 0.15s ease;
+}
+
+/* Hover effects */
+.sideNav .navLinks li:hover,
+.sideNav .navLinks a:hover {
+  background-color: var(--navLink-hover-bg);
+  color: var(--navLink-hover-color-accent);
+  transform: translateY(-1px);
+}
+
+/* Active link */
+.sideNav .navLinks li.active,
+.sideNav .navLinks a.active {
+  background-color: var(--navLink-active-bg);
+  color: var(--navLink-active-color);
+}
+
