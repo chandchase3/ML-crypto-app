@@ -7,8 +7,9 @@ import styles from './LeftPanel.module.css';
 export default function LeftPanel() {
   const dispatch = useDispatch();
   const width = useSelector((state) => state.workspace.leftPanel.width);
+  const sections = useSelector((state) => state.workspace.leftPanel.sections);
 
-  // Resize handle for the entire panel
+  // Panel width resize
   const startResize = (e) => {
     const startX = e.clientX;
     const startWidth = width;
@@ -29,21 +30,13 @@ export default function LeftPanel() {
   };
 
   return (
-    <aside style={{ width }} className={styles.panel}>
-      {/* Panel resize handle */}
+    <aside className={styles.panel} style={{ width }}>
       <div className={styles.resizeHandle} onMouseDown={startResize} />
-
-      {/* Sections inside the panel */}
       <PanelLayout panel="leftPanel">
-        <PanelSection panel="leftPanel" id="watchlist" title="Watchlist">
-          Watchlist Content
-        </PanelSection>
-        <PanelSection panel="leftPanel" id="scanner" title="Scanner">
-          Scanner Content
-        </PanelSection>
-        <PanelSection panel="leftPanel" id="alerts" title="Alerts">
-          Alerts Content
-        </PanelSection>
+        <PanelSection panel="leftPanel" id="watchlist" title="Watchlist">Watchlist Content</PanelSection>
+        <PanelSection panel="leftPanel" id="scanner" title="Scanner">Scanner Content</PanelSection>
+        <PanelSection panel="leftPanel" id="alerts" title="Alerts">Alerts Content</PanelSection>
+        <PanelSection panel="leftPanel" id="settings" title="Settings">Settings Content</PanelSection>
       </PanelLayout>
     </aside>
   );

@@ -15,7 +15,7 @@ export default function PanelSection({ panel, id, title, children }) {
             {section.collapsed ? '+' : '−'}
           </button>
           <button onClick={() => dispatch(toggleSectionMaximize({ panel, id }))}>
-            [ ]{/* simple maximize icon */}
+            [ ]
           </button>
         </div>
       </div>

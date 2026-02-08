@@ -2,12 +2,10 @@
   display: flex;
   flex-direction: column;
   width: 200px;
-  background-color: var(--bg-color, #1e1e1e);
-  border-right: 1px solid var(--border-color, #333); /* left panel */
-  position: relative;
-  z-index: 2;
-  box-sizing: border-box;
-  color: var(--text-color, #fff);
+  background: #1e1e1e;
+  border-right: 1px solid #333;
+  position: relative; /* required for absolute handle */
+  z-index: 20;
 }
 
 .navLinks {
@@ -29,7 +27,7 @@
   padding: 10px 16px;
   cursor: pointer;
   color: var(--navLink-color, #d7d7d7);
-  transition: all 0.2s ease;
+  /* transition: all 0.2s ease; */
 }
 
 .navLinks li:hover {
@@ -41,10 +39,11 @@
 .resizeHandle {
   position: absolute;
   top: 0;
-  right: 0; /* right edge of left panel */
-  width: 5px;
+  right: 0;
+  width: 10px;           /* larger target for easier grabbing */
   height: 100%;
   cursor: ew-resize;
   background: rgba(255, 255, 255, 0.05);
-  z-index: 10; /* higher than nav items */
+  z-index: 9999;         /* ensures it sits above everything inside the panel */
+  pointer-events: all;   /* make sure it can catch mouse events */
 }
