@@ -1,0 +1,31 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  background: #2a2a2a;
+  border-bottom: 1px solid #444;
+  cursor: default;
+  user-select: none;
+}
+
+.buttons button {
+  background: transparent;
+  border: none;
+  color: #ccc;
+  cursor: pointer;
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.content {
+  flex: 1;
+  overflow: auto;
+  background: #1e1e1e;
+}

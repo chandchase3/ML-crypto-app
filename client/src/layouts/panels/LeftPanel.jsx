@@ -1,11 +1,14 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { setLeftPanelWidth } from '../redux/workspaceSlice';
+import PanelLayout from './PanelLayout';
+import PanelSection from './sections/PanelSection';
 import styles from './LeftPanel.module.css';
 
-export default function LeftPanel({ children }) {
+export default function LeftPanel() {
   const dispatch = useDispatch();
   const width = useSelector((state) => state.workspace.leftPanel.width);
 
+  // Resize handle for the entire panel
   const startResize = (e) => {
     const startX = e.clientX;
     const startWidth = width;
@@ -26,11 +29,22 @@ export default function LeftPanel({ children }) {
   };
 
   return (
-    <aside className={styles.panel} style={{ width }}>
+    <aside style={{ width }} className={styles.panel}>
+      {/* Panel resize handle */}
       <div className={styles.resizeHandle} onMouseDown={startResize} />
-      <div className={styles.content}>
-        {children}
-      </div>
+
+      {/* Sections inside the panel */}
+      <PanelLayout panel="leftPanel">
+        <PanelSection panel="leftPanel" id="watchlist" title="Watchlist">
+          Watchlist Content
+        </PanelSection>
+        <PanelSection panel="leftPanel" id="scanner" title="Scanner">
+          Scanner Content
+        </PanelSection>
+        <PanelSection panel="leftPanel" id="alerts" title="Alerts">
+          Alerts Content
+        </PanelSection>
+      </PanelLayout>
     </aside>
   );
 }
