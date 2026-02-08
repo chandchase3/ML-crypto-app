@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import TopNavbar from '../navbars/TopNavbar';
 import BottomNavbar from '../navbars/BottomNavbar';
-import LeftPanel from '../panels/LeftPanel';
+import SectionedPanel from '../panels/SectionedPanel';
 import RightPanel from '../panels/RightPanel';
 import SecondaryWorkSpace from '../workspaces/SecondaryWorkSpace';
 import styles from './MainLayout.module.css';
@@ -15,7 +15,7 @@ export default function MainLayout({ children }) {
       {workspace.topNav.visible && <TopNavbar />}
 
       <div className={styles.body}>
-        {workspace.leftPanel.visible && <LeftPanel />}
+        {workspace.leftPanel.visible && <SectionedPanel />}
         
         <div className={styles.mainColumn}>
           {/* Main content wrapper scrolls if secondary panel covers it */}

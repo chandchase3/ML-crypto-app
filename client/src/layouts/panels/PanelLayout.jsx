@@ -6,7 +6,9 @@ import styles from './PanelLayout.module.css';
 export default function PanelLayout({ panel, children }) {
   const dispatch = useDispatch();
   const sections = useSelector(state => state.workspace[panel].sections);
-  const sectionKeys = Object.keys(sections);
+
+  // Only visible sections (not collapsed)
+  const visibleSectionKeys = Object.keys(sections).filter(id => !sections[id].collapsed);
 
   const startResize = (e, topId, bottomId) => {
     e.preventDefault();
@@ -39,16 +41,16 @@ export default function PanelLayout({ panel, children }) {
 
   return (
     <div className={styles.layout}>
-      {sectionKeys.map((id, index) => {
+      {visibleSectionKeys.map((id, index) => {
         const section = sections[id];
-        const nextId = sectionKeys[index + 1];
+        const nextId = visibleSectionKeys[index + 1]; // map to next visible section
 
         return (
           <Fragment key={id}>
             <div
               style={{
                 height: section.height,
-                display: section.collapsed ? 'none' : 'flex',
+                display: 'flex',
                 flexDirection: 'column',
                 position: 'relative'
               }}
@@ -56,7 +58,7 @@ export default function PanelLayout({ panel, children }) {
               {children.find(c => c.props.id === id)}
             </div>
 
-            {/* Place the handle as a sibling, not inside the section */}
+            {/* Only render handle if there is a next visible section */}
             {nextId && (
               <div
                 className={styles.resizeHandle}

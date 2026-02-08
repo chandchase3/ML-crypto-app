@@ -8,23 +8,27 @@ const initialState = {
   // Side panels with resizable sections
   leftPanel: { 
     visible: true, 
+    overlay: false,       // overlay mode (panel floats above content)
     width: 200, 
     minWidth: 48, 
     maxWidth: 1700,
+    transparent: true,    // panel background transparency
     sections: {
       watchlist: { height: 150, minHeight: 50, grow: 1, collapsed: false, maximized: false },
-      scanner: { height: 200, minHeight: 50, grow: 1, collapsed: false, maximized: false },
-      alerts: { height: 100, minHeight: 50, grow: 1, collapsed: false, maximized: false },
-      settings: { height: 100, minHeight: 50, grow: 1, collapsed: false, maximized: false },
+      scanner:   { height: 200, minHeight: 50, grow: 1, collapsed: false, maximized: false },
+      alerts:    { height: 100, minHeight: 50, grow: 1, collapsed: false, maximized: false },
+      settings:  { height: 100, minHeight: 50, grow: 1, collapsed: false, maximized: false },
     }
   },
+
   rightPanel: { 
     visible: true, 
+    overlay: false,       // overlay mode
     width: 200, 
     minWidth: 48, 
     maxWidth: 1700,
     sections: {
-      news: { height: 150, minHeight: 50, grow: 1, collapsed: false, maximized: false },
+      news:   { height: 150, minHeight: 50, grow: 1, collapsed: false, maximized: false },
       trades: { height: 200, minHeight: 50, grow: 2, collapsed: false, maximized: false },
     }
   },
@@ -37,13 +41,13 @@ const workspaceSlice = createSlice({
   name: 'workspace',
   initialState,
   reducers: {
-    // Navs
+    // Top & bottom navs
     toggleTopNav(state) { state.topNav.visible = !state.topNav.visible; },
     toggleBottomNav(state) { state.bottomNav.visible = !state.bottomNav.visible; },
     setTopNavHeight(state, action) { state.topNav.height = action.payload; },
     setBottomNavHeight(state, action) { state.bottomNav.height = action.payload; },
 
-    // Panels
+    // Side panels
     toggleLeftPanel(state) { state.leftPanel.visible = !state.leftPanel.visible; },
     toggleRightPanel(state) { state.rightPanel.visible = !state.rightPanel.visible; },
     setLeftPanelWidth(state, action) {
@@ -70,17 +74,14 @@ const workspaceSlice = createSlice({
     // Panel sections
     adjustSectionGrow(state, action) {
       const { panel, topId, bottomId, topHeight, bottomHeight } = action.payload;
-      const top = state[panel].sections[topId];
-      const bottom = state[panel].sections[bottomId];
-      top.height = topHeight;
-      bottom.height = bottomHeight;
+      state[panel].sections[topId].height = topHeight;
+      state[panel].sections[bottomId].height = bottomHeight;
     },
     adjustSectionHeight(state, action) {
       const { panel, topId, bottomId, topHeight, bottomHeight } = action.payload;
       state[panel].sections[topId].height = topHeight;
       state[panel].sections[bottomId].height = bottomHeight;
     },
-        
     toggleSectionCollapse(state, action) {
       const { panel, id } = action.payload;
       state[panel].sections[id].collapsed = !state[panel].sections[id].collapsed;
@@ -89,7 +90,6 @@ const workspaceSlice = createSlice({
       const { panel, id } = action.payload;
       const section = state[panel].sections[id];
       section.maximized = !section.maximized;
-
       Object.keys(state[panel].sections).forEach(key => {
         if (key !== id) state[panel].sections[key].maximized = false;
       });
@@ -101,7 +101,7 @@ export const {
   toggleTopNav, toggleBottomNav, setTopNavHeight, setBottomNavHeight,
   toggleLeftPanel, toggleRightPanel, setLeftPanelWidth, setRightPanelWidth,
   toggleSecondaryVisible, toggleSecondaryOverlay, setSecondaryHeight, resizeSecondaryPanel,
-  adjustSectionGrow, toggleSectionCollapse, toggleSectionMaximize, adjustSectionHeight
+  adjustSectionGrow, adjustSectionHeight, toggleSectionCollapse, toggleSectionMaximize
 } = workspaceSlice.actions;
 
 export default workspaceSlice.reducer;
