@@ -5,7 +5,7 @@ import cryptoReducer from '../features/market/cryptoSlice';
 import uiReducer from '../features/ui/uiSlice';
 import topNavbarReducer from '../features/nav/topNavbar/topNavbarSlice';
 import sideNavReducer from '../features/nav/leftPanel/leftPanelSlice';
-import rightPanelReducer from '../features/nav/rightPanel/rightPanelSlice';
+import ReusablePanelReducer from '../panels/ReusablePanelSlice';
 
 export const store = configureStore({
   reducer: {
@@ -15,6 +15,6 @@ export const store = configureStore({
     ui: uiReducer,
       topNav: topNavbarReducer,
   sideNav: sideNavReducer,
-  rightPanel: rightPanelReducer
+  reusablePanel:  ReusablePanelReducer, // Add the reusable panel reducer
   }
 });

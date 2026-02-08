@@ -1,24 +1,18 @@
-/* Scoped right panel variables */
+.container {
+  position: relative; /* container for the resizer */
+  height: 100%;
+}
+
 .rightPanel {
   --panel-bg: #000000;
   --panel-border: #1f1f1f;
-  --toggleBtn-bg: #000000;
-  --toggleBtn-hover-bg: #000000;
-  --toggleBtn-color: #9ca3af;
-  --toggleBtn-hover-color: #ffffff;
-  --navLink-color: #d7d7d7;
-  --navLink-hover-bg: #1f1f1f;
-  --navLink-active-bg: #111827;
-  --navLink-active-color: #60a5fa;
-
-  width: 200px;
-  background-color: #000000;
+  background-color: var(--panel-bg);
   display: flex;
   flex-direction: column;
-  transition: width 0.25s ease;
+  position: relative;
   box-sizing: border-box;
-  border: none;
-  box-shadow: none;
+  /* transition: width 0.25s ease; */
+  height: 100%;
 }
 
 /* Collapsed state */
@@ -30,15 +24,13 @@
 .rightPanel .toggleBtn {
   height: 40px;
   width: 100%;
-  background-color: #000000;
+  background-color: var(--panel-bg);
   color: #9ca3af;
   border: none;
-  border-radius: 0;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.15s ease;
 }
 
 /* Chevron rotation */
@@ -50,23 +42,15 @@
   transform: rotate(180deg);
 }
 
-/* Navigation links container */
+/* Navigation links */
 .rightPanel .navLinks {
-  padding: 0; /* removed extra padding for full-width links */
-  margin: 0;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  flex: 1;
+  margin: 0;
+  padding: 0;
 }
 
-/* Section title */
-.rightPanel .sectionTitle {
-  font-weight: bold;
-  padding: 0 16px;
-  color: #d7d7d7;
-}
-
-/* List inside nav */
 .rightPanel .navLinks ul {
   list-style: none;
   margin: 0;
@@ -76,32 +60,25 @@
 }
 
 .rightPanel .navLinks li {
-  display: flex;
-  align-items: center;
-  width: 100%;
   padding: 10px 16px;
-  color: #d7d7d7;
-  font-size: 14px;
   cursor: pointer;
-  box-sizing: border-box;
-
-  /* Longer transition for hover pop */
-  transition: 
-    background-color 0.25s ease,
-    color 0.25s ease,
-    transform 0.3s ease;
+  color: var(--navLink-color, #d7d7d7);
+  transition: all 0.2s ease;
 }
 
-
-/* Hover effects */
 .rightPanel .navLinks li:hover {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  transform: translateY(-1px);
+  background-color: var(--navLink-hover-bg, #1f1f1f);
+  color: var(--navLink-hover-color, #fff);
 }
 
-/* Active link */
-.rightPanel .navLinks li.active {
-  background-color: #000000;
-  color: #60a5fa;
+/* Resizer handle */
+.resizer {
+  width: 6px;
+  cursor: ew-resize;
+  background: transparent; /* invisible but catches mouse events */
+  position: absolute;
+  top: 0;
+  right: 100%; /* place left of the panel */
+  height: 100%;
+  z-index: 1000;
 }

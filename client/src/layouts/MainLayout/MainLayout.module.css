@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100vh; /* full viewport height */
   padding: 0;
   margin: 0;
 }
@@ -10,11 +10,12 @@
   display: flex;
   flex: 1;
   overflow: hidden;
-  padding: 0;
+  height: 100%;
+  align-items: stretch; /* THIS ensures children stretch vertically */
+  position: relative; /* required if panels use absolute positioning for over/overTransparent modes */
 }
-
 .mainContent {
   flex: 1;
-  padding: 0;
   overflow-y: auto;
+  height: 100%; /* ensure content takes full height */
 }

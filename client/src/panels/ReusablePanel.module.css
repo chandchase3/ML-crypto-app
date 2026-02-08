@@ -1,0 +1,43 @@
+.panel {
+  background: #111;
+  color: #fff;
+  position: relative; /* absolute only in over/overTransparent */
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  z-index: 50;
+
+  height: 100%; /* THIS makes it take full height of parent */
+}
+
+/* Modes */
+.open {
+  display: flex;
+  position: relative;
+  opacity: 1;
+}
+
+.collapsed {
+  width: 48px;
+  height: 100%;
+}
+
+.over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.overTransparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.hidden {
+  display: none;
+}

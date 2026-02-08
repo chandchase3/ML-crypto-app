@@ -17,6 +17,7 @@ const initialState = {
   rightPanel: {
     visible: true,
     collapsed: true,
+    width: 300, // default width for resizing
     items: {
       quickActions: true,
       recentAlerts: true,
@@ -58,6 +59,12 @@ const uiSlice = createSlice({
       const { key, value } = action.payload;
       state.rightPanel.items[key] = value;
     },
+
+    // WIDTH CONTROL for resizing
+    setRightPanelWidth(state, action) {
+      const width = action.payload;
+      if (width > 100) state.rightPanel.width = width; // minimum width
+    },
   },
 });
 
@@ -69,6 +76,7 @@ export const {
   toggleRightPanelCollapse,
   setSideNavItem,
   setRightPanelItem,
+  setRightPanelWidth, // add this to dispatch resizing
 } = uiSlice.actions;
 
 export default uiSlice.reducer;
