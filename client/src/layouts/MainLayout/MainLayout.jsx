@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
-import TopNavbar from '../features/nav/topNavbar';
-import RightPanel from '../features/nav/rightPanel';
-import LeftPanelTest from './LeftPanelTest';
+import TopNavbar from '../../features/nav/topNavbar';
+import RightPanel from '../../features/nav/rightPanel';
+import LeftPanelTest from '../../layouts/PanelLayouts/LeftPanelTest';
 import styles from './MainLayout.module.css';
 
 export default function MainLayout({ children }) {

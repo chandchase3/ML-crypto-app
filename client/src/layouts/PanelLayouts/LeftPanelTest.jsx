@@ -1,9 +1,9 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleSideNavCollapse } from '../features/ui/uiSlice';
+import { toggleSideNavCollapse } from '../../features/ui/uiSlice';
 import styles from './WatchlistPanel.module.css';
-import { PanelToggleButton } from './panelToggleButton';
-import { LeftWatchlist } from './LeftWatchlist';
+import { PanelToggleButton } from '../panelToggleButton';
+import { LeftWatchlist } from '../LeftWatchlist';
 
 export const WatchlistPanel = () => {
   const dispatch = useDispatch();

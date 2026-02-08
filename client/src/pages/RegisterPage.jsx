@@ -1,12 +1,5 @@
-import RegisterForm from '../features/user/RegisterForm';
-import styles from '../features/user/AuthForm.module.css';
+import AuthForm from '../features/auth/AuthForm';
 
 export default function RegisterPage() {
-  return (
-    <div className={styles.authContainer}>
-      <h2>Register</h2>
-      {/* Embed the reusable RegisterForm */}
-      <RegisterForm />
-    </div>
-  );
+  return <AuthForm mode="register" />;
 }

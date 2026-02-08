@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import { logout } from '../../../features/user/userSlice';
+import { logout } from '../../../features/auth/authSlice';
 import { useDispatch } from 'react-redux';
 import styles from './TopNavbar.module.css';
 
@@ -7,7 +7,7 @@ export default function TopNav() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  // const { email } = useSelector((state) => state.user) || {};
+  // const { email } = useSelector((state) => state.auth) || {};
 
   const handleLogout = () => {
     dispatch(logout());

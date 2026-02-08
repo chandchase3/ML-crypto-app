@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import userReducer from '../features/user/userSlice';
+import authReducer from '../features/auth/authSlice';
 import watchlistsReducer from '../features/watchlists/watchlistsSlice';
 import cryptoReducer from '../features/market/cryptoSlice';
 import uiReducer from '../features/ui/uiSlice';
@@ -9,7 +9,7 @@ import rightPanelReducer from '../features/nav/rightPanel/rightPanelSlice';
 
 export const store = configureStore({
   reducer: {
-    user: userReducer,
+    auth: authReducer,
     watchlists: watchlistsReducer,
     crypto: cryptoReducer,
     ui: uiReducer,

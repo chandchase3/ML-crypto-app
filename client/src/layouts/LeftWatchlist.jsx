@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { getWatchlists } from '../features/watchlists/watchlistsSlice';
 import WatchlistInput from './WatchlistInput';
 import { WatchlistsDropdown } from './WatchlistsDropdown';
-import styles from './LeftPanelTest.module.css';
+import styles from './PanelLayouts/LeftPanelTest.module.css';
 
 export const LeftWatchlist = () => {
   const watchlists = useSelector(getWatchlists);
