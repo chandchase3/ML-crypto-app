@@ -10,7 +10,7 @@ const initialState = {
       id: 'test_watchlist_1',
       name: 'Kraken Core Watchlist',
       exchange: 'kraken',
-      symbols: ['BTC/USD', 'ETH/USD', 'SOL/USD'],
+      symbols: ['BTC/USD', 'ETH/USD', 'SOL/USD', 'ADA/USD', 'LTC/USD', 'LINK/USD', 'BCH/USD', 'AVAX/USD'],
       createdAt: Date.now(),
     },
   },

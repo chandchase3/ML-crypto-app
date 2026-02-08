@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { getActiveWatchlist } from "../../watchlists/watchlistsSlice";
 import ScannerControls from "./ScannerControls";
 import ScannerItem from "./ScannerItem";
-import styles from "./index.module.css";
+import styles from "./Scanner.module.css";
 
 const Scanner = () => {
   const activeWatchlist = useSelector(getActiveWatchlist);

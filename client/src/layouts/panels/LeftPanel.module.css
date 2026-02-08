@@ -1,0 +1,50 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: var(--bg-color, #1e1e1e);
+  border-right: 1px solid var(--border-color, #333); /* left panel */
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  color: var(--text-color, #fff);
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  margin: 0;
+}
+
+.navLinks ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navLinks li {
+  padding: 10px 16px;
+  cursor: pointer;
+  color: var(--navLink-color, #d7d7d7);
+  transition: all 0.2s ease;
+}
+
+.navLinks li:hover {
+  background-color: var(--navLink-hover-bg, #1f1f1f);
+  color: var(--navLink-hover-color, #fff);
+}
+
+/* LEFT PANEL RESIZER HANDLE */
+.resizeHandle {
+  position: absolute;
+  top: 0;
+  right: 0; /* right edge of left panel */
+  width: 5px;
+  height: 100%;
+  cursor: ew-resize;
+  background: rgba(255, 255, 255, 0.05);
+  z-index: 10; /* higher than nav items */
+}
