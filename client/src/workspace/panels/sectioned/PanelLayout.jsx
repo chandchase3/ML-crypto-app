@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Fragment } from 'react';
-import { adjustSectionHeight } from '../redux/workspaceSlice';
+import { adjustSectionHeight } from '../../workspaceSlice';
 import styles from './PanelLayout.module.css';
 
 export default function PanelLayout({ panel, children }) {

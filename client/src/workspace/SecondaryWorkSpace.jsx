@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { setSecondaryHeight } from '../redux/workspaceSlice';
+import { setSecondaryHeight } from './workspaceSlice';
 import styles from './SecondaryWorkSpace.module.css';
 
 export default function SecondaryWorkSpace() {

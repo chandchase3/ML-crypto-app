@@ -1,6 +1,6 @@
 // /src/features/user/authSlice.js
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import api from '../../../api/axiosInstance';
+import api from '../api/axiosInstance';
 
 // Initialize token from localStorage if it exists
 const tokenFromStorage = localStorage.getItem('token');

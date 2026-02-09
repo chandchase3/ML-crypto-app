@@ -6,7 +6,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import WatchlistPage from './pages/WatchlistPage';
 import KrakenPage from './pages/KrakenPage';
-import PrivateRoute from './components/PrivateRoute'; // we’ll create this next
+import PrivateRoute from './auth/PrivateRoute'; // we’ll create this next
 
 function App() {
   return (

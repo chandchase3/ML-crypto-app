@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleSectionCollapse, toggleSectionMaximize } from '../../redux/workspaceSlice';
+import { toggleSectionCollapse, toggleSectionMaximize } from '../../workspaceSlice';
 import styles from './PanelSection.module.css';
 
 export default function PanelSection({ panel, id, title, children }) {

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { getActiveWatchlist } from "../../watchlists/watchlistsSlice";
-import ScannerControls from "./ScannerControls";
+import { getActiveWatchlist } from "../../../features/watchlists/watchlistsSlice";
+import ScannerControls from "./controls/ScannerControls";
 import ScannerItem from "./ScannerItem";
-import styles from "./Scanner.module.css";
+import styles from "./KrakenScanner.module.css";
 
-const Scanner = () => {
+const KrakenScanner = () => {
   const activeWatchlist = useSelector(getActiveWatchlist);
   const scannerList = activeWatchlist?.symbols ?? [];
 
@@ -62,4 +62,4 @@ const Scanner = () => {
   );
 };
 
-export default Scanner;
+export default KrakenScanner;

@@ -1,9 +1,9 @@
 import { useSelector } from 'react-redux';
-import TopNavbar from '../navbars/TopNavbar';
-import BottomNavbar from '../navbars/BottomNavbar';
-import SectionedPanel from '../panels/SectionedPanel';
-import RightPanel from '../panels/RightPanel';
-import SecondaryWorkSpace from '../workspaces/SecondaryWorkSpace';
+import TopNavbar from './navbars/TopNavbar';
+import BottomNavbar from './navbars/BottomNavbar';
+import SectionedPanel from './panels/sectioned/SectionedPanel';
+import RightPanel from './panels/RightPanel';
+import SecondaryWorkSpace from './SecondaryWorkSpace';
 import styles from './MainLayout.module.css';
 
 export default function MainLayout({ children }) {
@@ -37,6 +37,7 @@ export default function MainLayout({ children }) {
           {overlay && workspace.secondaryPanel.visible && <SecondaryWorkSpace />}
         </div>
 
+            {/* PUT A SECTIONEDPANEL AND PASS DIRECTION TO RIGHT AS PROP */}
         {workspace.rightPanel.visible && <RightPanel />}
       </div>
 

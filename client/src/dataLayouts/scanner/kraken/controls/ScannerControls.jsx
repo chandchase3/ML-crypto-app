@@ -3,8 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import {
   getActiveWatchlistSymbols,
   removeAssetFromActiveWatchlist,
-} from '../../watchlists/watchlistsSlice';
-import ScannerCoin from './ScannerCoin';
+} from '../../../../features/watchlists/watchlistsSlice';
 import ScannerAdd from './ScannerAdd';
 import styles from './ScannerControls.module.css';
 
