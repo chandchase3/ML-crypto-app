@@ -1,10 +1,10 @@
 import MainLayout from '../workspace/MainLayout';
-import KrakenLayout from '../layouts/kraken/KrakenLayout';
+// import StartScanner from '../layouts/kraken/StartScanner';
 
 export default function KrakenPage() {
   return (
     <MainLayout>
-        <KrakenLayout />
+        <p>Kraken Page</p>
     </MainLayout>
   );
 }

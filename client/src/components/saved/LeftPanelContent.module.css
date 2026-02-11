@@ -1,24 +1,22 @@
-.panel {
+/* .panel {
   display: flex;
   flex-direction: column;
   width: 200px;
-  background: #00000000; /* transparent default */
+  background: #00000000;
   border-right: 1px solid #333;
   position: relative;
   z-index: 2000;
 }
 
-/* Overlay mode: floats above content */
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   box-shadow: 2px 0 6px rgba(0,0,0,0.5);
-  z-index: 2000; /* above main content */
+  z-index: 2000; 
 }
 
-/* Horizontal resize handle */
 .resizeHandle {
   position: absolute;
   top: 0;
@@ -30,7 +28,7 @@
   pointer-events: all;
 }
 
-
+ 
 .resizeHandle:hover {
   background: rgba(84, 18, 18, 0.15);
-}
+} */

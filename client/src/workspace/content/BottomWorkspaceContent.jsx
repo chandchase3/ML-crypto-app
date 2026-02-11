@@ -1,10 +1,11 @@
-import BottomWorkspaceShell from '../BottomWorkspaceShell';
-import KrakenScannerUI from '../../layouts/kraken/KrakenScannerUI';
+import BottomWorkspaceShell from '../shells/BottomWorkspaceShell';
+import StartScanner from '../../features/scanner/wsProviders/StartScanner';
 
-export default function BottomWorkspaceContent({ children }) {
+export default function BottomWorkspaceContent() {
   return (
     <BottomWorkspaceShell>
-        <KrakenScannerUI />
+        {/* <KrakenScannerUI /> */}
+       <StartScanner />
     </BottomWorkspaceShell>
   );
 }

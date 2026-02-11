@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addItemToScanner, selectScannerByName } from "../../../features/scanner/scannerSlice";
+import { addItemToScanner, selectScannerByName } from "../../scannerSlice";
 import styles from "./AddScannerItems.module.css";
 
 const AddScannerItems = ({ scannerName }) => {

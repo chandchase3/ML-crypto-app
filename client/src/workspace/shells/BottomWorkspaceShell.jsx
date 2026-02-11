@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { setSecondaryHeight } from './workspaceSlice';
+import { setSecondaryHeight } from '../workspaceSlice';
 import { useState } from 'react';
 import styles from './BottomWorkspaceShell.module.css';
-import KrakenScannerUI from '../layouts/kraken/KrakenScannerUI';
 
 export default function SecondaryWorkSpace({ children }) {
   const dispatch = useDispatch();

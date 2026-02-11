@@ -1,10 +1,11 @@
 import { useSelector } from 'react-redux';
 import TopNavbar from './navbars/TopNavbar';
 import BottomNavbar from './navbars/BottomNavbar';
-import RightPanel from './panels/RightPanel';
+import RightPanelContent from './content/RightPanelContent';
 import BottomWorkspaceContent from './content/BottomWorkspaceContent';
-import LeftPanel from './panels/LeftPanel';
+import LeftPanelContent from './content/LeftPanelContent';
 import styles from './MainLayout.module.css';
+import TopWorkspaceContent from './content/TopWorkspaceContent';
 
 export default function MainLayout({ children }) {
   const workspace = useSelector((state) => state.workspace);
@@ -21,29 +22,19 @@ export default function MainLayout({ children }) {
       {topVisible && <TopNavbar />}
 
       <div className={styles.body}>
-        {workspace.leftPanel.visible && <LeftPanel panel="leftPanel" />}
+        {workspace.leftPanel.visible && <LeftPanelContent panel="leftPanel" />}
 
         <div className={styles.mainColumn}>
-          <div
-            className={styles.mainContentWrapper}
-            style={{
-              flex: 1,
-              minHeight: 0,
-              overflowY: 'auto',
-              paddingBottom:
-                secondaryVisible && !overlay
-                  ? `${liveBottomHeight}px`
-                  : '0px', // inline mode
-            }}
-          >
-            <main className={styles.mainContent}>{children}</main>
-          </div>
+          {/* <TopWorkspaceShell>
+            {children}
+          </TopWorkspaceShell> */}
+          <TopWorkspaceContent />
 
           {/* Bottom panel */}
           {secondaryVisible && <BottomWorkspaceContent />}
         </div>
 
-        {workspace.rightPanel.visible && <RightPanel />}
+        {workspace.rightPanel.visible && <RightPanelContent />}
       </div>
 
       {bottomVisible && <BottomNavbar />}

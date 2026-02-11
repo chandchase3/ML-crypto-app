@@ -1,10 +1,10 @@
-import TopWorkspaceShell from '../TopWorkspaceShell';
-import KrakenScannerUI from '../../layouts/kraken/KrakenScannerUI';
+import TopWorkspaceShell from '../shells/TopWorkspaceShell';
 
 export default function BottomWorkspaceContent({ children }) {
   return (
     <TopWorkspaceShell>
-        <KrakenScannerUI />
+        <p>top</p>
+
     </TopWorkspaceShell>
   );
 }

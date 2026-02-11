@@ -1,14 +1,15 @@
 // src/layouts/kraken/KrakenScannerUI.jsx
 import React from "react";
 import { useSelector } from "react-redux";
-import styles from "./KrakenScanner.module.css";
 import ScannerTable from "./ScannerTable";
 import AddScannerItems from "./controls/AddScannerItems";
-import { selectKrakenActiveScanners  } from "../../features/scanner/scannerSlice";
+import { selectKrakenActiveScanners  } from "../scannerSlice";
+import styles from "./ScannerUi.module.css";
 
-const KrakenScannerUI = () => {
-  const activeScanners = useSelector(selectKrakenActiveScanners );
-
+const ScannerUI = () => {
+const activeScanners = useSelector(selectKrakenActiveScanners );
+const scanners = useSelector(state => state.scanner.scanners);
+console.log('scanners:', activeScanners);
   if (!activeScanners.length) return <p>No active scanners</p>;
 
   return (
@@ -27,4 +28,4 @@ const KrakenScannerUI = () => {
   );
 };
 
-export default KrakenScannerUI;
+export default ScannerUI;

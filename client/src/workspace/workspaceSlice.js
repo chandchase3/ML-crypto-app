@@ -1,14 +1,41 @@
 import { createSlice } from '@reduxjs/toolkit';
-
 const initialState = {
-    topNav: { visible: true, height: 50 },
+  topNav: { visible: true, height: 50 },
   bottomNav: { visible: true, height: 50 },
-  // Side panels
-  leftPanel: { type: 'simple', visible: true, width: 200, minWidth: 48, maxWidth: 1700 },
-  rightPanel: { type: 'simple', visible: true, width: 200, minWidth: 48, maxWidth: 1700 },
+
+  // Side panels with fully dynamic config
+  leftPanel: {
+    config: {
+      type: "singleFeature",        // simple | singleFeature | split | widgetPanel
+      feature: "scanner",         // e.g., "watchlist", "scanner"
+      widgets: [],           // optional array for future widget panels
+    },
+    visible: true,
+    width: 200,
+    minWidth: 48,
+    maxWidth: 1700,
+  },
+
+  rightPanel: {
+    config: {
+      type: "singleFeature",
+      feature: "watchlist",
+      widgets: [],
+    },
+    visible: true,
+    width: 200,
+    minWidth: 48,
+    maxWidth: 1700,
+  },
 
   // Secondary workspace (default overlay)
-  secondaryPanel: { visible: true, overlay: true, height: 200, minHeight: 25, maxHeight: 3000 },
+  secondaryPanel: {
+    visible: true,
+    overlay: true,
+    height: 200,
+    minHeight: 25,
+    maxHeight: 3000,
+  },
 };
 
 const workspaceSlice = createSlice({
