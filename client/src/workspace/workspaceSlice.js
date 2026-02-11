@@ -1,52 +1,20 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-  // Top & bottom navs
-  topNav: { visible: true, height: 50 },
+    topNav: { visible: true, height: 50 },
   bottomNav: { visible: true, height: 50 },
+  // Side panels
+  leftPanel: { type: 'simple', visible: true, width: 200, minWidth: 48, maxWidth: 1700 },
+  rightPanel: { type: 'simple', visible: true, width: 200, minWidth: 48, maxWidth: 1700 },
 
-  // Side panels with resizable sections
-  leftPanel: { 
-    visible: true, 
-    overlay: false,       // overlay mode (panel floats above content)
-    width: 200, 
-    minWidth: 48, 
-    maxWidth: 1700,
-    transparent: true,    // panel background transparency
-    sections: {
-      watchlist: { height: 150, minHeight: 50, grow: 1, collapsed: false, maximized: false },
-      scanner:   { height: 200, minHeight: 50, grow: 1, collapsed: false, maximized: false },
-      alerts:    { height: 100, minHeight: 50, grow: 1, collapsed: false, maximized: false },
-      settings:  { height: 100, minHeight: 50, grow: 1, collapsed: false, maximized: false },
-    }
-  },
-
-  rightPanel: { 
-    visible: true, 
-    overlay: false,       // overlay mode
-    width: 200, 
-    minWidth: 48, 
-    maxWidth: 1700,
-    sections: {
-      news:   { height: 150, minHeight: 50, grow: 1, collapsed: false, maximized: false },
-      trades: { height: 200, minHeight: 50, grow: 2, collapsed: false, maximized: false },
-    }
-  },
-
-  // Secondary workspace
-  secondaryPanel: { visible: true, overlay: true, height: 15, minHeight: 25, maxHeight: 3000 },
+  // Secondary workspace (default overlay)
+  secondaryPanel: { visible: true, overlay: true, height: 200, minHeight: 25, maxHeight: 3000 },
 };
 
 const workspaceSlice = createSlice({
   name: 'workspace',
   initialState,
   reducers: {
-    // Top & bottom navs
-    toggleTopNav(state) { state.topNav.visible = !state.topNav.visible; },
-    toggleBottomNav(state) { state.bottomNav.visible = !state.bottomNav.visible; },
-    setTopNavHeight(state, action) { state.topNav.height = action.payload; },
-    setBottomNavHeight(state, action) { state.bottomNav.height = action.payload; },
-
     // Side panels
     toggleLeftPanel(state) { state.leftPanel.visible = !state.leftPanel.visible; },
     toggleRightPanel(state) { state.rightPanel.visible = !state.rightPanel.visible; },
@@ -60,48 +28,15 @@ const workspaceSlice = createSlice({
     },
 
     // Secondary panel
-    toggleSecondaryVisible(state) { state.secondaryPanel.visible = !state.secondaryPanel.visible; },
-    toggleSecondaryOverlay(state) { state.secondaryPanel.overlay = !state.secondaryPanel.overlay; },
     setSecondaryHeight(state, action) {
       const h = action.payload;
       state.secondaryPanel.height = Math.max(state.secondaryPanel.minHeight, Math.min(h, state.secondaryPanel.maxHeight));
     },
-    resizeSecondaryPanel(state, action) {
-      const newHeight = state.secondaryPanel.height + action.payload;
-      state.secondaryPanel.height = Math.max(state.secondaryPanel.minHeight, Math.min(newHeight, state.secondaryPanel.maxHeight));
-    },
-
-    // Panel sections
-    adjustSectionGrow(state, action) {
-      const { panel, topId, bottomId, topHeight, bottomHeight } = action.payload;
-      state[panel].sections[topId].height = topHeight;
-      state[panel].sections[bottomId].height = bottomHeight;
-    },
-    adjustSectionHeight(state, action) {
-      const { panel, topId, bottomId, topHeight, bottomHeight } = action.payload;
-      state[panel].sections[topId].height = topHeight;
-      state[panel].sections[bottomId].height = bottomHeight;
-    },
-    toggleSectionCollapse(state, action) {
-      const { panel, id } = action.payload;
-      state[panel].sections[id].collapsed = !state[panel].sections[id].collapsed;
-    },
-    toggleSectionMaximize(state, action) {
-      const { panel, id } = action.payload;
-      const section = state[panel].sections[id];
-      section.maximized = !section.maximized;
-      Object.keys(state[panel].sections).forEach(key => {
-        if (key !== id) state[panel].sections[key].maximized = false;
-      });
+    toggleSecondaryVisible(state) {
+      state.secondaryPanel.visible = !state.secondaryPanel.visible;
     },
   },
 });
 
-export const {
-  toggleTopNav, toggleBottomNav, setTopNavHeight, setBottomNavHeight,
-  toggleLeftPanel, toggleRightPanel, setLeftPanelWidth, setRightPanelWidth,
-  toggleSecondaryVisible, toggleSecondaryOverlay, setSecondaryHeight, resizeSecondaryPanel,
-  adjustSectionGrow, adjustSectionHeight, toggleSectionCollapse, toggleSectionMaximize
-} = workspaceSlice.actions;
-
+export const { toggleLeftPanel, toggleRightPanel, setLeftPanelWidth, setRightPanelWidth, setSecondaryHeight, toggleSecondaryVisible } = workspaceSlice.actions;
 export default workspaceSlice.reducer;

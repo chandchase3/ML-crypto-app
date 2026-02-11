@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import krakenPairs from '../../api/pairs.json';
+import krakenPairs from '../../utils/pairs.json';
 
 const usdPrefix = ['USD', 'USDT', 'USDC'];
 const usdCoins = krakenPairs.filter(p => usdPrefix.includes(p.quote));

@@ -1,5 +1,5 @@
 import MainLayout from '../workspace/MainLayout';
-import KrakenLayout from '../dataLayouts/scanner/kraken/KrakenLayout';
+import KrakenLayout from '../layouts/kraken/KrakenLayout';
 
 export default function KrakenPage() {
   return (

@@ -1,11 +1,11 @@
-import SectionedPanel from './sectioned/SectionedPanel';
-import { useSelector } from 'react-redux';
+import PanelShell from './PanelShell';
 
 export default function RightPanel() {
-  const workspaceRight = useSelector(state => state.workspace.rightPanel);
-
-  if (!workspaceRight.visible) return null;
-
-  // Reuse SectionedPanel but pass direction="right"
-  return <SectionedPanel panel="rightPanel" direction="right" />;
+  return (
+    <PanelShell panel="rightPanel" direction="right">
+      <div style={{ padding: 16 }}>
+        Right Panel
+      </div>
+    </PanelShell>
+  );
 }

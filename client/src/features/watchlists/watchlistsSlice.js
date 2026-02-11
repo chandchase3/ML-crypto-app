@@ -1,4 +1,3 @@
-// src/features/watchlists/watchlistsSlice.js
 import { createSlice, createSelector, nanoid } from '@reduxjs/toolkit';
 
 /* =======================
@@ -10,7 +9,7 @@ const initialState = {
       id: 'test_watchlist_1',
       name: 'Kraken Core Watchlist',
       exchange: 'kraken',
-      symbols: ['BTC/USD', 'ETH/USD', 'SOL/USD', 'ADA/USD', 'LTC/USD', 'LINK/USD', 'BCH/USD', 'AVAX/USD'],
+      symbols: ['BTC/USD', 'ETH/USD', 'SOL/USD', 'ADA/USD', 'LTC/USD', 'LINK/USD', 'BCH/USD', 'AVAX/USD','XLM/USD', 'XTZ/USD','ALGO/USD'],
       createdAt: Date.now(),
     },
   },
@@ -106,6 +105,8 @@ const watchlistsSlice = createSlice({
       list.symbols = list.symbols.filter((p) => p !== pair);
     },
   },
+
+  
 });
 
 /* =======================
@@ -159,4 +160,8 @@ export const getKrakenScannerList = createSelector(
       .filter(Boolean)
 );
 
+
 export default watchlistsSlice.reducer;
+
+
+

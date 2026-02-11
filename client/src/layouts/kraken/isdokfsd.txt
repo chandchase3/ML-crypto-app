@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { getActiveWatchlist } from "../../../features/watchlists/watchlistsSlice";
-import ScannerControls from "./controls/ScannerControls";
+import { getActiveWatchlist } from "../../features/watchlists/watchlistsSlice";
 import ScannerItem from "./ScannerItem";
 import styles from "./KrakenScanner.module.css";
+import AddScannerItems from "./controls/AddScannerItems";
+import KrakenScannerUI from "./KrakenScannerUI";
 
-const KrakenScanner = () => {
+const KrakenScanner = ({children}) => {
   const activeWatchlist = useSelector(getActiveWatchlist);
   const scannerList = activeWatchlist?.symbols ?? [];
 
@@ -51,14 +52,10 @@ const KrakenScanner = () => {
   }, [scannerList]);
 
   return (
-    <div>
-      <div className={styles.controlsContainer}>
-        <ScannerControls />
-      </div>
-      <div className={styles.scannerContainer}>
-        <ScannerItem scanData={scanData} />
-      </div>
-    </div>
+    <>
+      {children}
+    </>
+
   );
 };
 

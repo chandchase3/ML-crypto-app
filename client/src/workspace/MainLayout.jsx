@@ -1,47 +1,52 @@
 import { useSelector } from 'react-redux';
 import TopNavbar from './navbars/TopNavbar';
 import BottomNavbar from './navbars/BottomNavbar';
-import SectionedPanel from './panels/sectioned/SectionedPanel';
 import RightPanel from './panels/RightPanel';
-import SecondaryWorkSpace from './SecondaryWorkSpace';
+import BottomWorkspaceContent from './content/BottomWorkspaceContent';
+import LeftPanel from './panels/LeftPanel';
 import styles from './MainLayout.module.css';
 
 export default function MainLayout({ children }) {
   const workspace = useSelector((state) => state.workspace);
-  const { overlay, height: secondaryHeight } = workspace.secondaryPanel;
+  const { overlay, height: secondaryHeight, visible: secondaryVisible, dragHeight, dragging } =
+    workspace.secondaryPanel; // optional: dragHeight from SecondaryWorkSpace
+
+  const { visible: topVisible, height: topHeight } = workspace.topNav;
+  const { visible: bottomVisible, height: bottomHeight } = workspace.bottomNav;
+
+  const liveBottomHeight = dragging ? dragHeight : secondaryHeight;
 
   return (
     <div className={styles.container}>
-      {workspace.topNav.visible && <TopNavbar />}
+      {topVisible && <TopNavbar />}
 
       <div className={styles.body}>
-        {workspace.leftPanel.visible && <SectionedPanel />}
-        
+        {workspace.leftPanel.visible && <LeftPanel panel="leftPanel" />}
+
         <div className={styles.mainColumn}>
-          {/* Main content wrapper scrolls if secondary panel covers it */}
           <div
             className={styles.mainContentWrapper}
             style={{
-              maxHeight: !overlay && workspace.secondaryPanel.visible
-                ? `calc(100% - ${secondaryHeight}px)`
-                : '100%',
+              flex: 1,
+              minHeight: 0,
+              overflowY: 'auto',
+              paddingBottom:
+                secondaryVisible && !overlay
+                  ? `${liveBottomHeight}px`
+                  : '0px', // inline mode
             }}
           >
             <main className={styles.mainContent}>{children}</main>
           </div>
 
-          {/* Inline secondary panel */}
-          {!overlay && workspace.secondaryPanel.visible && <SecondaryWorkSpace />}
-
-          {/* Overlay secondary panel */}
-          {overlay && workspace.secondaryPanel.visible && <SecondaryWorkSpace />}
+          {/* Bottom panel */}
+          {secondaryVisible && <BottomWorkspaceContent />}
         </div>
 
-            {/* PUT A SECTIONEDPANEL AND PASS DIRECTION TO RIGHT AS PROP */}
         {workspace.rightPanel.visible && <RightPanel />}
       </div>
 
-      {workspace.bottomNav.visible && <BottomNavbar />}
+      {bottomVisible && <BottomNavbar />}
     </div>
   );
 }

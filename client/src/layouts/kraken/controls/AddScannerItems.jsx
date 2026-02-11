@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  getActiveWatchlistSymbols,
-  addAssetToActiveWatchlist,
-} from "../../../../features/watchlists/watchlistsSlice";
-import styles from "./ScannerAdd.module.css";
+import { addItemToScanner, selectScannerByName } from "../../../features/scanner/scannerSlice";
+import styles from "./AddScannerItems.module.css";
 
-const ScannerAdd = () => {
+const AddScannerItems = ({ scannerName }) => {
   const dispatch = useDispatch();
-  const assets = useSelector(getActiveWatchlistSymbols);
+  const scanner = useSelector((state) => selectScannerByName(state, scannerName));
   const [input, setInput] = useState("");
 
   const normalizePair = (value) => {
@@ -19,14 +16,14 @@ const ScannerAdd = () => {
 
   const handleAdd = () => {
     if (!input.trim()) return;
+    const symbol = normalizePair(input);
 
-    const pair = normalizePair(input);
-    if (assets.includes(pair)) {
+    if (scanner.items.find((i) => i.symbol === symbol)) {
       setInput("");
       return;
     }
 
-    dispatch(addAssetToActiveWatchlist(pair));
+    dispatch(addItemToScanner({ scannerName, item: { symbol, data: null, meta: {} } }));
     setInput("");
   };
 
@@ -38,7 +35,7 @@ const ScannerAdd = () => {
     <div className={styles.container}>
       <input
         value={input}
-        placeholder="Scanner navbar soon..."
+        placeholder="Add symbol..."
         onChange={(e) => setInput(e.target.value)}
         onKeyDown={handleKeyDown}
         className={styles.input}
@@ -50,4 +47,4 @@ const ScannerAdd = () => {
   );
 };
 
-export default ScannerAdd;
+export default AddScannerItems;
