@@ -13,6 +13,9 @@ import newsRoutes from "./routes/news.js";
 import notificationRoutes from "./routes/notifications.js";
 import userSettings from "./routes/userSettings.js";
 import userNewsRoutes from "./routes/userNews.js";
+// import krakenPairsRoutes from "./routes/krakenPairs.js";
+import { saveKrakenPairsFull } from "./utils/saveKrakenPairs.js";
+
 
 dotenv.config();
 
@@ -34,6 +37,7 @@ app.use("/notifications", notificationRoutes);
 app.use("/user-settings", userSettings);
 app.use("/user-news", userNewsRoutes);
 
+saveKrakenPairsFull();
 //Start server
 const PORT = process.env.PORT || 5000;
 

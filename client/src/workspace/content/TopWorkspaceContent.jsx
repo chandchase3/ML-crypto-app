@@ -1,10 +1,12 @@
 import TopWorkspaceShell from '../shells/TopWorkspaceShell';
+import ScannerUI from '../../view/scanner/ScannerUI';
+import KrakenStreamManager from '../../providers/kraken/KrakenStreamManager';
 
-export default function BottomWorkspaceContent({ children }) {
+export default function TopWorkspaceContent({ children }) {
   return (
     <TopWorkspaceShell>
-        <p>top</p>
-
+      <KrakenStreamManager />
+      <ScannerUI scannerName="topAltcoins" />
     </TopWorkspaceShell>
   );
 }

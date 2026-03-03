@@ -1,11 +1,11 @@
 import BottomWorkspaceShell from '../shells/BottomWorkspaceShell';
-import StartScanner from '../../features/scanner/wsProviders/StartScanner';
+import ScannerUI from '../../view/scanner/ScannerUI';
 
 export default function BottomWorkspaceContent() {
   return (
     <BottomWorkspaceShell>
         {/* <KrakenScannerUI /> */}
-       <StartScanner />
+      <ScannerUI scannerName="topFiveCrypto" />
     </BottomWorkspaceShell>
   );
 }

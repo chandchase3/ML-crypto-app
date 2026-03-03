@@ -1,0 +1,5697 @@
+[
+  {
+    "pair": "0GUSD",
+    "base": "0G",
+    "quote": "USD",
+    "wsname": "0G/USD",
+    "name": "0G/USD",
+    "baseName": "0G"
+  },
+  {
+    "pair": "1INCHUSD",
+    "base": "1INCH",
+    "quote": "USD",
+    "wsname": "1INCH/USD",
+    "name": "1INCH/USD",
+    "baseName": "1INCH"
+  },
+  {
+    "pair": "2ZUSD",
+    "base": "2Z",
+    "quote": "USD",
+    "wsname": "2Z/USD",
+    "name": "2Z/USD",
+    "baseName": "2Z"
+  },
+  {
+    "pair": "AAVEUSD",
+    "base": "AAVEdog",
+    "wsname": "AAVEdog/undefined",
+    "name": "AAVEdog/undefined",
+    "baseName": "AAVEdog"
+  },
+  {
+    "pair": "ABUSD",
+    "base": "AB",
+    "quote": "USD",
+    "wsname": "AB/USD",
+    "name": "AB/USD",
+    "baseName": "AB"
+  },
+  {
+    "pair": "ACAUSD",
+    "base": "ACA",
+    "quote": "USD",
+    "wsname": "ACA/USD",
+    "name": "ACA/USD",
+    "baseName": "ACA"
+  },
+  {
+    "pair": "ACHUSD",
+    "base": "ACH",
+    "quote": "USD",
+    "wsname": "ACH/USD",
+    "name": "ACH/USD",
+    "baseName": "ACH"
+  },
+  {
+    "pair": "ACTUSD",
+    "base": "ACT",
+    "quote": "USD",
+    "wsname": "ACT/USD",
+    "name": "ACT/USD",
+    "baseName": "ACT"
+  },
+  {
+    "pair": "ACUUSD",
+    "base": "ACU",
+    "quote": "USD",
+    "wsname": "ACU/USD",
+    "name": "ACU/USD",
+    "baseName": "ACU"
+  },
+  {
+    "pair": "ACXUSD",
+    "base": "ACX",
+    "quote": "USD",
+    "wsname": "ACX/USD",
+    "name": "ACX/USD",
+    "baseName": "ACX"
+  },
+  {
+    "pair": "ADAUSD",
+    "base": "ADA",
+    "quote": "USD",
+    "wsname": "ADA/USD",
+    "name": "ADA/USD",
+    "baseName": "ADA"
+  },
+  {
+    "pair": "ADAUSDC",
+    "base": "ADA",
+    "quote": "USDC",
+    "wsname": "ADA/USDC",
+    "name": "ADA/USDC",
+    "baseName": "ADA"
+  },
+  {
+    "pair": "ADAUSDT",
+    "base": "ADA",
+    "quote": "USDT",
+    "wsname": "ADA/USDT",
+    "name": "ADA/USDT",
+    "baseName": "ADA"
+  },
+  {
+    "pair": "ADIUSD",
+    "base": "ADI",
+    "quote": "USD",
+    "wsname": "ADI/USD",
+    "name": "ADI/USD",
+    "baseName": "ADI"
+  },
+  {
+    "pair": "ADXUSD",
+    "base": "ADX",
+    "quote": "USD",
+    "wsname": "ADX/USD",
+    "name": "ADX/USD",
+    "baseName": "ADX"
+  },
+  {
+    "pair": "AEROUSD",
+    "base": "AERO",
+    "quote": "USD",
+    "wsname": "AERO/USD",
+    "name": "AERO/USD",
+    "baseName": "AERO"
+  },
+  {
+    "pair": "AEVOUSD",
+    "base": "AEVO",
+    "quote": "USD",
+    "wsname": "AEVO/USD",
+    "name": "AEVO/USD",
+    "baseName": "AEVO"
+  },
+  {
+    "pair": "AI16ZUSD",
+    "base": "AI16Z",
+    "quote": "USD",
+    "wsname": "AI16Z/USD",
+    "name": "AI16Z/USD",
+    "baseName": "AI16Z"
+  },
+  {
+    "pair": "AI16ZUSDC",
+    "base": "AI16Z",
+    "quote": "USDC",
+    "wsname": "AI16Z/USDC",
+    "name": "AI16Z/USDC",
+    "baseName": "AI16Z"
+  },
+  {
+    "pair": "AI16ZUSDT",
+    "base": "AI16Z",
+    "quote": "USDT",
+    "wsname": "AI16Z/USDT",
+    "name": "AI16Z/USDT",
+    "baseName": "AI16Z"
+  },
+  {
+    "pair": "AI3USD",
+    "base": "AI3",
+    "quote": "USD",
+    "wsname": "AI3/USD",
+    "name": "AI3/USD",
+    "baseName": "AI3"
+  },
+  {
+    "pair": "AINUSD",
+    "base": "AIN",
+    "quote": "USD",
+    "wsname": "AIN/USD",
+    "name": "AIN/USD",
+    "baseName": "AIN"
+  },
+  {
+    "pair": "AIOUSD",
+    "base": "AIO",
+    "quote": "USD",
+    "wsname": "AIO/USD",
+    "name": "AIO/USD",
+    "baseName": "AIO"
+  },
+  {
+    "pair": "AIOZUSD",
+    "base": "AIOZ",
+    "quote": "USD",
+    "wsname": "AIOZ/USD",
+    "name": "AIOZ/USD",
+    "baseName": "AIOZ"
+  },
+  {
+    "pair": "AIRUSD",
+    "base": "AIR",
+    "quote": "USD",
+    "wsname": "AIR/USD",
+    "name": "AIR/USD",
+    "baseName": "AIR"
+  },
+  {
+    "pair": "AIXBTUSD",
+    "base": "AIXBT",
+    "quote": "USD",
+    "wsname": "AIXBT/USD",
+    "name": "AIXBT/USD",
+    "baseName": "AIXBT"
+  },
+  {
+    "pair": "AKEUSD",
+    "base": "AKE",
+    "quote": "USD",
+    "wsname": "AKE/USD",
+    "name": "AKE/USD",
+    "baseName": "AKE"
+  },
+  {
+    "pair": "AKTUSD",
+    "base": "AKT",
+    "quote": "USD",
+    "wsname": "AKT/USD",
+    "name": "AKT/USD",
+    "baseName": "AKT"
+  },
+  {
+    "pair": "ALCXUSD",
+    "base": "ALCX",
+    "quote": "USD",
+    "wsname": "ALCX/USD",
+    "name": "ALCX/USD",
+    "baseName": "ALCX"
+  },
+  {
+    "pair": "ALEOUSD",
+    "base": "ALEO",
+    "quote": "USD",
+    "wsname": "ALEO/USD",
+    "name": "ALEO/USD",
+    "baseName": "ALEO"
+  },
+  {
+    "pair": "ALEOUSDT",
+    "base": "ALEO",
+    "quote": "USDT",
+    "wsname": "ALEO/USDT",
+    "name": "ALEO/USDT",
+    "baseName": "ALEO"
+  },
+  {
+    "pair": "ALGOUSD",
+    "base": "ALGO",
+    "quote": "USD",
+    "wsname": "ALGO/USD",
+    "name": "ALGO/USD",
+    "baseName": "ALGO"
+  },
+  {
+    "pair": "ALGOUSDC",
+    "base": "ALGO",
+    "quote": "USDC",
+    "wsname": "ALGO/USDC",
+    "name": "ALGO/USDC",
+    "baseName": "ALGO"
+  },
+  {
+    "pair": "ALGOUSDT",
+    "base": "ALGO",
+    "quote": "USDT",
+    "wsname": "ALGO/USDT",
+    "name": "ALGO/USDT",
+    "baseName": "ALGO"
+  },
+  {
+    "pair": "ALICEUSD",
+    "base": "ALICE",
+    "quote": "USD",
+    "wsname": "ALICE/USD",
+    "name": "ALICE/USD",
+    "baseName": "ALICE"
+  },
+  {
+    "pair": "ALKIMIUSD",
+    "base": "ALKIMI",
+    "quote": "USD",
+    "wsname": "ALKIMI/USD",
+    "name": "ALKIMI/USD",
+    "baseName": "ALKIMI"
+  },
+  {
+    "pair": "ALLOUSD",
+    "base": "ALLO",
+    "quote": "USD",
+    "wsname": "ALLO/USD",
+    "name": "ALLO/USD",
+    "baseName": "ALLO"
+  },
+  {
+    "pair": "ALMANAKUSD",
+    "base": "ALMANAK",
+    "quote": "USD",
+    "wsname": "ALMANAK/USD",
+    "name": "ALMANAK/USD",
+    "baseName": "ALMANAK"
+  },
+  {
+    "pair": "ALPHAUSD",
+    "base": "ALPHA",
+    "quote": "USD",
+    "wsname": "ALPHA/USD",
+    "name": "ALPHA/USD",
+    "baseName": "ALPHA"
+  },
+  {
+    "pair": "ALTUSD",
+    "base": "ALT",
+    "quote": "USD",
+    "wsname": "ALT/USD",
+    "name": "ALT/USD",
+    "baseName": "ALT"
+  },
+  {
+    "pair": "ALTHEAUSD",
+    "base": "ALTHEA",
+    "quote": "USD",
+    "wsname": "ALTHEA/USD",
+    "name": "ALTHEA/USD",
+    "baseName": "ALTHEA"
+  },
+  {
+    "pair": "ANIMEUSD",
+    "base": "ANIME",
+    "quote": "USD",
+    "wsname": "ANIME/USD",
+    "name": "ANIME/USD",
+    "baseName": "ANIME"
+  },
+  {
+    "pair": "ANKRUSD",
+    "base": "ANKR",
+    "quote": "USD",
+    "wsname": "ANKR/USD",
+    "name": "ANKR/USD",
+    "baseName": "ANKR"
+  },
+  {
+    "pair": "ANLOGUSD",
+    "base": "ANLOG",
+    "quote": "USD",
+    "wsname": "ANLOG/USD",
+    "name": "ANLOG/USD",
+    "baseName": "ANLOG"
+  },
+  {
+    "pair": "ANONUSD",
+    "base": "ANON",
+    "quote": "USD",
+    "wsname": "ANON/USD",
+    "name": "ANON/USD",
+    "baseName": "ANON"
+  },
+  {
+    "pair": "APENFTUSD",
+    "base": "APENFT",
+    "quote": "USD",
+    "wsname": "APENFT/USD",
+    "name": "APENFT/USD",
+    "baseName": "APENFT"
+  },
+  {
+    "pair": "APEUSD",
+    "base": "APE",
+    "quote": "USD",
+    "wsname": "APE/USD",
+    "name": "APE/USD",
+    "baseName": "APE"
+  },
+  {
+    "pair": "APEUSDC",
+    "base": "APE",
+    "quote": "USDC",
+    "wsname": "APE/USDC",
+    "name": "APE/USDC",
+    "baseName": "APE"
+  },
+  {
+    "pair": "APEUSDT",
+    "base": "APE",
+    "quote": "USDT",
+    "wsname": "APE/USDT",
+    "name": "APE/USDT",
+    "baseName": "APE"
+  },
+  {
+    "pair": "API3USD",
+    "base": "API3",
+    "quote": "USD",
+    "wsname": "API3/USD",
+    "name": "API3/USD",
+    "baseName": "API3"
+  },
+  {
+    "pair": "APRUSD",
+    "base": "APR",
+    "quote": "USD",
+    "wsname": "APR/USD",
+    "name": "APR/USD",
+    "baseName": "APR"
+  },
+  {
+    "pair": "APTUSD",
+    "base": "APT",
+    "quote": "USD",
+    "wsname": "APT/USD",
+    "name": "APT/USD",
+    "baseName": "APT"
+  },
+  {
+    "pair": "APUUSD",
+    "base": "APU",
+    "quote": "USD",
+    "wsname": "APU/USD",
+    "name": "APU/USD",
+    "baseName": "APU"
+  },
+  {
+    "pair": "ARBUSD",
+    "base": "ARB",
+    "quote": "USD",
+    "wsname": "ARB/USD",
+    "name": "ARB/USD",
+    "baseName": "ARB"
+  },
+  {
+    "pair": "ARCUSD",
+    "base": "ARC",
+    "quote": "USD",
+    "wsname": "ARC/USD",
+    "name": "ARC/USD",
+    "baseName": "ARC"
+  },
+  {
+    "pair": "ARKMUSD",
+    "base": "ARKM",
+    "quote": "USD",
+    "wsname": "ARKM/USD",
+    "name": "ARKM/USD",
+    "baseName": "ARKM"
+  },
+  {
+    "pair": "ARPAUSD",
+    "base": "ARPA",
+    "quote": "USD",
+    "wsname": "ARPA/USD",
+    "name": "ARPA/USD",
+    "baseName": "ARPA"
+  },
+  {
+    "pair": "ARTUSD",
+    "base": "ART",
+    "quote": "USD",
+    "wsname": "ART/USD",
+    "name": "ART/USD",
+    "baseName": "ART"
+  },
+  {
+    "pair": "ARUSD",
+    "base": "AR",
+    "quote": "USD",
+    "wsname": "AR/USD",
+    "name": "AR/USD",
+    "baseName": "AR"
+  },
+  {
+    "pair": "ASRRUSD",
+    "base": "ASRR",
+    "quote": "USD",
+    "wsname": "ASRR/USD",
+    "name": "ASRR/USD",
+    "baseName": "ASRR"
+  },
+  {
+    "pair": "ASTERUSD",
+    "base": "ASTER",
+    "quote": "USD",
+    "wsname": "ASTER/USD",
+    "name": "ASTER/USD",
+    "baseName": "ASTER"
+  },
+  {
+    "pair": "ASTRUSD",
+    "base": "ASTR",
+    "quote": "USD",
+    "wsname": "ASTR/USD",
+    "name": "ASTR/USD",
+    "baseName": "ASTR"
+  },
+  {
+    "pair": "ATHUSD",
+    "base": "ATH",
+    "quote": "USD",
+    "wsname": "ATH/USD",
+    "name": "ATH/USD",
+    "baseName": "ATH"
+  },
+  {
+    "pair": "ATLASUSD",
+    "base": "ATLAS",
+    "quote": "USD",
+    "wsname": "ATLAS/USD",
+    "name": "ATLAS/USD",
+    "baseName": "ATLAS"
+  },
+  {
+    "pair": "ATOMUSD",
+    "base": "ATOM",
+    "quote": "USD",
+    "wsname": "ATOM/USD",
+    "name": "ATOM/USD",
+    "baseName": "ATOM"
+  },
+  {
+    "pair": "ATOMUSDC",
+    "base": "ATOM",
+    "quote": "USDC",
+    "wsname": "ATOM/USDC",
+    "name": "ATOM/USDC",
+    "baseName": "ATOM"
+  },
+  {
+    "pair": "ATOMUSDT",
+    "base": "ATOM",
+    "quote": "USDT",
+    "wsname": "ATOM/USDT",
+    "name": "ATOM/USDT",
+    "baseName": "ATOM"
+  },
+  {
+    "pair": "AUCTIONUSD",
+    "base": "AUCTION",
+    "quote": "USD",
+    "wsname": "AUCTION/USD",
+    "name": "AUCTION/USD",
+    "baseName": "AUCTION"
+  },
+  {
+    "pair": "AUDIOUSD",
+    "base": "AUDIO",
+    "quote": "USD",
+    "wsname": "AUDIO/USD",
+    "name": "AUDIO/USD",
+    "baseName": "AUDIO"
+  },
+  {
+    "pair": "AUDUSD",
+    "base": "AUD",
+    "quote": "USD",
+    "wsname": "AUD/USD",
+    "name": "AUD/USD",
+    "baseName": "AUD"
+  },
+  {
+    "pair": "AUDXUSD",
+    "base": "AUDX",
+    "quote": "USD",
+    "wsname": "AUDX/USD",
+    "name": "AUDX/USD",
+    "baseName": "AUDX"
+  },
+  {
+    "pair": "AURAUSD",
+    "base": "AURA",
+    "quote": "USD",
+    "wsname": "AURA/USD",
+    "name": "AURA/USD",
+    "baseName": "AURA"
+  },
+  {
+    "pair": "AUSD",
+    "base": "A",
+    "quote": "USD",
+    "wsname": "ACA/USD",
+    "name": "A/USD",
+    "baseName": "A"
+  },
+  {
+    "pair": "AUSDUSD",
+    "base": "AUSD",
+    "quote": "USD",
+    "wsname": "AUSD/USD",
+    "name": "AUSD/USD",
+    "baseName": "AUSD"
+  },
+  {
+    "pair": "AVAAIUSD",
+    "base": "AVAAI",
+    "quote": "USD",
+    "wsname": "AVAAI/USD",
+    "name": "AVAAI/USD",
+    "baseName": "AVAAI"
+  },
+  {
+    "pair": "AVAXUSD",
+    "base": "AVAX",
+    "quote": "USD",
+    "wsname": "AVAX/USD",
+    "name": "AVAX/USD",
+    "baseName": "AVAX"
+  },
+  {
+    "pair": "AVAXUSDC",
+    "base": "AVAX",
+    "quote": "USDC",
+    "wsname": "AVAX/USDC",
+    "name": "AVAX/USDC",
+    "baseName": "AVAX"
+  },
+  {
+    "pair": "AVAXUSDT",
+    "base": "AVAX",
+    "quote": "USDT",
+    "wsname": "AVAX/USDT",
+    "name": "AVAX/USDT",
+    "baseName": "AVAX"
+  },
+  {
+    "pair": "AVNTUSD",
+    "base": "AVNT",
+    "quote": "USD",
+    "wsname": "AVNT/USD",
+    "name": "AVNT/USD",
+    "baseName": "AVNT"
+  },
+  {
+    "pair": "AXSUSD",
+    "base": "AXS",
+    "quote": "USD",
+    "wsname": "AXS/USD",
+    "name": "AXS/USD",
+    "baseName": "AXS"
+  },
+  {
+    "pair": "B2USD",
+    "base": "B2",
+    "quote": "USD",
+    "wsname": "B2/USD",
+    "name": "B2/USD",
+    "baseName": "B2"
+  },
+  {
+    "pair": "B3USD",
+    "base": "B3",
+    "quote": "USD",
+    "wsname": "B3/USD",
+    "name": "B3/USD",
+    "baseName": "B3"
+  },
+  {
+    "pair": "BABYUSD",
+    "base": "BABY",
+    "quote": "USD",
+    "wsname": "BABY/USD",
+    "name": "BABY/USD",
+    "baseName": "BABY"
+  },
+  {
+    "pair": "BADGERUSD",
+    "base": "BADGER",
+    "quote": "USD",
+    "wsname": "BADGER/USD",
+    "name": "BADGER/USD",
+    "baseName": "BADGER"
+  },
+  {
+    "pair": "BALUSD",
+    "base": "BAL",
+    "quote": "USD",
+    "wsname": "BAL/USD",
+    "name": "BAL/USD",
+    "baseName": "BAL"
+  },
+  {
+    "pair": "BANANAS31USD",
+    "base": "BANANAS31",
+    "quote": "USD",
+    "wsname": "BANANAS31/USD",
+    "name": "BANANAS31/USD",
+    "baseName": "BANANAS31"
+  },
+  {
+    "pair": "BANDUSD",
+    "base": "BAND",
+    "quote": "USD",
+    "wsname": "BAND/USD",
+    "name": "BAND/USD",
+    "baseName": "BAND"
+  },
+  {
+    "pair": "BATUSD",
+    "base": "BAT",
+    "quote": "USD",
+    "wsname": "BAT/USD",
+    "name": "BAT/USD",
+    "baseName": "BAT"
+  },
+  {
+    "pair": "BCHUSD",
+    "base": "BCH",
+    "quote": "USD",
+    "wsname": "BCH/USD",
+    "name": "BCH/USD",
+    "baseName": "BCH"
+  },
+  {
+    "pair": "BCHUSDC",
+    "base": "BCH",
+    "quote": "USDC",
+    "wsname": "BCH/USDC",
+    "name": "BCH/USDC",
+    "baseName": "BCH"
+  },
+  {
+    "pair": "BCHUSDT",
+    "base": "BCH",
+    "quote": "USDT",
+    "wsname": "BCH/USDT",
+    "name": "BCH/USDT",
+    "baseName": "BCH"
+  },
+  {
+    "pair": "BDXNUSD",
+    "base": "BDXN",
+    "quote": "USD",
+    "wsname": "BDXN/USD",
+    "name": "BDXN/USD",
+    "baseName": "BDXN"
+  },
+  {
+    "pair": "BDXUSD",
+    "base": "BDX",
+    "quote": "USD",
+    "wsname": "BDX/USD",
+    "name": "BDX/USD",
+    "baseName": "BDX"
+  },
+  {
+    "pair": "BEAMUSD",
+    "base": "BEAM",
+    "quote": "USD",
+    "wsname": "BEAM/USD",
+    "name": "BEAM/USD",
+    "baseName": "BEAM"
+  },
+  {
+    "pair": "BERAUSD",
+    "base": "BERA",
+    "quote": "USD",
+    "wsname": "BERA/USD",
+    "name": "BERA/USD",
+    "baseName": "BERA"
+  },
+  {
+    "pair": "BERAUSDC",
+    "base": "BERA",
+    "quote": "USDC",
+    "wsname": "BERA/USDC",
+    "name": "BERA/USDC",
+    "baseName": "BERA"
+  },
+  {
+    "pair": "BERAUSDT",
+    "base": "BERA",
+    "quote": "USDT",
+    "wsname": "BERA/USDT",
+    "name": "BERA/USDT",
+    "baseName": "BERA"
+  },
+  {
+    "pair": "BERTUSD",
+    "base": "BERT",
+    "quote": "USD",
+    "wsname": "BERT/USD",
+    "name": "BERT/USD",
+    "baseName": "BERT"
+  },
+  {
+    "pair": "BGBUSD",
+    "base": "BGB",
+    "quote": "USD",
+    "wsname": "BGB/USD",
+    "name": "BGB/USD",
+    "baseName": "BGB"
+  },
+  {
+    "pair": "BICOUSD",
+    "base": "BICO",
+    "quote": "USD",
+    "wsname": "BICO/USD",
+    "name": "BICO/USD",
+    "baseName": "BICO"
+  },
+  {
+    "pair": "BIGTIMEUSD",
+    "base": "BIGTIME",
+    "quote": "USD",
+    "wsname": "BIGTIME/USD",
+    "name": "BIGTIME/USD",
+    "baseName": "BIGTIME"
+  },
+  {
+    "pair": "BILLYUSD",
+    "base": "BILLY",
+    "quote": "USD",
+    "wsname": "BILLY/USD",
+    "name": "BILLY/USD",
+    "baseName": "BILLY"
+  },
+  {
+    "pair": "BIOUSD",
+    "base": "BIO",
+    "quote": "USD",
+    "wsname": "BIO/USD",
+    "name": "BIO/USD",
+    "baseName": "BIO"
+  },
+  {
+    "pair": "BITUSD",
+    "base": "BIT",
+    "quote": "USD",
+    "wsname": "BIT/USD",
+    "name": "BIT/USD",
+    "baseName": "BIT"
+  },
+  {
+    "pair": "BKSUSD",
+    "base": "BKS",
+    "quote": "USD",
+    "wsname": "BKS/USD",
+    "name": "BKS/USD",
+    "baseName": "BKS"
+  },
+  {
+    "pair": "BLESSUSD",
+    "base": "BLESS",
+    "quote": "USD",
+    "wsname": "BLESS/USD",
+    "name": "BLESS/USD",
+    "baseName": "BLESS"
+  },
+  {
+    "pair": "BLUAIUSD",
+    "base": "BLUAI",
+    "quote": "USD",
+    "wsname": "BLUAI/USD",
+    "name": "BLUAI/USD",
+    "baseName": "BLUAI"
+  },
+  {
+    "pair": "BLUEUSD",
+    "base": "BLUE",
+    "quote": "USD",
+    "wsname": "BLUE/USD",
+    "name": "BLUE/USD",
+    "baseName": "BLUE"
+  },
+  {
+    "pair": "BLURUSD",
+    "base": "BLUR",
+    "quote": "USD",
+    "wsname": "BLUR/USD",
+    "name": "BLUR/USD",
+    "baseName": "BLUR"
+  },
+  {
+    "pair": "BLZUSD",
+    "base": "BLZ",
+    "quote": "USD",
+    "wsname": "BLZ/USD",
+    "name": "BLZ/USD",
+    "baseName": "BLZ"
+  },
+  {
+    "pair": "BMBUSD",
+    "base": "BMB",
+    "quote": "USD",
+    "wsname": "BMB/USD",
+    "name": "BMB/USD",
+    "baseName": "BMB"
+  },
+  {
+    "pair": "BMTUSD",
+    "base": "BMT",
+    "quote": "USD",
+    "wsname": "BMT/USD",
+    "name": "BMT/USD",
+    "baseName": "BMT"
+  },
+  {
+    "pair": "BNBUSD",
+    "base": "BNB",
+    "quote": "USD",
+    "wsname": "BNB/USD",
+    "name": "BNB/USD",
+    "baseName": "BNB"
+  },
+  {
+    "pair": "BNBUSDC",
+    "base": "BNB",
+    "quote": "USDC",
+    "wsname": "BNB/USDC",
+    "name": "BNB/USDC",
+    "baseName": "BNB"
+  },
+  {
+    "pair": "BNBUSDT",
+    "base": "BNB",
+    "quote": "USDT",
+    "wsname": "BNB/USDT",
+    "name": "BNB/USDT",
+    "baseName": "BNB"
+  },
+  {
+    "pair": "BNCUSD",
+    "base": "BNC",
+    "quote": "USD",
+    "wsname": "BNC/USD",
+    "name": "BNC/USD",
+    "baseName": "BNC"
+  },
+  {
+    "pair": "BNTUSD",
+    "base": "BNT",
+    "quote": "USD",
+    "wsname": "BNT/USD",
+    "name": "BNT/USD",
+    "baseName": "BNT"
+  },
+  {
+    "pair": "BOBAUSD",
+    "base": "BOBA",
+    "quote": "USD",
+    "wsname": "BOBA/USD",
+    "name": "BOBA/USD",
+    "baseName": "BOBA"
+  },
+  {
+    "pair": "BOBUSD",
+    "base": "BOB",
+    "quote": "USD",
+    "wsname": "BOB/USD",
+    "name": "BOB/USD",
+    "baseName": "BOB"
+  },
+  {
+    "pair": "BODENUSD",
+    "base": "BODEN",
+    "quote": "USD",
+    "wsname": "BODEN/USD",
+    "name": "BODEN/USD",
+    "baseName": "BODEN"
+  },
+  {
+    "pair": "BONDUSD",
+    "base": "BOND",
+    "quote": "USD",
+    "wsname": "BOND/USD",
+    "name": "BOND/USD",
+    "baseName": "BOND"
+  },
+  {
+    "pair": "BONKUSD",
+    "base": "BONK",
+    "quote": "USD",
+    "wsname": "BONK/USD",
+    "name": "BONK/USD",
+    "baseName": "BONK"
+  },
+  {
+    "pair": "BOSUSD",
+    "base": "BOS",
+    "quote": "USD",
+    "wsname": "BOS/USD",
+    "name": "BOS/USD",
+    "baseName": "BOS"
+  },
+  {
+    "pair": "BREVUSD",
+    "base": "BREV",
+    "quote": "USD",
+    "wsname": "BREV/USD",
+    "name": "BREV/USD",
+    "baseName": "BREV"
+  },
+  {
+    "pair": "BRICKUSD",
+    "base": "BRICK",
+    "quote": "USD",
+    "wsname": "BRICK/USD",
+    "name": "BRICK/USD",
+    "baseName": "BRICK"
+  },
+  {
+    "pair": "BRL1USD",
+    "base": "BRL1",
+    "quote": "USD",
+    "wsname": "BRL1/USD",
+    "name": "BRL1/USD",
+    "baseName": "BRL1"
+  },
+  {
+    "pair": "BSUUSD",
+    "base": "BSU",
+    "quote": "USD",
+    "wsname": "BSU/USD",
+    "name": "BSU/USD",
+    "baseName": "BSU"
+  },
+  {
+    "pair": "BSXUSD",
+    "base": "BSX",
+    "quote": "USD",
+    "wsname": "BSX/USD",
+    "name": "BSX/USD",
+    "baseName": "BSX"
+  },
+  {
+    "pair": "BTRUSD",
+    "base": "BTR",
+    "quote": "USD",
+    "wsname": "BTR/USD",
+    "name": "BTR/USD",
+    "baseName": "BTR"
+  },
+  {
+    "pair": "BTTUSD",
+    "base": "BTT",
+    "quote": "USD",
+    "wsname": "BTT/USD",
+    "name": "BTT/USD",
+    "baseName": "BTT"
+  },
+  {
+    "pair": "C98USD",
+    "base": "C98",
+    "quote": "USD",
+    "wsname": "C98/USD",
+    "name": "C98/USD",
+    "baseName": "C98"
+  },
+  {
+    "pair": "CAKEUSD",
+    "base": "CAKE",
+    "quote": "USD",
+    "wsname": "CAKE/USD",
+    "name": "CAKE/USD",
+    "baseName": "CAKE"
+  },
+  {
+    "pair": "CAMPUSD",
+    "base": "CAMP",
+    "quote": "USD",
+    "wsname": "CAMP/USD",
+    "name": "CAMP/USD",
+    "baseName": "CAMP"
+  },
+  {
+    "pair": "CARVUSD",
+    "base": "CARV",
+    "quote": "USD",
+    "wsname": "CARV/USD",
+    "name": "CARV/USD",
+    "baseName": "CARV"
+  },
+  {
+    "pair": "CASHUSD",
+    "base": "CASH",
+    "quote": "USD",
+    "wsname": "CASH/USD",
+    "name": "CASH/USD",
+    "baseName": "CASH"
+  },
+  {
+    "pair": "CASHUSDC",
+    "base": "CASH",
+    "quote": "USDC",
+    "wsname": "CASH/USDC",
+    "name": "CASH/USDC",
+    "baseName": "CASH"
+  },
+  {
+    "pair": "CATUSD",
+    "base": "CAT",
+    "quote": "USD",
+    "wsname": "CAT/USD",
+    "name": "CAT/USD",
+    "baseName": "CAT"
+  },
+  {
+    "pair": "CCDUSD",
+    "base": "CCD",
+    "quote": "USD",
+    "wsname": "CCD/USD",
+    "name": "CCD/USD",
+    "baseName": "CCD"
+  },
+  {
+    "pair": "CCUSD",
+    "base": "CC",
+    "quote": "USD",
+    "wsname": "CC/USD",
+    "name": "CC/USD",
+    "baseName": "CC"
+  },
+  {
+    "pair": "CCUSDC",
+    "base": "CC",
+    "quote": "USDC",
+    "wsname": "CC/USDC",
+    "name": "CC/USDC",
+    "baseName": "CC"
+  },
+  {
+    "pair": "CCUSDT",
+    "base": "CC",
+    "quote": "USDT",
+    "wsname": "CC/USDT",
+    "name": "CC/USDT",
+    "baseName": "CC"
+  },
+  {
+    "pair": "CELOUSD",
+    "base": "CELO",
+    "quote": "USD",
+    "wsname": "CELO/USD",
+    "name": "CELO/USD",
+    "baseName": "CELO"
+  },
+  {
+    "pair": "CELRUSD",
+    "base": "CELR",
+    "quote": "USD",
+    "wsname": "CELR/USD",
+    "name": "CELR/USD",
+    "baseName": "CELR"
+  },
+  {
+    "pair": "CFGUSD",
+    "base": "CFG",
+    "quote": "USD",
+    "wsname": "CFG/USD",
+    "name": "CFG/USD",
+    "baseName": "CFG"
+  },
+  {
+    "pair": "CGNUSD",
+    "base": "CGN",
+    "quote": "USD",
+    "wsname": "CGN/USD",
+    "name": "CGN/USD",
+    "baseName": "CGN"
+  },
+  {
+    "pair": "CHECKUSD",
+    "base": "CHECK",
+    "quote": "USD",
+    "wsname": "CHECK/USD",
+    "name": "CHECK/USD",
+    "baseName": "CHECK"
+  },
+  {
+    "pair": "CHEEMSUSD",
+    "base": "CHEEMS",
+    "quote": "USD",
+    "wsname": "CHEEMS/USD",
+    "name": "CHEEMS/USD",
+    "baseName": "CHEEMS"
+  },
+  {
+    "pair": "CHEXUSD",
+    "base": "CHEX",
+    "quote": "USD",
+    "wsname": "CHEX/USD",
+    "name": "CHEX/USD",
+    "baseName": "CHEX"
+  },
+  {
+    "pair": "CHILLHOUSEUSD",
+    "base": "CHILLHOUSE",
+    "quote": "USD",
+    "wsname": "CHILLHOUSE/USD",
+    "name": "CHILLHOUSE/USD",
+    "baseName": "CHILLHOUSE"
+  },
+  {
+    "pair": "CHRUSD",
+    "base": "CHR",
+    "quote": "USD",
+    "wsname": "CHR/USD",
+    "name": "CHR/USD",
+    "baseName": "CHR"
+  },
+  {
+    "pair": "CHZUSD",
+    "base": "CHZ",
+    "quote": "USD",
+    "wsname": "CHZ/USD",
+    "name": "CHZ/USD",
+    "baseName": "CHZ"
+  },
+  {
+    "pair": "CLANKERUSD",
+    "base": "CLANKER",
+    "quote": "USD",
+    "wsname": "CLANKER/USD",
+    "name": "CLANKER/USD",
+    "baseName": "CLANKER"
+  },
+  {
+    "pair": "CLOUDUSD",
+    "base": "CLOUD",
+    "quote": "USD",
+    "wsname": "CLOUD/USD",
+    "name": "CLOUD/USD",
+    "baseName": "CLOUD"
+  },
+  {
+    "pair": "CLVUSD",
+    "base": "CLV",
+    "quote": "USD",
+    "wsname": "CLV/USD",
+    "name": "CLV/USD",
+    "baseName": "CLV"
+  },
+  {
+    "pair": "CMETHUSD",
+    "base": "CMETH",
+    "quote": "USD",
+    "wsname": "CMETH/USD",
+    "name": "CMETH/USD",
+    "baseName": "CMETH"
+  },
+  {
+    "pair": "COMPUSD",
+    "base": "COMP",
+    "quote": "USD",
+    "wsname": "COMP/USD",
+    "name": "COMP/USD",
+    "baseName": "COMP"
+  },
+  {
+    "pair": "COOKIEUSD",
+    "base": "COOKIE",
+    "quote": "USD",
+    "wsname": "COOKIE/USD",
+    "name": "COOKIE/USD",
+    "baseName": "COOKIE"
+  },
+  {
+    "pair": "COPMUSD",
+    "base": "COPM",
+    "quote": "USD",
+    "wsname": "COPM/USD",
+    "name": "COPM/USD",
+    "baseName": "COPM"
+  },
+  {
+    "pair": "COQUSD",
+    "base": "COQ",
+    "quote": "USD",
+    "wsname": "COQ/USD",
+    "name": "COQ/USD",
+    "baseName": "COQ"
+  },
+  {
+    "pair": "CORNUSD",
+    "base": "CORN",
+    "quote": "USD",
+    "wsname": "CORN/USD",
+    "name": "CORN/USD",
+    "baseName": "CORN"
+  },
+  {
+    "pair": "COTIUSD",
+    "base": "COTI",
+    "quote": "USD",
+    "wsname": "COTI/USD",
+    "name": "COTI/USD",
+    "baseName": "COTI"
+  },
+  {
+    "pair": "COWUSD",
+    "base": "COW",
+    "quote": "USD",
+    "wsname": "COW/USD",
+    "name": "COW/USD",
+    "baseName": "COW"
+  },
+  {
+    "pair": "CPOOLUSD",
+    "base": "CPOOL",
+    "quote": "USD",
+    "wsname": "CPOOL/USD",
+    "name": "CPOOL/USD",
+    "baseName": "CPOOL"
+  },
+  {
+    "pair": "CQTUSD",
+    "base": "CQT",
+    "quote": "USD",
+    "wsname": "CQT/USD",
+    "name": "CQT/USD",
+    "baseName": "CQT"
+  },
+  {
+    "pair": "CROUSD",
+    "base": "CRO",
+    "quote": "USD",
+    "wsname": "CRO/USD",
+    "name": "CRO/USD",
+    "baseName": "CRO"
+  },
+  {
+    "pair": "CROUSDC",
+    "base": "CRO",
+    "quote": "USDC",
+    "wsname": "CRO/USDC",
+    "name": "CRO/USDC",
+    "baseName": "CRO"
+  },
+  {
+    "pair": "CROUSDT",
+    "base": "CRO",
+    "quote": "USDT",
+    "wsname": "CRO/USDT",
+    "name": "CRO/USDT",
+    "baseName": "CRO"
+  },
+  {
+    "pair": "CRVUSD",
+    "base": "CRV",
+    "quote": "USD",
+    "wsname": "CRV/USD",
+    "name": "CRV/USD",
+    "baseName": "CRV"
+  },
+  {
+    "pair": "CTCUSD",
+    "base": "CTC",
+    "quote": "USD",
+    "wsname": "CTC/USD",
+    "name": "CTC/USD",
+    "baseName": "CTC"
+  },
+  {
+    "pair": "CTSIUSD",
+    "base": "CTSI",
+    "quote": "USD",
+    "wsname": "CTSI/USD",
+    "name": "CTSI/USD",
+    "baseName": "CTSI"
+  },
+  {
+    "pair": "CVCUSD",
+    "base": "CVC",
+    "quote": "USD",
+    "wsname": "CVC/USD",
+    "name": "CVC/USD",
+    "baseName": "CVC"
+  },
+  {
+    "pair": "CVXUSD",
+    "base": "CVX",
+    "quote": "USD",
+    "wsname": "CVX/USD",
+    "name": "CVX/USD",
+    "baseName": "CVX"
+  },
+  {
+    "pair": "CXTUSD",
+    "base": "CXT",
+    "quote": "USD",
+    "wsname": "CXT/USD",
+    "name": "CXT/USD",
+    "baseName": "CXT"
+  },
+  {
+    "pair": "CYBERUSD",
+    "base": "CYBER",
+    "quote": "USD",
+    "wsname": "CYBER/USD",
+    "name": "CYBER/USD",
+    "baseName": "CYBER"
+  },
+  {
+    "pair": "DAGUSD",
+    "base": "DAG",
+    "quote": "USD",
+    "wsname": "DAG/USD",
+    "name": "DAG/USD",
+    "baseName": "DAG"
+  },
+  {
+    "pair": "DAIUSD",
+    "base": "DAI",
+    "quote": "USD",
+    "wsname": "DAI/USD",
+    "name": "DAI/USD",
+    "baseName": "DAI"
+  },
+  {
+    "pair": "DAIUSDT",
+    "base": "DAI",
+    "quote": "USDT",
+    "wsname": "DAI/USDT",
+    "name": "DAI/USDT",
+    "baseName": "DAI"
+  },
+  {
+    "pair": "DASHUSD",
+    "base": "DASH",
+    "quote": "USD",
+    "wsname": "DASH/USD",
+    "name": "DASH/USD",
+    "baseName": "DASH"
+  },
+  {
+    "pair": "DBRUSD",
+    "base": "DBR",
+    "quote": "USD",
+    "wsname": "DBR/USD",
+    "name": "DBR/USD",
+    "baseName": "DBR"
+  },
+  {
+    "pair": "DEEPUSD",
+    "base": "DEEP",
+    "quote": "USD",
+    "wsname": "DEEP/USD",
+    "name": "DEEP/USD",
+    "baseName": "DEEP"
+  },
+  {
+    "pair": "DEGENUSD",
+    "base": "DEGEN",
+    "quote": "USD",
+    "wsname": "DEGEN/USD",
+    "name": "DEGEN/USD",
+    "baseName": "DEGEN"
+  },
+  {
+    "pair": "DENTUSD",
+    "base": "DENT",
+    "quote": "USD",
+    "wsname": "DENT/USD",
+    "name": "DENT/USD",
+    "baseName": "DENT"
+  },
+  {
+    "pair": "DMCUSD",
+    "base": "DMC",
+    "quote": "USD",
+    "wsname": "DMC/USD",
+    "name": "DMC/USD",
+    "baseName": "DMC"
+  },
+  {
+    "pair": "DOGSUSD",
+    "base": "DOGS",
+    "quote": "USD",
+    "wsname": "DOGS/USD",
+    "name": "DOGS/USD",
+    "baseName": "DOGS"
+  },
+  {
+    "pair": "DOGUSD",
+    "base": "DOG",
+    "quote": "USD",
+    "wsname": "DOG/USD",
+    "name": "DOG/USD",
+    "baseName": "DOG"
+  },
+  {
+    "pair": "DOLOUSD",
+    "base": "DOLO",
+    "quote": "USD",
+    "wsname": "DOLO/USD",
+    "name": "DOLO/USD",
+    "baseName": "DOLO"
+  },
+  {
+    "pair": "DOTUSD",
+    "base": "DOT",
+    "quote": "USD",
+    "wsname": "DOT/USD",
+    "name": "DOT/USD",
+    "baseName": "DOT"
+  },
+  {
+    "pair": "DOTUSDC",
+    "base": "DOT",
+    "quote": "USDC",
+    "wsname": "DOT/USDC",
+    "name": "DOT/USDC",
+    "baseName": "DOT"
+  },
+  {
+    "pair": "DOTUSDT",
+    "base": "DOT",
+    "quote": "USDT",
+    "wsname": "DOT/USDT",
+    "name": "DOT/USDT",
+    "baseName": "DOT"
+  },
+  {
+    "pair": "DRIFTUSD",
+    "base": "DRIFT",
+    "quote": "USD",
+    "wsname": "DRIFT/USD",
+    "name": "DRIFT/USD",
+    "baseName": "DRIFT"
+  },
+  {
+    "pair": "DRVUSD",
+    "base": "DRV",
+    "quote": "USD",
+    "wsname": "DRV/USD",
+    "name": "DRV/USD",
+    "baseName": "DRV"
+  },
+  {
+    "pair": "DUCKUSD",
+    "base": "DUCK",
+    "quote": "USD",
+    "wsname": "DUCK/USD",
+    "name": "DUCK/USD",
+    "baseName": "DUCK"
+  },
+  {
+    "pair": "DYDXUSD",
+    "base": "DYDX",
+    "quote": "USD",
+    "wsname": "DYDX/USD",
+    "name": "DYDX/USD",
+    "baseName": "DYDX"
+  },
+  {
+    "pair": "DYMUSD",
+    "base": "DYM",
+    "quote": "USD",
+    "wsname": "DYM/USD",
+    "name": "DYM/USD",
+    "baseName": "DYM"
+  },
+  {
+    "pair": "EATUSD",
+    "base": "EAT",
+    "quote": "USD",
+    "wsname": "EAT/USD",
+    "name": "EAT/USD",
+    "baseName": "EAT"
+  },
+  {
+    "pair": "EDGEUSD",
+    "base": "EDGE",
+    "quote": "USD",
+    "wsname": "EDGE/USD",
+    "name": "EDGE/USD",
+    "baseName": "EDGE"
+  },
+  {
+    "pair": "EDUUSD",
+    "base": "EDU",
+    "quote": "USD",
+    "wsname": "EDU/USD",
+    "name": "EDU/USD",
+    "baseName": "EDU"
+  },
+  {
+    "pair": "EGLDUSD",
+    "base": "EGLD",
+    "quote": "USD",
+    "wsname": "EGLD/USD",
+    "name": "EGLD/USD",
+    "baseName": "EGLD"
+  },
+  {
+    "pair": "EIGENUSD",
+    "base": "EIGEN",
+    "quote": "USD",
+    "wsname": "EIGEN/USD",
+    "name": "EIGEN/USD",
+    "baseName": "EIGEN"
+  },
+  {
+    "pair": "ELIZAOSUSD",
+    "base": "ELIZAOS",
+    "quote": "USD",
+    "wsname": "ELIZAOS/USD",
+    "name": "ELIZAOS/USD",
+    "baseName": "ELIZAOS"
+  },
+  {
+    "pair": "ELXUSD",
+    "base": "ELX",
+    "quote": "USD",
+    "wsname": "ELX/USD",
+    "name": "ELX/USD",
+    "baseName": "ELX"
+  },
+  {
+    "pair": "ENAUSD",
+    "base": "ENA",
+    "quote": "USD",
+    "wsname": "ENA/USD",
+    "name": "ENA/USD",
+    "baseName": "ENA"
+  },
+  {
+    "pair": "ENJUSD",
+    "base": "ENJ",
+    "quote": "USD",
+    "wsname": "ENJ/USD",
+    "name": "ENJ/USD",
+    "baseName": "ENJ"
+  },
+  {
+    "pair": "ENSOUSD",
+    "base": "ENSO",
+    "quote": "USD",
+    "wsname": "ENSO/USD",
+    "name": "ENSO/USD",
+    "baseName": "ENSO"
+  },
+  {
+    "pair": "ENSUSD",
+    "base": "ENS",
+    "quote": "USD",
+    "wsname": "ENS/USD",
+    "name": "ENS/USD",
+    "baseName": "ENS"
+  },
+  {
+    "pair": "EPTUSD",
+    "base": "EPT",
+    "quote": "USD",
+    "wsname": "EPT/USD",
+    "name": "EPT/USD",
+    "baseName": "EPT"
+  },
+  {
+    "pair": "ESPORTSUSD",
+    "base": "ESPORTS",
+    "quote": "USD",
+    "wsname": "ESPORTS/USD",
+    "name": "ESPORTS/USD",
+    "baseName": "ESPORTS"
+  },
+  {
+    "pair": "ESUSD",
+    "base": "ES",
+    "quote": "USD",
+    "wsname": "ES/USD",
+    "name": "ES/USD",
+    "baseName": "ES"
+  },
+  {
+    "pair": "ESXUSD",
+    "base": "ESX",
+    "quote": "USD",
+    "wsname": "ESX/USD",
+    "name": "ESX/USD",
+    "baseName": "ESX"
+  },
+  {
+    "pair": "ETHFIUSD",
+    "base": "ETHFI",
+    "quote": "USD",
+    "wsname": "ETHFI/USD",
+    "name": "ETHFI/USD",
+    "baseName": "ETHFI"
+  },
+  {
+    "pair": "ETHPYUSD",
+    "base": "ETHPY",
+    "quote": "USD",
+    "wsname": "ETHPY/USD",
+    "name": "ETHPY/USD",
+    "baseName": "ETHPY"
+  },
+  {
+    "pair": "ETHUSDC",
+    "base": "ETH",
+    "quote": "USDC",
+    "wsname": "ETH/USDC",
+    "name": "ETH/USDC",
+    "baseName": "ETH"
+  },
+  {
+    "pair": "ETHUSDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "wsname": "ETH/USDT",
+    "name": "ETH/USDT",
+    "baseName": "ETH"
+  },
+  {
+    "pair": "ETHWUSD",
+    "base": "ETHW",
+    "quote": "USD",
+    "wsname": "ETHW/USD",
+    "name": "ETHW/USD",
+    "baseName": "ETHW"
+  },
+  {
+    "pair": "EULUSD",
+    "base": "EUL",
+    "quote": "USD",
+    "wsname": "EUL/USD",
+    "name": "EUL/USD",
+    "baseName": "EUL"
+  },
+  {
+    "pair": "EURCUSD",
+    "base": "EURC",
+    "quote": "USD",
+    "wsname": "EURC/USD",
+    "name": "EURC/USD",
+    "baseName": "EURC"
+  },
+  {
+    "pair": "EURCUSDC",
+    "base": "EURC",
+    "quote": "USDC",
+    "wsname": "EURC/USDC",
+    "name": "EURC/USDC",
+    "baseName": "EURC"
+  },
+  {
+    "pair": "EURQUSD",
+    "base": "EURQ",
+    "quote": "USD",
+    "wsname": "EURQ/USD",
+    "name": "EURQ/USD",
+    "baseName": "EURQ"
+  },
+  {
+    "pair": "EURRUSD",
+    "base": "EURR",
+    "quote": "USD",
+    "wsname": "EURR/USD",
+    "name": "EURR/USD",
+    "baseName": "EURR"
+  },
+  {
+    "pair": "EURRUSDC",
+    "base": "EURR",
+    "quote": "USDC",
+    "wsname": "EURR/USDC",
+    "name": "EURR/USDC",
+    "baseName": "EURR"
+  },
+  {
+    "pair": "EURRUSDT",
+    "base": "EURR",
+    "quote": "USDT",
+    "wsname": "EURR/USDT",
+    "name": "EURR/USDT",
+    "baseName": "EURR"
+  },
+  {
+    "pair": "EVAAUSD",
+    "base": "EVAA",
+    "quote": "USD",
+    "wsname": "EVAA/USD",
+    "name": "EVAA/USD",
+    "baseName": "EVAA"
+  },
+  {
+    "pair": "EWTUSD",
+    "base": "EWT",
+    "quote": "USD",
+    "wsname": "EWT/USD",
+    "name": "EWT/USD",
+    "baseName": "EWT"
+  },
+  {
+    "pair": "FARMUSD",
+    "base": "FARM",
+    "quote": "USD",
+    "wsname": "FARM/USD",
+    "name": "FARM/USD",
+    "baseName": "FARM"
+  },
+  {
+    "pair": "FARTCOINUSD",
+    "base": "FARTCOIN",
+    "quote": "USD",
+    "wsname": "FARTCOIN/USD",
+    "name": "FARTCOIN/USD",
+    "baseName": "FARTCOIN"
+  },
+  {
+    "pair": "FARTCOINUSDC",
+    "base": "FARTCOIN",
+    "quote": "USDC",
+    "wsname": "FARTCOIN/USDC",
+    "name": "FARTCOIN/USDC",
+    "baseName": "FARTCOIN"
+  },
+  {
+    "pair": "FARTCOINUSDT",
+    "base": "FARTCOIN",
+    "quote": "USDT",
+    "wsname": "FARTCOIN/USDT",
+    "name": "FARTCOIN/USDT",
+    "baseName": "FARTCOIN"
+  },
+  {
+    "pair": "FETUSD",
+    "base": "FET",
+    "quote": "USD",
+    "wsname": "FET/USD",
+    "name": "FET/USD",
+    "baseName": "FET"
+  },
+  {
+    "pair": "FFUSD",
+    "base": "FF",
+    "quote": "USD",
+    "wsname": "FF/USD",
+    "name": "FF/USD",
+    "baseName": "FF"
+  },
+  {
+    "pair": "FHEUSD",
+    "base": "FHE",
+    "quote": "USD",
+    "wsname": "FHE/USD",
+    "name": "FHE/USD",
+    "baseName": "FHE"
+  },
+  {
+    "pair": "FIDAUSD",
+    "base": "FIDA",
+    "quote": "USD",
+    "wsname": "FIDA/USD",
+    "name": "FIDA/USD",
+    "baseName": "FIDA"
+  },
+  {
+    "pair": "FIDDUSD",
+    "base": "FIDD",
+    "quote": "USD",
+    "wsname": "FIDD/USD",
+    "name": "FIDD/USD",
+    "baseName": "FIDD"
+  },
+  {
+    "pair": "FIDDUSDC",
+    "base": "FIDD",
+    "quote": "USDC",
+    "wsname": "FIDD/USDC",
+    "name": "FIDD/USDC",
+    "baseName": "FIDD"
+  },
+  {
+    "pair": "FIDDUSDT",
+    "base": "FIDD",
+    "quote": "USDT",
+    "wsname": "FIDD/USDT",
+    "name": "FIDD/USDT",
+    "baseName": "FIDD"
+  },
+  {
+    "pair": "FIGHTUSD",
+    "base": "FIGHT",
+    "quote": "USD",
+    "wsname": "FIGHT/USD",
+    "name": "FIGHT/USD",
+    "baseName": "FIGHT"
+  },
+  {
+    "pair": "FILUSD",
+    "base": "FIL",
+    "quote": "USD",
+    "wsname": "FIL/USD",
+    "name": "FIL/USD",
+    "baseName": "FIL"
+  },
+  {
+    "pair": "FISUSD",
+    "base": "FIS",
+    "quote": "USD",
+    "wsname": "FIS/USD",
+    "name": "FIS/USD",
+    "baseName": "FIS"
+  },
+  {
+    "pair": "FLOCKUSD",
+    "base": "FLOCK",
+    "quote": "USD",
+    "wsname": "FLOCK/USD",
+    "name": "FLOCK/USD",
+    "baseName": "FLOCK"
+  },
+  {
+    "pair": "FLOKIUSD",
+    "base": "FLOKI",
+    "quote": "USD",
+    "wsname": "FLOKI/USD",
+    "name": "FLOKI/USD",
+    "baseName": "FLOKI"
+  },
+  {
+    "pair": "FLOWUSD",
+    "base": "FLOW",
+    "quote": "USD",
+    "wsname": "FLOW/USD",
+    "name": "FLOW/USD",
+    "baseName": "FLOW"
+  },
+  {
+    "pair": "FLRUSD",
+    "base": "FLR",
+    "quote": "USD",
+    "wsname": "FLR/USD",
+    "name": "FLR/USD",
+    "baseName": "FLR"
+  },
+  {
+    "pair": "FLUXUSD",
+    "base": "FLUX",
+    "quote": "USD",
+    "wsname": "FLUX/USD",
+    "name": "FLUX/USD",
+    "baseName": "FLUX"
+  },
+  {
+    "pair": "FLYUSD",
+    "base": "FLY",
+    "quote": "USD",
+    "wsname": "FLY/USD",
+    "name": "FLY/USD",
+    "baseName": "FLY"
+  },
+  {
+    "pair": "FOLKSUSD",
+    "base": "FOLKS",
+    "quote": "USD",
+    "wsname": "FOLKS/USD",
+    "name": "FOLKS/USD",
+    "baseName": "FOLKS"
+  },
+  {
+    "pair": "FORESTUSD",
+    "base": "FOREST",
+    "quote": "USD",
+    "wsname": "FOREST/USD",
+    "name": "FOREST/USD",
+    "baseName": "FOREST"
+  },
+  {
+    "pair": "FORTHUSD",
+    "base": "FORTH",
+    "quote": "USD",
+    "wsname": "FORTH/USD",
+    "name": "FORTH/USD",
+    "baseName": "FORTH"
+  },
+  {
+    "pair": "FRNTUSD",
+    "base": "FRNT",
+    "quote": "USD",
+    "wsname": "FRNT/USD",
+    "name": "FRNT/USD",
+    "baseName": "FRNT"
+  },
+  {
+    "pair": "FRNTUSDC",
+    "base": "FRNT",
+    "quote": "USDC",
+    "wsname": "FRNT/USDC",
+    "name": "FRNT/USDC",
+    "baseName": "FRNT"
+  },
+  {
+    "pair": "FUNUSD",
+    "base": "FUN",
+    "quote": "USD",
+    "wsname": "FUN/USD",
+    "name": "FUN/USD",
+    "baseName": "FUN"
+  },
+  {
+    "pair": "FWOGUSD",
+    "base": "FWOG",
+    "quote": "USD",
+    "wsname": "FWOG/USD",
+    "name": "FWOG/USD",
+    "baseName": "FWOG"
+  },
+  {
+    "pair": "FXSUSD",
+    "base": "FXS",
+    "quote": "USD",
+    "wsname": "FXS/USD",
+    "name": "FXS/USD",
+    "baseName": "FXS"
+  },
+  {
+    "pair": "GAIAUSD",
+    "base": "GAIA",
+    "quote": "USD",
+    "wsname": "GAIA/USD",
+    "name": "GAIA/USD",
+    "baseName": "GAIA"
+  },
+  {
+    "pair": "GAIBUSD",
+    "base": "GAIB",
+    "quote": "USD",
+    "wsname": "GAIB/USD",
+    "name": "GAIB/USD",
+    "baseName": "GAIB"
+  },
+  {
+    "pair": "GALAUSD",
+    "base": "GALA",
+    "quote": "USD",
+    "wsname": "GALA/USD",
+    "name": "GALA/USD",
+    "baseName": "GALA"
+  },
+  {
+    "pair": "GAME2USD",
+    "base": "GAME2",
+    "quote": "USD",
+    "wsname": "GAME2/USD",
+    "name": "GAME2/USD",
+    "baseName": "GAME2"
+  },
+  {
+    "pair": "GARIUSD",
+    "base": "GARI",
+    "quote": "USD",
+    "wsname": "GARI/USD",
+    "name": "GARI/USD",
+    "baseName": "GARI"
+  },
+  {
+    "pair": "GFIUSD",
+    "base": "GFI",
+    "quote": "USD",
+    "wsname": "GFI/USD",
+    "name": "GFI/USD",
+    "baseName": "GFI"
+  },
+  {
+    "pair": "GHIBLIUSD",
+    "base": "GHIBLI",
+    "quote": "USD",
+    "wsname": "GHIBLI/USD",
+    "name": "GHIBLI/USD",
+    "baseName": "GHIBLI"
+  },
+  {
+    "pair": "GHSTUSD",
+    "base": "GHST",
+    "quote": "USD",
+    "wsname": "GHST/USD",
+    "name": "GHST/USD",
+    "baseName": "GHST"
+  },
+  {
+    "pair": "GIGAUSD",
+    "base": "GIGA",
+    "quote": "USD",
+    "wsname": "GIGA/USD",
+    "name": "GIGA/USD",
+    "baseName": "GIGA"
+  },
+  {
+    "pair": "GLMRUSD",
+    "base": "GLMR",
+    "quote": "USD",
+    "wsname": "GLMR/USD",
+    "name": "GLMR/USD",
+    "baseName": "GLMR"
+  },
+  {
+    "pair": "GMTUSD",
+    "base": "GMT",
+    "quote": "USD",
+    "wsname": "GMT/USD",
+    "name": "GMT/USD",
+    "baseName": "GMT"
+  },
+  {
+    "pair": "GMXUSD",
+    "base": "GMX",
+    "quote": "USD",
+    "wsname": "GMX/USD",
+    "name": "GMX/USD",
+    "baseName": "GMX"
+  },
+  {
+    "pair": "GNOUSD",
+    "base": "GNO",
+    "quote": "USD",
+    "wsname": "GNO/USD",
+    "name": "GNO/USD",
+    "baseName": "GNO"
+  },
+  {
+    "pair": "GOATUSD",
+    "base": "GOAT",
+    "quote": "USD",
+    "wsname": "GOAT/USD",
+    "name": "GOAT/USD",
+    "baseName": "GOAT"
+  },
+  {
+    "pair": "GOMININGUSD",
+    "base": "GOMINING",
+    "quote": "USD",
+    "wsname": "GOMINING/USD",
+    "name": "GOMINING/USD",
+    "baseName": "GOMINING"
+  },
+  {
+    "pair": "GRASSUSD",
+    "base": "GRASS",
+    "quote": "USD",
+    "wsname": "GRASS/USD",
+    "name": "GRASS/USD",
+    "baseName": "GRASS"
+  },
+  {
+    "pair": "GRIFFAINUSD",
+    "base": "GRIFFAIN",
+    "quote": "USD",
+    "wsname": "GRIFFAIN/USD",
+    "name": "GRIFFAIN/USD",
+    "baseName": "GRIFFAIN"
+  },
+  {
+    "pair": "GRTUSD",
+    "base": "GRT",
+    "quote": "USD",
+    "wsname": "GRT/USD",
+    "name": "GRT/USD",
+    "baseName": "GRT"
+  },
+  {
+    "pair": "GSTUSD",
+    "base": "GST",
+    "quote": "USD",
+    "wsname": "GST/USD",
+    "name": "GST/USD",
+    "baseName": "GST"
+  },
+  {
+    "pair": "GTCUSD",
+    "base": "GTC",
+    "quote": "USD",
+    "wsname": "GTC/USD",
+    "name": "GTC/USD",
+    "baseName": "GTC"
+  },
+  {
+    "pair": "GUNUSD",
+    "base": "GUN",
+    "quote": "USD",
+    "wsname": "GUN/USD",
+    "name": "GUN/USD",
+    "baseName": "GUN"
+  },
+  {
+    "pair": "GUSD",
+    "base": "G",
+    "quote": "USD",
+    "wsname": "0G/USD",
+    "name": "G/USD",
+    "baseName": "G"
+  },
+  {
+    "pair": "GWEIUSD",
+    "base": "GWEI",
+    "quote": "USD",
+    "wsname": "GWEI/USD",
+    "name": "GWEI/USD",
+    "baseName": "GWEI"
+  },
+  {
+    "pair": "HBARUSD",
+    "base": "HBAR",
+    "quote": "USD",
+    "wsname": "HBAR/USD",
+    "name": "HBAR/USD",
+    "baseName": "HBAR"
+  },
+  {
+    "pair": "HDXUSD",
+    "base": "HDX",
+    "quote": "USD",
+    "wsname": "HDX/USD",
+    "name": "HDX/USD",
+    "baseName": "HDX"
+  },
+  {
+    "pair": "HFTUSD",
+    "base": "HFT",
+    "quote": "USD",
+    "wsname": "HFT/USD",
+    "name": "HFT/USD",
+    "baseName": "HFT"
+  },
+  {
+    "pair": "HIPPOUSD",
+    "base": "HIPPO",
+    "quote": "USD",
+    "wsname": "HIPPO/USD",
+    "name": "HIPPO/USD",
+    "baseName": "HIPPO"
+  },
+  {
+    "pair": "HMSTRUSD",
+    "base": "HMSTR",
+    "quote": "USD",
+    "wsname": "HMSTR/USD",
+    "name": "HMSTR/USD",
+    "baseName": "HMSTR"
+  },
+  {
+    "pair": "HNTUSD",
+    "base": "HNT",
+    "quote": "USD",
+    "wsname": "HNT/USD",
+    "name": "HNT/USD",
+    "baseName": "HNT"
+  },
+  {
+    "pair": "HOLOUSD",
+    "base": "HOLO",
+    "quote": "USD",
+    "wsname": "HOLO/USD",
+    "name": "HOLO/USD",
+    "baseName": "HOLO"
+  },
+  {
+    "pair": "HONEYUSD",
+    "base": "HONEY",
+    "quote": "USD",
+    "wsname": "HONEY/USD",
+    "name": "HONEY/USD",
+    "baseName": "HONEY"
+  },
+  {
+    "pair": "HOUSEUSD",
+    "base": "HOUSE",
+    "quote": "USD",
+    "wsname": "CHILLHOUSE/USD",
+    "name": "HOUSE/USD",
+    "baseName": "HOUSE"
+  },
+  {
+    "pair": "HPOS10IUSD",
+    "base": "HPOS10I",
+    "quote": "USD",
+    "wsname": "HPOS10I/USD",
+    "name": "HPOS10I/USD",
+    "baseName": "HPOS10I"
+  },
+  {
+    "pair": "HSKUSD",
+    "base": "HSK",
+    "quote": "USD",
+    "wsname": "HSK/USD",
+    "name": "HSK/USD",
+    "baseName": "HSK"
+  },
+  {
+    "pair": "HUSD",
+    "base": "H",
+    "quote": "USD",
+    "wsname": "1INCH/USD",
+    "name": "H/USD",
+    "baseName": "H"
+  },
+  {
+    "pair": "HYPEUSD",
+    "base": "HYPE",
+    "quote": "USD",
+    "wsname": "HYPE/USD",
+    "name": "HYPE/USD",
+    "baseName": "HYPE"
+  },
+  {
+    "pair": "IAGUSD",
+    "base": "IAG",
+    "quote": "USD",
+    "wsname": "IAG/USD",
+    "name": "IAG/USD",
+    "baseName": "IAG"
+  },
+  {
+    "pair": "ICNTUSD",
+    "base": "ICNT",
+    "quote": "USD",
+    "wsname": "ICNT/USD",
+    "name": "ICNT/USD",
+    "baseName": "ICNT"
+  },
+  {
+    "pair": "ICPUSD",
+    "base": "ICP",
+    "quote": "USD",
+    "wsname": "ICP/USD",
+    "name": "ICP/USD",
+    "baseName": "ICP"
+  },
+  {
+    "pair": "ICXUSD",
+    "base": "ICX",
+    "quote": "USD",
+    "wsname": "ICX/USD",
+    "name": "ICX/USD",
+    "baseName": "ICX"
+  },
+  {
+    "pair": "IDEXUSD",
+    "base": "IDEX",
+    "quote": "USD",
+    "wsname": "IDEX/USD",
+    "name": "IDEX/USD",
+    "baseName": "IDEX"
+  },
+  {
+    "pair": "IMXUSD",
+    "base": "IMX",
+    "quote": "USD",
+    "wsname": "IMX/USD",
+    "name": "IMX/USD",
+    "baseName": "IMX"
+  },
+  {
+    "pair": "INITUSD",
+    "base": "INIT",
+    "quote": "USD",
+    "wsname": "INIT/USD",
+    "name": "INIT/USD",
+    "baseName": "INIT"
+  },
+  {
+    "pair": "INJUSD",
+    "base": "INJ",
+    "quote": "USD",
+    "wsname": "INJ/USD",
+    "name": "INJ/USD",
+    "baseName": "INJ"
+  },
+  {
+    "pair": "INUSD",
+    "base": "IN",
+    "quote": "USD",
+    "wsname": "AIN/USD",
+    "name": "IN/USD",
+    "baseName": "IN"
+  },
+  {
+    "pair": "INXUSD",
+    "base": "INX",
+    "quote": "USD",
+    "wsname": "INX/USD",
+    "name": "INX/USD",
+    "baseName": "INX"
+  },
+  {
+    "pair": "IPUSD",
+    "base": "IP",
+    "quote": "USD",
+    "wsname": "IP/USD",
+    "name": "IP/USD",
+    "baseName": "IP"
+  },
+  {
+    "pair": "IRUSD",
+    "base": "IR",
+    "quote": "USD",
+    "wsname": "AIR/USD",
+    "name": "IR/USD",
+    "baseName": "IR"
+  },
+  {
+    "pair": "JAILSTOOLUSD",
+    "base": "JAILSTOOL",
+    "quote": "USD",
+    "wsname": "JAILSTOOL/USD",
+    "name": "JAILSTOOL/USD",
+    "baseName": "JAILSTOOL"
+  },
+  {
+    "pair": "JASMYUSD",
+    "base": "JASMY",
+    "quote": "USD",
+    "wsname": "JASMY/USD",
+    "name": "JASMY/USD",
+    "baseName": "JASMY"
+  },
+  {
+    "pair": "JITOSOLUSD",
+    "base": "JITOSOL",
+    "quote": "USD",
+    "wsname": "JITOSOL/USD",
+    "name": "JITOSOL/USD",
+    "baseName": "JITOSOL"
+  },
+  {
+    "pair": "JOEUSD",
+    "base": "JOE",
+    "quote": "USD",
+    "wsname": "JOE/USD",
+    "name": "JOE/USD",
+    "baseName": "JOE"
+  },
+  {
+    "pair": "JSTUSD",
+    "base": "JST",
+    "quote": "USD",
+    "wsname": "JST/USD",
+    "name": "JST/USD",
+    "baseName": "JST"
+  },
+  {
+    "pair": "JTOUSD",
+    "base": "JTO",
+    "quote": "USD",
+    "wsname": "JTO/USD",
+    "name": "JTO/USD",
+    "baseName": "JTO"
+  },
+  {
+    "pair": "JUNOUSD",
+    "base": "JUNO",
+    "quote": "USD",
+    "wsname": "JUNO/USD",
+    "name": "JUNO/USD",
+    "baseName": "JUNO"
+  },
+  {
+    "pair": "JUPUSD",
+    "base": "JUP",
+    "quote": "USD",
+    "wsname": "JUP/USD",
+    "name": "JUP/USD",
+    "baseName": "JUP"
+  },
+  {
+    "pair": "KAITOUSD",
+    "base": "KAITO",
+    "quote": "USD",
+    "wsname": "KAITO/USD",
+    "name": "KAITO/USD",
+    "baseName": "KAITO"
+  },
+  {
+    "pair": "KASUSD",
+    "base": "KAS",
+    "quote": "USD",
+    "wsname": "KAS/USD",
+    "name": "KAS/USD",
+    "baseName": "KAS"
+  },
+  {
+    "pair": "KASUSDT",
+    "base": "KAS",
+    "quote": "USDT",
+    "wsname": "KAS/USDT",
+    "name": "KAS/USDT",
+    "baseName": "KAS"
+  },
+  {
+    "pair": "KAVAUSD",
+    "base": "KAVA",
+    "quote": "USD",
+    "wsname": "KAVA/USD",
+    "name": "KAVA/USD",
+    "baseName": "KAVA"
+  },
+  {
+    "pair": "KEEPUSD",
+    "base": "KEEP",
+    "quote": "USD",
+    "wsname": "KEEP/USD",
+    "name": "KEEP/USD",
+    "baseName": "KEEP"
+  },
+  {
+    "pair": "KERNELUSD",
+    "base": "KERNEL",
+    "quote": "USD",
+    "wsname": "KERNEL/USD",
+    "name": "KERNEL/USD",
+    "baseName": "KERNEL"
+  },
+  {
+    "pair": "KETUSD",
+    "base": "KET",
+    "quote": "USD",
+    "wsname": "KET/USD",
+    "name": "KET/USD",
+    "baseName": "KET"
+  },
+  {
+    "pair": "KEYUSD",
+    "base": "KEY",
+    "quote": "USD",
+    "wsname": "KEY/USD",
+    "name": "KEY/USD",
+    "baseName": "KEY"
+  },
+  {
+    "pair": "KGENUSD",
+    "base": "KGEN",
+    "quote": "USD",
+    "wsname": "KGEN/USD",
+    "name": "KGEN/USD",
+    "baseName": "KGEN"
+  },
+  {
+    "pair": "KINUSD",
+    "base": "KIN",
+    "quote": "USD",
+    "wsname": "KIN/USD",
+    "name": "KIN/USD",
+    "baseName": "KIN"
+  },
+  {
+    "pair": "KMNOUSD",
+    "base": "KMNO",
+    "quote": "USD",
+    "wsname": "KMNO/USD",
+    "name": "KMNO/USD",
+    "baseName": "KMNO"
+  },
+  {
+    "pair": "KNCUSD",
+    "base": "KNC",
+    "quote": "USD",
+    "wsname": "KNC/USD",
+    "name": "KNC/USD",
+    "baseName": "KNC"
+  },
+  {
+    "pair": "KOBANUSD",
+    "base": "KOBAN",
+    "quote": "USD",
+    "wsname": "KOBAN/USD",
+    "name": "KOBAN/USD",
+    "baseName": "KOBAN"
+  },
+  {
+    "pair": "KP3RUSD",
+    "base": "KP3R",
+    "quote": "USD",
+    "wsname": "KP3R/USD",
+    "name": "KP3R/USD",
+    "baseName": "KP3R"
+  },
+  {
+    "pair": "KSMUSD",
+    "base": "KSM",
+    "quote": "USD",
+    "wsname": "KSM/USD",
+    "name": "KSM/USD",
+    "baseName": "KSM"
+  },
+  {
+    "pair": "KTAUSD",
+    "base": "KTA",
+    "quote": "USD",
+    "wsname": "KTA/USD",
+    "name": "KTA/USD",
+    "baseName": "KTA"
+  },
+  {
+    "pair": "KULAUSD",
+    "base": "KULA",
+    "quote": "USD",
+    "wsname": "KULA/USD",
+    "name": "KULA/USD",
+    "baseName": "KULA"
+  },
+  {
+    "pair": "L3USD",
+    "base": "L3",
+    "quote": "USD",
+    "wsname": "L3/USD",
+    "name": "L3/USD",
+    "baseName": "L3"
+  },
+  {
+    "pair": "LAVAUSD",
+    "base": "LAVA",
+    "quote": "USD",
+    "wsname": "LAVA/USD",
+    "name": "LAVA/USD",
+    "baseName": "LAVA"
+  },
+  {
+    "pair": "LAYERUSD",
+    "base": "LAYER",
+    "quote": "USD",
+    "wsname": "LAYER/USD",
+    "name": "LAYER/USD",
+    "baseName": "LAYER"
+  },
+  {
+    "pair": "LCAPUSD",
+    "base": "LCAP",
+    "quote": "USD",
+    "wsname": "LCAP/USD",
+    "name": "LCAP/USD",
+    "baseName": "LCAP"
+  },
+  {
+    "pair": "LCXUSD",
+    "base": "LCX",
+    "quote": "USD",
+    "wsname": "ALCX/USD",
+    "name": "LCX/USD",
+    "baseName": "LCX"
+  },
+  {
+    "pair": "LDOUSD",
+    "base": "LDO",
+    "quote": "USD",
+    "wsname": "LDO/USD",
+    "name": "LDO/USD",
+    "baseName": "LDO"
+  },
+  {
+    "pair": "LINEAUSD",
+    "base": "LINEA",
+    "quote": "USD",
+    "wsname": "LINEA/USD",
+    "name": "LINEA/USD",
+    "baseName": "LINEA"
+  },
+  {
+    "pair": "LINKUSD",
+    "base": "LINK",
+    "quote": "USD",
+    "wsname": "LINK/USD",
+    "name": "LINK/USD",
+    "baseName": "LINK"
+  },
+  {
+    "pair": "LINKUSDC",
+    "base": "LINK",
+    "quote": "USDC",
+    "wsname": "LINK/USDC",
+    "name": "LINK/USDC",
+    "baseName": "LINK"
+  },
+  {
+    "pair": "LINKUSDT",
+    "base": "LINK",
+    "quote": "USDT",
+    "wsname": "LINK/USDT",
+    "name": "LINK/USDT",
+    "baseName": "LINK"
+  },
+  {
+    "pair": "LIONUSD",
+    "base": "LION",
+    "quote": "USD",
+    "wsname": "LION/USD",
+    "name": "LION/USD",
+    "baseName": "LION"
+  },
+  {
+    "pair": "LITUSD",
+    "base": "LIT",
+    "quote": "USD",
+    "wsname": "LIT/USD",
+    "name": "LIT/USD",
+    "baseName": "LIT"
+  },
+  {
+    "pair": "LMWRUSD",
+    "base": "LMWR",
+    "quote": "USD",
+    "wsname": "LMWR/USD",
+    "name": "LMWR/USD",
+    "baseName": "LMWR"
+  },
+  {
+    "pair": "LOBOUSD",
+    "base": "LOBO",
+    "quote": "USD",
+    "wsname": "LOBO/USD",
+    "name": "LOBO/USD",
+    "baseName": "LOBO"
+  },
+  {
+    "pair": "LOCKINUSD",
+    "base": "LOCKIN",
+    "quote": "USD",
+    "wsname": "LOCKIN/USD",
+    "name": "LOCKIN/USD",
+    "baseName": "LOCKIN"
+  },
+  {
+    "pair": "LOFIUSD",
+    "base": "LOFI",
+    "quote": "USD",
+    "wsname": "LOFI/USD",
+    "name": "LOFI/USD",
+    "baseName": "LOFI"
+  },
+  {
+    "pair": "LPTUSD",
+    "base": "LPT",
+    "quote": "USD",
+    "wsname": "LPT/USD",
+    "name": "LPT/USD",
+    "baseName": "LPT"
+  },
+  {
+    "pair": "LQTYUSD",
+    "base": "LQTY",
+    "quote": "USD",
+    "wsname": "LQTY/USD",
+    "name": "LQTY/USD",
+    "baseName": "LQTY"
+  },
+  {
+    "pair": "LRCUSD",
+    "base": "LRC",
+    "quote": "USD",
+    "wsname": "LRC/USD",
+    "name": "LRC/USD",
+    "baseName": "LRC"
+  },
+  {
+    "pair": "LSETHUSD",
+    "base": "LSETH",
+    "quote": "USD",
+    "wsname": "LSETH/USD",
+    "name": "LSETH/USD",
+    "baseName": "LSETH"
+  },
+  {
+    "pair": "LSKUSD",
+    "base": "LSK",
+    "quote": "USD",
+    "wsname": "LSK/USD",
+    "name": "LSK/USD",
+    "baseName": "LSK"
+  },
+  {
+    "pair": "LSSOLUSD",
+    "base": "LSSOL",
+    "quote": "USD",
+    "wsname": "LSSOL/USD",
+    "name": "LSSOL/USD",
+    "baseName": "LSSOL"
+  },
+  {
+    "pair": "LUNA2USD",
+    "base": "LUNA2",
+    "quote": "USD",
+    "wsname": "LUNA2/USD",
+    "name": "LUNA2/USD",
+    "baseName": "LUNA2"
+  },
+  {
+    "pair": "LUNAUSD",
+    "base": "LUNA",
+    "quote": "USD",
+    "wsname": "LUNA/USD",
+    "name": "LUNA/USD",
+    "baseName": "LUNA"
+  },
+  {
+    "pair": "MANAUSD",
+    "base": "MANA",
+    "quote": "USD",
+    "wsname": "MANA/USD",
+    "name": "MANA/USD",
+    "baseName": "MANA"
+  },
+  {
+    "pair": "MANAUSDC",
+    "base": "MANA",
+    "quote": "USDC",
+    "wsname": "MANA/USDC",
+    "name": "MANA/USDC",
+    "baseName": "MANA"
+  },
+  {
+    "pair": "MANAUSDT",
+    "base": "MANA",
+    "quote": "USDT",
+    "wsname": "MANA/USDT",
+    "name": "MANA/USDT",
+    "baseName": "MANA"
+  },
+  {
+    "pair": "MASKUSD",
+    "base": "MASK",
+    "quote": "USD",
+    "wsname": "MASK/USD",
+    "name": "MASK/USD",
+    "baseName": "MASK"
+  },
+  {
+    "pair": "MATUSD",
+    "base": "MAT",
+    "quote": "USD",
+    "wsname": "MAT/USD",
+    "name": "MAT/USD",
+    "baseName": "MAT"
+  },
+  {
+    "pair": "MELANIAUSD",
+    "base": "MELANIA",
+    "quote": "USD",
+    "wsname": "MELANIA/USD",
+    "name": "MELANIA/USD",
+    "baseName": "MELANIA"
+  },
+  {
+    "pair": "MELANIAUSDC",
+    "base": "MELANIA",
+    "quote": "USDC",
+    "wsname": "MELANIA/USDC",
+    "name": "MELANIA/USDC",
+    "baseName": "MELANIA"
+  },
+  {
+    "pair": "MELANIAUSDT",
+    "base": "MELANIA",
+    "quote": "USDT",
+    "wsname": "MELANIA/USDT",
+    "name": "MELANIA/USDT",
+    "baseName": "MELANIA"
+  },
+  {
+    "pair": "MEMEUSD",
+    "base": "MEME",
+    "quote": "USD",
+    "wsname": "MEME/USD",
+    "name": "MEME/USD",
+    "baseName": "MEME"
+  },
+  {
+    "pair": "MERLUSD",
+    "base": "MERL",
+    "quote": "USD",
+    "wsname": "MERL/USD",
+    "name": "MERL/USD",
+    "baseName": "MERL"
+  },
+  {
+    "pair": "METHUSD",
+    "base": "METH",
+    "quote": "USD",
+    "wsname": "CMETH/USD",
+    "name": "METH/USD",
+    "baseName": "METH"
+  },
+  {
+    "pair": "METISUSD",
+    "base": "METIS",
+    "quote": "USD",
+    "wsname": "METIS/USD",
+    "name": "METIS/USD",
+    "baseName": "METIS"
+  },
+  {
+    "pair": "METUSD",
+    "base": "MET",
+    "quote": "USD",
+    "wsname": "MET/USD",
+    "name": "MET/USD",
+    "baseName": "MET"
+  },
+  {
+    "pair": "MEUSD",
+    "base": "ME",
+    "quote": "USD",
+    "wsname": "ANIME/USD",
+    "name": "ME/USD",
+    "baseName": "ME"
+  },
+  {
+    "pair": "MEWUSD",
+    "base": "MEW",
+    "quote": "USD",
+    "wsname": "MEW/USD",
+    "name": "MEW/USD",
+    "baseName": "MEW"
+  },
+  {
+    "pair": "MFUSD",
+    "base": "MF",
+    "quote": "USD",
+    "wsname": "MF/USD",
+    "name": "MF/USD",
+    "baseName": "MF"
+  },
+  {
+    "pair": "MICHIUSD",
+    "base": "MICHI",
+    "quote": "USD",
+    "wsname": "MICHI/USD",
+    "name": "MICHI/USD",
+    "baseName": "MICHI"
+  },
+  {
+    "pair": "MIMUSD",
+    "base": "MIM",
+    "quote": "USD",
+    "wsname": "MIM/USD",
+    "name": "MIM/USD",
+    "baseName": "MIM"
+  },
+  {
+    "pair": "MINAUSD",
+    "base": "MINA",
+    "quote": "USD",
+    "wsname": "MINA/USD",
+    "name": "MINA/USD",
+    "baseName": "MINA"
+  },
+  {
+    "pair": "MIRAUSD",
+    "base": "MIRA",
+    "quote": "USD",
+    "wsname": "MIRA/USD",
+    "name": "MIRA/USD",
+    "baseName": "MIRA"
+  },
+  {
+    "pair": "MIRRORUSD",
+    "base": "MIRROR",
+    "quote": "USD",
+    "wsname": "MIRROR/USD",
+    "name": "MIRROR/USD",
+    "baseName": "MIRROR"
+  },
+  {
+    "pair": "MIRUSD",
+    "base": "MIR",
+    "quote": "USD",
+    "wsname": "MIR/USD",
+    "name": "MIR/USD",
+    "baseName": "MIR"
+  },
+  {
+    "pair": "MNGOUSD",
+    "base": "MNGO",
+    "quote": "USD",
+    "wsname": "MNGO/USD",
+    "name": "MNGO/USD",
+    "baseName": "MNGO"
+  },
+  {
+    "pair": "MNTUSD",
+    "base": "MNT",
+    "quote": "USD",
+    "wsname": "MNT/USD",
+    "name": "MNT/USD",
+    "baseName": "MNT"
+  },
+  {
+    "pair": "MOCAUSD",
+    "base": "MOCA",
+    "quote": "USD",
+    "wsname": "MOCA/USD",
+    "name": "MOCA/USD",
+    "baseName": "MOCA"
+  },
+  {
+    "pair": "MOGUSD",
+    "base": "MOG",
+    "quote": "USD",
+    "wsname": "MOG/USD",
+    "name": "MOG/USD",
+    "baseName": "MOG"
+  },
+  {
+    "pair": "MONAUSD",
+    "base": "MONA",
+    "quote": "USD",
+    "wsname": "MONA/USD",
+    "name": "MONA/USD",
+    "baseName": "MONA"
+  },
+  {
+    "pair": "MONUSD",
+    "base": "MON",
+    "quote": "USD",
+    "wsname": "MON/USD",
+    "name": "MON/USD",
+    "baseName": "MON"
+  },
+  {
+    "pair": "MOODENGUSD",
+    "base": "MOODENG",
+    "quote": "USD",
+    "wsname": "MOODENG/USD",
+    "name": "MOODENG/USD",
+    "baseName": "MOODENG"
+  },
+  {
+    "pair": "MOONUSD",
+    "base": "MOON",
+    "quote": "USD",
+    "wsname": "MOON/USD",
+    "name": "MOON/USD",
+    "baseName": "MOON"
+  },
+  {
+    "pair": "MORPHOUSD",
+    "base": "MORPHO",
+    "quote": "USD",
+    "wsname": "MORPHO/USD",
+    "name": "MORPHO/USD",
+    "baseName": "MORPHO"
+  },
+  {
+    "pair": "MOVEUSD",
+    "base": "MOVE",
+    "quote": "USD",
+    "wsname": "MOVE/USD",
+    "name": "MOVE/USD",
+    "baseName": "MOVE"
+  },
+  {
+    "pair": "MOVRUSD",
+    "base": "MOVR",
+    "quote": "USD",
+    "wsname": "MOVR/USD",
+    "name": "MOVR/USD",
+    "baseName": "MOVR"
+  },
+  {
+    "pair": "MSOLUSD",
+    "base": "MSOL",
+    "quote": "USD",
+    "wsname": "MSOL/USD",
+    "name": "MSOL/USD",
+    "baseName": "MSOL"
+  },
+  {
+    "pair": "MUBARAKUSD",
+    "base": "MUBARAK",
+    "quote": "USD",
+    "wsname": "MUBARAK/USD",
+    "name": "MUBARAK/USD",
+    "baseName": "MUBARAK"
+  },
+  {
+    "pair": "MULTIUSD",
+    "base": "MULTI",
+    "quote": "USD",
+    "wsname": "MULTI/USD",
+    "name": "MULTI/USD",
+    "baseName": "MULTI"
+  },
+  {
+    "pair": "MUSD",
+    "base": "M",
+    "quote": "USD",
+    "wsname": "ARKM/USD",
+    "name": "M/USD",
+    "baseName": "M"
+  },
+  {
+    "pair": "MVUSD",
+    "base": "MV",
+    "quote": "USD",
+    "wsname": "MV/USD",
+    "name": "MV/USD",
+    "baseName": "MV"
+  },
+  {
+    "pair": "MXCUSD",
+    "base": "MXC",
+    "quote": "USD",
+    "wsname": "MXC/USD",
+    "name": "MXC/USD",
+    "baseName": "MXC"
+  },
+  {
+    "pair": "MXNBUSD",
+    "base": "MXNB",
+    "quote": "USD",
+    "wsname": "MXNB/USD",
+    "name": "MXNB/USD",
+    "baseName": "MXNB"
+  },
+  {
+    "pair": "MYXUSD",
+    "base": "MYX",
+    "quote": "USD",
+    "wsname": "MYX/USD",
+    "name": "MYX/USD",
+    "baseName": "MYX"
+  },
+  {
+    "pair": "NANOUSD",
+    "base": "NANO",
+    "quote": "USD",
+    "wsname": "NANO/USD",
+    "name": "NANO/USD",
+    "baseName": "NANO"
+  },
+  {
+    "pair": "NEARUSD",
+    "base": "NEAR",
+    "quote": "USD",
+    "wsname": "NEAR/USD",
+    "name": "NEAR/USD",
+    "baseName": "NEAR"
+  },
+  {
+    "pair": "NEIROUSD",
+    "base": "NEIRO",
+    "quote": "USD",
+    "wsname": "NEIRO/USD",
+    "name": "NEIRO/USD",
+    "baseName": "NEIRO"
+  },
+  {
+    "pair": "NIGHTUSD",
+    "base": "NIGHT",
+    "quote": "USD",
+    "wsname": "NIGHT/USD",
+    "name": "NIGHT/USD",
+    "baseName": "NIGHT"
+  },
+  {
+    "pair": "NILUSD",
+    "base": "NIL",
+    "quote": "USD",
+    "wsname": "NIL/USD",
+    "name": "NIL/USD",
+    "baseName": "NIL"
+  },
+  {
+    "pair": "NMRUSD",
+    "base": "NMR",
+    "quote": "USD",
+    "wsname": "NMR/USD",
+    "name": "NMR/USD",
+    "baseName": "NMR"
+  },
+  {
+    "pair": "NOBODYUSD",
+    "base": "NOBODY",
+    "quote": "USD",
+    "wsname": "NOBODY/USD",
+    "name": "NOBODY/USD",
+    "baseName": "NOBODY"
+  },
+  {
+    "pair": "NODEUSD",
+    "base": "NODE",
+    "quote": "USD",
+    "wsname": "NODE/USD",
+    "name": "NODE/USD",
+    "baseName": "NODE"
+  },
+  {
+    "pair": "NODLUSD",
+    "base": "NODL",
+    "quote": "USD",
+    "wsname": "NODL/USD",
+    "name": "NODL/USD",
+    "baseName": "NODL"
+  },
+  {
+    "pair": "NOSUSD",
+    "base": "NOS",
+    "quote": "USD",
+    "wsname": "NOS/USD",
+    "name": "NOS/USD",
+    "baseName": "NOS"
+  },
+  {
+    "pair": "NOTUSD",
+    "base": "NOT",
+    "quote": "USD",
+    "wsname": "NOT/USD",
+    "name": "NOT/USD",
+    "baseName": "NOT"
+  },
+  {
+    "pair": "NPCUSD",
+    "base": "NPC",
+    "quote": "USD",
+    "wsname": "NPC/USD",
+    "name": "NPC/USD",
+    "baseName": "NPC"
+  },
+  {
+    "pair": "NTRNUSD",
+    "base": "NTRN",
+    "quote": "USD",
+    "wsname": "NTRN/USD",
+    "name": "NTRN/USD",
+    "baseName": "NTRN"
+  },
+  {
+    "pair": "NYMUSD",
+    "base": "NYM",
+    "quote": "USD",
+    "wsname": "NYM/USD",
+    "name": "NYM/USD",
+    "baseName": "NYM"
+  },
+  {
+    "pair": "OBOLUSD",
+    "base": "OBOL",
+    "quote": "USD",
+    "wsname": "OBOL/USD",
+    "name": "OBOL/USD",
+    "baseName": "OBOL"
+  },
+  {
+    "pair": "OBOLUSDT",
+    "base": "OBOL",
+    "quote": "USDT",
+    "wsname": "OBOL/USDT",
+    "name": "OBOL/USDT",
+    "baseName": "OBOL"
+  },
+  {
+    "pair": "OCEANUSD",
+    "base": "OCEAN",
+    "quote": "USD",
+    "wsname": "OCEAN/USD",
+    "name": "OCEAN/USD",
+    "baseName": "OCEAN"
+  },
+  {
+    "pair": "ODOSUSD",
+    "base": "ODOS",
+    "quote": "USD",
+    "wsname": "ODOS/USD",
+    "name": "ODOS/USD",
+    "baseName": "ODOS"
+  },
+  {
+    "pair": "OGNUSD",
+    "base": "OGN",
+    "quote": "USD",
+    "wsname": "OGN/USD",
+    "name": "OGN/USD",
+    "baseName": "OGN"
+  },
+  {
+    "pair": "OMGUSD",
+    "base": "OMG",
+    "quote": "USD",
+    "wsname": "OMG/USD",
+    "name": "OMG/USD",
+    "baseName": "OMG"
+  },
+  {
+    "pair": "OMIUSD",
+    "base": "OMI",
+    "quote": "USD",
+    "wsname": "OMI/USD",
+    "name": "OMI/USD",
+    "baseName": "OMI"
+  },
+  {
+    "pair": "OMNIUSD",
+    "base": "OMNI",
+    "quote": "USD",
+    "wsname": "OMNI/USD",
+    "name": "OMNI/USD",
+    "baseName": "OMNI"
+  },
+  {
+    "pair": "OMUSD",
+    "base": "OM",
+    "quote": "USD",
+    "wsname": "ATOM/USD",
+    "name": "OM/USD",
+    "baseName": "OM"
+  },
+  {
+    "pair": "ONDOUSD",
+    "base": "ONDO",
+    "quote": "USD",
+    "wsname": "ONDO/USD",
+    "name": "ONDO/USD",
+    "baseName": "ONDO"
+  },
+  {
+    "pair": "OOBUSD",
+    "base": "OOB",
+    "quote": "USD",
+    "wsname": "OOB/USD",
+    "name": "OOB/USD",
+    "baseName": "OOB"
+  },
+  {
+    "pair": "OPENUSD",
+    "base": "OPEN",
+    "quote": "USD",
+    "wsname": "OPEN/USD",
+    "name": "OPEN/USD",
+    "baseName": "OPEN"
+  },
+  {
+    "pair": "OPUSD",
+    "base": "OP",
+    "quote": "USD",
+    "wsname": "EUROP/USD",
+    "name": "OP/USD",
+    "baseName": "OP"
+  },
+  {
+    "pair": "ORCAUSD",
+    "base": "ORCA",
+    "quote": "USD",
+    "wsname": "ORCA/USD",
+    "name": "ORCA/USD",
+    "baseName": "ORCA"
+  },
+  {
+    "pair": "ORDERUSD",
+    "base": "ORDER",
+    "quote": "USD",
+    "wsname": "ORDER/USD",
+    "name": "ORDER/USD",
+    "baseName": "ORDER"
+  },
+  {
+    "pair": "OSMOUSD",
+    "base": "OSMO",
+    "quote": "USD",
+    "wsname": "OSMO/USD",
+    "name": "OSMO/USD",
+    "baseName": "OSMO"
+  },
+  {
+    "pair": "OXTUSD",
+    "base": "OXT",
+    "quote": "USD",
+    "wsname": "OXT/USD",
+    "name": "OXT/USD",
+    "baseName": "OXT"
+  },
+  {
+    "pair": "PARTIUSD",
+    "base": "PARTI",
+    "quote": "USD",
+    "wsname": "PARTI/USD",
+    "name": "PARTI/USD",
+    "baseName": "PARTI"
+  },
+  {
+    "pair": "PAXGUSD",
+    "base": "PAXG",
+    "quote": "USD",
+    "wsname": "PAXG/USD",
+    "name": "PAXG/USD",
+    "baseName": "PAXG"
+  },
+  {
+    "pair": "PDAUSD",
+    "base": "PDA",
+    "quote": "USD",
+    "wsname": "PDA/USD",
+    "name": "PDA/USD",
+    "baseName": "PDA"
+  },
+  {
+    "pair": "PEAQUSD",
+    "base": "PEAQ",
+    "quote": "USD",
+    "wsname": "PEAQ/USD",
+    "name": "PEAQ/USD",
+    "baseName": "PEAQ"
+  },
+  {
+    "pair": "PEAQUSDC",
+    "base": "PEAQ",
+    "quote": "USDC",
+    "wsname": "PEAQ/USDC",
+    "name": "PEAQ/USDC",
+    "baseName": "PEAQ"
+  },
+  {
+    "pair": "PENDLEUSD",
+    "base": "PENDLE",
+    "quote": "USD",
+    "wsname": "PENDLE/USD",
+    "name": "PENDLE/USD",
+    "baseName": "PENDLE"
+  },
+  {
+    "pair": "PENGUUSD",
+    "base": "PENGU",
+    "quote": "USD",
+    "wsname": "PENGU/USD",
+    "name": "PENGU/USD",
+    "baseName": "PENGU"
+  },
+  {
+    "pair": "PENGUUSDC",
+    "base": "PENGU",
+    "quote": "USDC",
+    "wsname": "PENGU/USDC",
+    "name": "PENGU/USDC",
+    "baseName": "PENGU"
+  },
+  {
+    "pair": "PENGUUSDT",
+    "base": "PENGU",
+    "quote": "USDT",
+    "wsname": "PENGU/USDT",
+    "name": "PENGU/USDT",
+    "baseName": "PENGU"
+  },
+  {
+    "pair": "PEPEUSD",
+    "base": "PEPE",
+    "quote": "USD",
+    "wsname": "PEPE/USD",
+    "name": "PEPE/USD",
+    "baseName": "PEPE"
+  },
+  {
+    "pair": "PERPUSD",
+    "base": "PERP",
+    "quote": "USD",
+    "wsname": "PERP/USD",
+    "name": "PERP/USD",
+    "baseName": "PERP"
+  },
+  {
+    "pair": "PHAUSD",
+    "base": "PHA",
+    "quote": "USD",
+    "wsname": "ALPHA/USD",
+    "name": "PHA/USD",
+    "baseName": "PHA"
+  },
+  {
+    "pair": "PIPEUSD",
+    "base": "PIPE",
+    "quote": "USD",
+    "wsname": "PIPE/USD",
+    "name": "PIPE/USD",
+    "baseName": "PIPE"
+  },
+  {
+    "pair": "PLANCKUSD",
+    "base": "PLANCK",
+    "quote": "USD",
+    "wsname": "PLANCK/USD",
+    "name": "PLANCK/USD",
+    "baseName": "PLANCK"
+  },
+  {
+    "pair": "PLAYUSD",
+    "base": "PLAY",
+    "quote": "USD",
+    "wsname": "PLAY/USD",
+    "name": "PLAY/USD",
+    "baseName": "PLAY"
+  },
+  {
+    "pair": "PLUMEUSD",
+    "base": "PLUME",
+    "quote": "USD",
+    "wsname": "PLUME/USD",
+    "name": "PLUME/USD",
+    "baseName": "PLUME"
+  },
+  {
+    "pair": "PNUTUSD",
+    "base": "PNUT",
+    "quote": "USD",
+    "wsname": "PNUT/USD",
+    "name": "PNUT/USD",
+    "baseName": "PNUT"
+  },
+  {
+    "pair": "POLISUSD",
+    "base": "POLIS",
+    "quote": "USD",
+    "wsname": "POLIS/USD",
+    "name": "POLIS/USD",
+    "baseName": "POLIS"
+  },
+  {
+    "pair": "POLSUSD",
+    "base": "POLS",
+    "quote": "USD",
+    "wsname": "POLS/USD",
+    "name": "POLS/USD",
+    "baseName": "POLS"
+  },
+  {
+    "pair": "POLUSD",
+    "base": "POL",
+    "quote": "USD",
+    "wsname": "POL/USD",
+    "name": "POL/USD",
+    "baseName": "POL"
+  },
+  {
+    "pair": "PONDUSD",
+    "base": "POND",
+    "quote": "USD",
+    "wsname": "POND/USD",
+    "name": "POND/USD",
+    "baseName": "POND"
+  },
+  {
+    "pair": "PONKEUSD",
+    "base": "PONKE",
+    "quote": "USD",
+    "wsname": "PONKE/USD",
+    "name": "PONKE/USD",
+    "baseName": "PONKE"
+  },
+  {
+    "pair": "POPCATUSD",
+    "base": "POPCAT",
+    "quote": "USD",
+    "wsname": "POPCAT/USD",
+    "name": "POPCAT/USD",
+    "baseName": "POPCAT"
+  },
+  {
+    "pair": "PORTALUSD",
+    "base": "PORTAL",
+    "quote": "USD",
+    "wsname": "PORTAL/USD",
+    "name": "PORTAL/USD",
+    "baseName": "PORTAL"
+  },
+  {
+    "pair": "POWRUSD",
+    "base": "POWR",
+    "quote": "USD",
+    "wsname": "POWR/USD",
+    "name": "POWR/USD",
+    "baseName": "POWR"
+  },
+  {
+    "pair": "PRCLUSD",
+    "base": "PRCL",
+    "quote": "USD",
+    "wsname": "PRCL/USD",
+    "name": "PRCL/USD",
+    "baseName": "PRCL"
+  },
+  {
+    "pair": "PRIMEUSD",
+    "base": "PRIME",
+    "quote": "USD",
+    "wsname": "PRIME/USD",
+    "name": "PRIME/USD",
+    "baseName": "PRIME"
+  },
+  {
+    "pair": "PROMPTUSD",
+    "base": "PROMPT",
+    "quote": "USD",
+    "wsname": "PROMPT/USD",
+    "name": "PROMPT/USD",
+    "baseName": "PROMPT"
+  },
+  {
+    "pair": "PROUSD",
+    "base": "PRO",
+    "quote": "USD",
+    "wsname": "PRO/USD",
+    "name": "PRO/USD",
+    "baseName": "PRO"
+  },
+  {
+    "pair": "PROVEUSD",
+    "base": "PROVE",
+    "quote": "USD",
+    "wsname": "PROVE/USD",
+    "name": "PROVE/USD",
+    "baseName": "PROVE"
+  },
+  {
+    "pair": "PTBUSD",
+    "base": "PTB",
+    "quote": "USD",
+    "wsname": "PTB/USD",
+    "name": "PTB/USD",
+    "baseName": "PTB"
+  },
+  {
+    "pair": "PUFFERUSD",
+    "base": "PUFFER",
+    "quote": "USD",
+    "wsname": "PUFFER/USD",
+    "name": "PUFFER/USD",
+    "baseName": "PUFFER"
+  },
+  {
+    "pair": "PUMPUSD",
+    "base": "PUMP",
+    "quote": "USD",
+    "wsname": "PUMP/USD",
+    "name": "PUMP/USD",
+    "baseName": "PUMP"
+  },
+  {
+    "pair": "PUPSUSD",
+    "base": "PUPS",
+    "quote": "USD",
+    "wsname": "PUPS/USD",
+    "name": "PUPS/USD",
+    "baseName": "PUPS"
+  },
+  {
+    "pair": "PYTHUSD",
+    "base": "PYTH",
+    "quote": "USD",
+    "wsname": "PYTH/USD",
+    "name": "PYTH/USD",
+    "baseName": "PYTH"
+  },
+  {
+    "pair": "PYUSDUSD",
+    "base": "PYUSD",
+    "quote": "USD",
+    "wsname": "PYUSD/USD",
+    "name": "PYUSD/USD",
+    "baseName": "PYUSD"
+  },
+  {
+    "pair": "QIUSD",
+    "base": "QI",
+    "quote": "USD",
+    "wsname": "QI/USD",
+    "name": "QI/USD",
+    "baseName": "QI"
+  },
+  {
+    "pair": "QNTUSD",
+    "base": "QNT",
+    "quote": "USD",
+    "wsname": "QNT/USD",
+    "name": "QNT/USD",
+    "baseName": "QNT"
+  },
+  {
+    "pair": "QTUMUSD",
+    "base": "QTUM",
+    "quote": "USD",
+    "wsname": "QTUM/USD",
+    "name": "QTUM/USD",
+    "baseName": "QTUM"
+  },
+  {
+    "pair": "QUSD",
+    "base": "Q",
+    "quote": "USD",
+    "wsname": "COQ/USD",
+    "name": "Q/USD",
+    "baseName": "Q"
+  },
+  {
+    "pair": "RADUSD",
+    "base": "RAD",
+    "quote": "USD",
+    "wsname": "RAD/USD",
+    "name": "RAD/USD",
+    "baseName": "RAD"
+  },
+  {
+    "pair": "RAIINUSD",
+    "base": "RAIIN",
+    "quote": "USD",
+    "wsname": "RAIIN/USD",
+    "name": "RAIIN/USD",
+    "baseName": "RAIIN"
+  },
+  {
+    "pair": "RAILSUSD",
+    "base": "RAILS",
+    "quote": "USD",
+    "wsname": "RAILS/USD",
+    "name": "RAILS/USD",
+    "baseName": "RAILS"
+  },
+  {
+    "pair": "RAREUSD",
+    "base": "RARE",
+    "quote": "USD",
+    "wsname": "RARE/USD",
+    "name": "RARE/USD",
+    "baseName": "RARE"
+  },
+  {
+    "pair": "RARIUSD",
+    "base": "RARI",
+    "quote": "USD",
+    "wsname": "RARI/USD",
+    "name": "RARI/USD",
+    "baseName": "RARI"
+  },
+  {
+    "pair": "RAVEUSD",
+    "base": "RAVE",
+    "quote": "USD",
+    "wsname": "RAVE/USD",
+    "name": "RAVE/USD",
+    "baseName": "RAVE"
+  },
+  {
+    "pair": "RAYUSD",
+    "base": "RAY",
+    "quote": "USD",
+    "wsname": "RAY/USD",
+    "name": "RAY/USD",
+    "baseName": "RAY"
+  },
+  {
+    "pair": "RBCUSD",
+    "base": "RBC",
+    "quote": "USD",
+    "wsname": "RBC/USD",
+    "name": "RBC/USD",
+    "baseName": "RBC"
+  },
+  {
+    "pair": "REDUSD",
+    "base": "RED",
+    "quote": "USD",
+    "wsname": "RED/USD",
+    "name": "RED/USD",
+    "baseName": "RED"
+  },
+  {
+    "pair": "REKTUSD",
+    "base": "REKT",
+    "quote": "USD",
+    "wsname": "REKT/USD",
+    "name": "REKT/USD",
+    "baseName": "REKT"
+  },
+  {
+    "pair": "RENDERUSD",
+    "base": "RENDER",
+    "quote": "USD",
+    "wsname": "RENDER/USD",
+    "name": "RENDER/USD",
+    "baseName": "RENDER"
+  },
+  {
+    "pair": "RENUSD",
+    "base": "REN",
+    "quote": "USD",
+    "wsname": "REN/USD",
+    "name": "REN/USD",
+    "baseName": "REN"
+  },
+  {
+    "pair": "REPV2USD",
+    "base": "REPV2",
+    "quote": "USD",
+    "wsname": "REPV2/USD",
+    "name": "REPV2/USD",
+    "baseName": "REPV2"
+  },
+  {
+    "pair": "REQUSD",
+    "base": "REQ",
+    "quote": "USD",
+    "wsname": "REQ/USD",
+    "name": "REQ/USD",
+    "baseName": "REQ"
+  },
+  {
+    "pair": "RETARDIOUSD",
+    "base": "RETARDIO",
+    "quote": "USD",
+    "wsname": "RETARDIO/USD",
+    "name": "RETARDIO/USD",
+    "baseName": "RETARDIO"
+  },
+  {
+    "pair": "REZUSD",
+    "base": "REZ",
+    "quote": "USD",
+    "wsname": "REZ/USD",
+    "name": "REZ/USD",
+    "baseName": "REZ"
+  },
+  {
+    "pair": "RHEAUSD",
+    "base": "RHEA",
+    "quote": "USD",
+    "wsname": "RHEA/USD",
+    "name": "RHEA/USD",
+    "baseName": "RHEA"
+  },
+  {
+    "pair": "RIVERUSD",
+    "base": "RIVER",
+    "quote": "USD",
+    "wsname": "RIVER/USD",
+    "name": "RIVER/USD",
+    "baseName": "RIVER"
+  },
+  {
+    "pair": "RIZEUSD",
+    "base": "RIZE",
+    "quote": "USD",
+    "wsname": "RIZE/USD",
+    "name": "RIZE/USD",
+    "baseName": "RIZE"
+  },
+  {
+    "pair": "RLCUSD",
+    "base": "RLC",
+    "quote": "USD",
+    "wsname": "RLC/USD",
+    "name": "RLC/USD",
+    "baseName": "RLC"
+  },
+  {
+    "pair": "RLSUSD",
+    "base": "RLS",
+    "quote": "USD",
+    "wsname": "RLS/USD",
+    "name": "RLS/USD",
+    "baseName": "RLS"
+  },
+  {
+    "pair": "RLUSDUSD",
+    "base": "RLUSD",
+    "quote": "USD",
+    "wsname": "RLUSD/USD",
+    "name": "RLUSD/USD",
+    "baseName": "RLUSD"
+  },
+  {
+    "pair": "RLUSDUSDC",
+    "base": "RLUSD",
+    "quote": "USDC",
+    "wsname": "RLUSD/USDC",
+    "name": "RLUSD/USDC",
+    "baseName": "RLUSD"
+  },
+  {
+    "pair": "RLUSDUSDT",
+    "base": "RLUSD",
+    "quote": "USDT",
+    "wsname": "RLUSD/USDT",
+    "name": "RLUSD/USDT",
+    "baseName": "RLUSD"
+  },
+  {
+    "pair": "RNBWUSD",
+    "base": "RNBW",
+    "quote": "USD",
+    "wsname": "RNBW/USD",
+    "name": "RNBW/USD",
+    "baseName": "RNBW"
+  },
+  {
+    "pair": "ROLLUSD",
+    "base": "ROLL",
+    "quote": "USD",
+    "wsname": "ROLL/USD",
+    "name": "ROLL/USD",
+    "baseName": "ROLL"
+  },
+  {
+    "pair": "RPLUSD",
+    "base": "RPL",
+    "quote": "USD",
+    "wsname": "RPL/USD",
+    "name": "RPL/USD",
+    "baseName": "RPL"
+  },
+  {
+    "pair": "RSCUSD",
+    "base": "RSC",
+    "quote": "USD",
+    "wsname": "RSC/USD",
+    "name": "RSC/USD",
+    "baseName": "RSC"
+  },
+  {
+    "pair": "RSRUSD",
+    "base": "RSR",
+    "quote": "USD",
+    "wsname": "RSR/USD",
+    "name": "RSR/USD",
+    "baseName": "RSR"
+  },
+  {
+    "pair": "RUJIUSD",
+    "base": "RUJI",
+    "quote": "USD",
+    "wsname": "RUJI/USD",
+    "name": "RUJI/USD",
+    "baseName": "RUJI"
+  },
+  {
+    "pair": "RUNEUSD",
+    "base": "RUNE",
+    "quote": "USD",
+    "wsname": "RUNE/USD",
+    "name": "RUNE/USD",
+    "baseName": "RUNE"
+  },
+  {
+    "pair": "RVVUSD",
+    "base": "RVV",
+    "quote": "USD",
+    "wsname": "RVV/USD",
+    "name": "RVV/USD",
+    "baseName": "RVV"
+  },
+  {
+    "pair": "SAFEUSD",
+    "base": "SAFE",
+    "quote": "USD",
+    "wsname": "SAFE/USD",
+    "name": "SAFE/USD",
+    "baseName": "SAFE"
+  },
+  {
+    "pair": "SAGAUSD",
+    "base": "SAGA",
+    "quote": "USD",
+    "wsname": "SAGA/USD",
+    "name": "SAGA/USD",
+    "baseName": "SAGA"
+  },
+  {
+    "pair": "SAHARAUSD",
+    "base": "SAHARA",
+    "quote": "USD",
+    "wsname": "SAHARA/USD",
+    "name": "SAHARA/USD",
+    "baseName": "SAHARA"
+  },
+  {
+    "pair": "SAMOUSD",
+    "base": "SAMO",
+    "quote": "USD",
+    "wsname": "SAMO/USD",
+    "name": "SAMO/USD",
+    "baseName": "SAMO"
+  },
+  {
+    "pair": "SANDUSD",
+    "base": "SAND",
+    "quote": "USD",
+    "wsname": "SAND/USD",
+    "name": "SAND/USD",
+    "baseName": "SAND"
+  },
+  {
+    "pair": "SAPIENUSD",
+    "base": "SAPIEN",
+    "quote": "USD",
+    "wsname": "SAPIEN/USD",
+    "name": "SAPIEN/USD",
+    "baseName": "SAPIEN"
+  },
+  {
+    "pair": "SAROSUSD",
+    "base": "SAROS",
+    "quote": "USD",
+    "wsname": "SAROS/USD",
+    "name": "SAROS/USD",
+    "baseName": "SAROS"
+  },
+  {
+    "pair": "SBRUSD",
+    "base": "SBR",
+    "quote": "USD",
+    "wsname": "SBR/USD",
+    "name": "SBR/USD",
+    "baseName": "SBR"
+  },
+  {
+    "pair": "SCAUSD",
+    "base": "SCA",
+    "quote": "USD",
+    "wsname": "SCA/USD",
+    "name": "SCA/USD",
+    "baseName": "SCA"
+  },
+  {
+    "pair": "SCUSD",
+    "base": "SC",
+    "quote": "USD",
+    "wsname": "RSC/USD",
+    "name": "SC/USD",
+    "baseName": "SC"
+  },
+  {
+    "pair": "SDNUSD",
+    "base": "SDN",
+    "quote": "USD",
+    "wsname": "SDN/USD",
+    "name": "SDN/USD",
+    "baseName": "SDN"
+  },
+  {
+    "pair": "SEIUSD",
+    "base": "SEI",
+    "quote": "USD",
+    "wsname": "SEI/USD",
+    "name": "SEI/USD",
+    "baseName": "SEI"
+  },
+  {
+    "pair": "SENTUSD",
+    "base": "SENT",
+    "quote": "USD",
+    "wsname": "SENT/USD",
+    "name": "SENT/USD",
+    "baseName": "SENT"
+  },
+  {
+    "pair": "SGBUSD",
+    "base": "SGB",
+    "quote": "USD",
+    "wsname": "SGB/USD",
+    "name": "SGB/USD",
+    "baseName": "SGB"
+  },
+  {
+    "pair": "SHIBUSD",
+    "base": "SHIB",
+    "quote": "USD",
+    "wsname": "SHIB/USD",
+    "name": "SHIB/USD",
+    "baseName": "SHIB"
+  },
+  {
+    "pair": "SHIBUSDC",
+    "base": "SHIB",
+    "quote": "USDC",
+    "wsname": "SHIB/USDC",
+    "name": "SHIB/USDC",
+    "baseName": "SHIB"
+  },
+  {
+    "pair": "SHIBUSDT",
+    "base": "SHIB",
+    "quote": "USDT",
+    "wsname": "SHIB/USDT",
+    "name": "SHIB/USDT",
+    "baseName": "SHIB"
+  },
+  {
+    "pair": "SHXUSD",
+    "base": "SHX",
+    "quote": "USD",
+    "wsname": "SHX/USD",
+    "name": "SHX/USD",
+    "baseName": "SHX"
+  },
+  {
+    "pair": "SIDEKICKUSD",
+    "base": "SIDEKICK",
+    "quote": "USD",
+    "wsname": "SIDEKICK/USD",
+    "name": "SIDEKICK/USD",
+    "baseName": "SIDEKICK"
+  },
+  {
+    "pair": "SIDEKICKUSDT",
+    "base": "SIDEKICK",
+    "quote": "USDT",
+    "wsname": "SIDEKICK/USDT",
+    "name": "SIDEKICK/USDT",
+    "baseName": "SIDEKICK"
+  },
+  {
+    "pair": "SIGMAUSD",
+    "base": "SIGMA",
+    "quote": "USD",
+    "wsname": "SIGMA/USD",
+    "name": "SIGMA/USD",
+    "baseName": "SIGMA"
+  },
+  {
+    "pair": "SKRUSD",
+    "base": "SKR",
+    "quote": "USD",
+    "wsname": "SKR/USD",
+    "name": "SKR/USD",
+    "baseName": "SKR"
+  },
+  {
+    "pair": "SKYUSD",
+    "base": "SKY",
+    "quote": "USD",
+    "wsname": "SKY/USD",
+    "name": "SKY/USD",
+    "baseName": "SKY"
+  },
+  {
+    "pair": "SLAYUSD",
+    "base": "SLAY",
+    "quote": "USD",
+    "wsname": "SLAY/USD",
+    "name": "SLAY/USD",
+    "baseName": "SLAY"
+  },
+  {
+    "pair": "SNEKUSD",
+    "base": "SNEK",
+    "quote": "USD",
+    "wsname": "SNEK/USD",
+    "name": "SNEK/USD",
+    "baseName": "SNEK"
+  },
+  {
+    "pair": "SNXUSD",
+    "base": "SNX",
+    "quote": "USD",
+    "wsname": "SNX/USD",
+    "name": "SNX/USD",
+    "baseName": "SNX"
+  },
+  {
+    "pair": "SOGNIUSD",
+    "base": "SOGNI",
+    "quote": "USD",
+    "wsname": "SOGNI/USD",
+    "name": "SOGNI/USD",
+    "baseName": "SOGNI"
+  },
+  {
+    "pair": "SOLUSD",
+    "base": "SOL",
+    "quote": "USD",
+    "wsname": "JITOSOL/USD",
+    "name": "SOL/USD",
+    "baseName": "SOL"
+  },
+  {
+    "pair": "SOLUSDC",
+    "base": "SOL",
+    "quote": "USDC",
+    "wsname": "SOL/USDC",
+    "name": "SOL/USDC",
+    "baseName": "SOL"
+  },
+  {
+    "pair": "SOLUSDT",
+    "base": "SOL",
+    "quote": "USDT",
+    "wsname": "SOL/USDT",
+    "name": "SOL/USDT",
+    "baseName": "SOL"
+  },
+  {
+    "pair": "SOLVUSD",
+    "base": "SOLV",
+    "quote": "USD",
+    "wsname": "SOLV/USD",
+    "name": "SOLV/USD",
+    "baseName": "SOLV"
+  },
+  {
+    "pair": "SOMIUSD",
+    "base": "SOMI",
+    "quote": "USD",
+    "wsname": "SOMI/USD",
+    "name": "SOMI/USD",
+    "baseName": "SOMI"
+  },
+  {
+    "pair": "SONICUSD",
+    "base": "SONIC",
+    "quote": "USD",
+    "wsname": "SONIC/USD",
+    "name": "SONIC/USD",
+    "baseName": "SONIC"
+  },
+  {
+    "pair": "SOONUSD",
+    "base": "SOON",
+    "quote": "USD",
+    "wsname": "SOON/USD",
+    "name": "SOON/USD",
+    "baseName": "SOON"
+  },
+  {
+    "pair": "SOSOUSD",
+    "base": "SOSO",
+    "quote": "USD",
+    "wsname": "SOSO/USD",
+    "name": "SOSO/USD",
+    "baseName": "SOSO"
+  },
+  {
+    "pair": "SPACEUSD",
+    "base": "SPACE",
+    "quote": "USD",
+    "wsname": "SPACE/USD",
+    "name": "SPACE/USD",
+    "baseName": "SPACE"
+  },
+  {
+    "pair": "SPELLUSD",
+    "base": "SPELL",
+    "quote": "USD",
+    "wsname": "SPELL/USD",
+    "name": "SPELL/USD",
+    "baseName": "SPELL"
+  },
+  {
+    "pair": "SPICEUSD",
+    "base": "SPICE",
+    "quote": "USD",
+    "wsname": "SPICE/USD",
+    "name": "SPICE/USD",
+    "baseName": "SPICE"
+  },
+  {
+    "pair": "SPKUSD",
+    "base": "SPK",
+    "quote": "USD",
+    "wsname": "SPK/USD",
+    "name": "SPK/USD",
+    "baseName": "SPK"
+  },
+  {
+    "pair": "SPXUSD",
+    "base": "SPX",
+    "quote": "USD",
+    "wsname": "SPX/USD",
+    "name": "SPX/USD",
+    "baseName": "SPX"
+  },
+  {
+    "pair": "SRMUSD",
+    "base": "SRM",
+    "quote": "USD",
+    "wsname": "SRM/USD",
+    "name": "SRM/USD",
+    "baseName": "SRM"
+  },
+  {
+    "pair": "SSVUSD",
+    "base": "SSV",
+    "quote": "USD",
+    "wsname": "SSV/USD",
+    "name": "SSV/USD",
+    "baseName": "SSV"
+  },
+  {
+    "pair": "STABLEUSD",
+    "base": "STABLE",
+    "quote": "USD",
+    "wsname": "STABLE/USD",
+    "name": "STABLE/USD",
+    "baseName": "STABLE"
+  },
+  {
+    "pair": "STBLUSD",
+    "base": "STBL",
+    "quote": "USD",
+    "wsname": "STBL/USD",
+    "name": "STBL/USD",
+    "baseName": "STBL"
+  },
+  {
+    "pair": "STEPUSD",
+    "base": "STEP",
+    "quote": "USD",
+    "wsname": "STEP/USD",
+    "name": "STEP/USD",
+    "baseName": "STEP"
+  },
+  {
+    "pair": "STGUSD",
+    "base": "STG",
+    "quote": "USD",
+    "wsname": "STG/USD",
+    "name": "STG/USD",
+    "baseName": "STG"
+  },
+  {
+    "pair": "STORJUSD",
+    "base": "STORJ",
+    "quote": "USD",
+    "wsname": "STORJ/USD",
+    "name": "STORJ/USD",
+    "baseName": "STORJ"
+  },
+  {
+    "pair": "STRDUSD",
+    "base": "STRD",
+    "quote": "USD",
+    "wsname": "STRD/USD",
+    "name": "STRD/USD",
+    "baseName": "STRD"
+  },
+  {
+    "pair": "STRKUSD",
+    "base": "STRK",
+    "quote": "USD",
+    "wsname": "STRK/USD",
+    "name": "STRK/USD",
+    "baseName": "STRK"
+  },
+  {
+    "pair": "STXUSD",
+    "base": "STX",
+    "quote": "USD",
+    "wsname": "STX/USD",
+    "name": "STX/USD",
+    "baseName": "STX"
+  },
+  {
+    "pair": "SUIUSD",
+    "base": "SUI",
+    "quote": "USD",
+    "wsname": "SUI/USD",
+    "name": "SUI/USD",
+    "baseName": "SUI"
+  },
+  {
+    "pair": "SUKUUSD",
+    "base": "SUKU",
+    "quote": "USD",
+    "wsname": "SUKU/USD",
+    "name": "SUKU/USD",
+    "baseName": "SUKU"
+  },
+  {
+    "pair": "SUNDOGUSD",
+    "base": "SUNDOG",
+    "quote": "USD",
+    "wsname": "SUNDOG/USD",
+    "name": "SUNDOG/USD",
+    "baseName": "SUNDOG"
+  },
+  {
+    "pair": "SUNUSD",
+    "base": "SUN",
+    "quote": "USD",
+    "wsname": "SUN/USD",
+    "name": "SUN/USD",
+    "baseName": "SUN"
+  },
+  {
+    "pair": "SUPERUSD",
+    "base": "SUPER",
+    "quote": "USD",
+    "wsname": "SUPER/USD",
+    "name": "SUPER/USD",
+    "baseName": "SUPER"
+  },
+  {
+    "pair": "SUPUSD",
+    "base": "SUP",
+    "quote": "USD",
+    "wsname": "SUP/USD",
+    "name": "SUP/USD",
+    "baseName": "SUP"
+  },
+  {
+    "pair": "SUSD",
+    "base": "S",
+    "quote": "USD",
+    "wsname": "ATLAS/USD",
+    "name": "S/USD",
+    "baseName": "S"
+  },
+  {
+    "pair": "SUSDC",
+    "base": "S",
+    "quote": "USDC",
+    "wsname": "S/USDC",
+    "name": "S/USDC",
+    "baseName": "S"
+  },
+  {
+    "pair": "SUSDT",
+    "base": "S",
+    "quote": "USDT",
+    "wsname": "KAS/USDT",
+    "name": "S/USDT",
+    "baseName": "S"
+  },
+  {
+    "pair": "SUSHIUSD",
+    "base": "SUSHI",
+    "quote": "USD",
+    "wsname": "SUSHI/USD",
+    "name": "SUSHI/USD",
+    "baseName": "SUSHI"
+  },
+  {
+    "pair": "SWARMSUSD",
+    "base": "SWARMS",
+    "quote": "USD",
+    "wsname": "SWARMS/USD",
+    "name": "SWARMS/USD",
+    "baseName": "SWARMS"
+  },
+  {
+    "pair": "SWEATUSD",
+    "base": "SWEAT",
+    "quote": "USD",
+    "wsname": "SWEAT/USD",
+    "name": "SWEAT/USD",
+    "baseName": "SWEAT"
+  },
+  {
+    "pair": "SWELLUSD",
+    "base": "SWELL",
+    "quote": "USD",
+    "wsname": "SWELL/USD",
+    "name": "SWELL/USD",
+    "baseName": "SWELL"
+  },
+  {
+    "pair": "SXTUSD",
+    "base": "SXT",
+    "quote": "USD",
+    "wsname": "SXT/USD",
+    "name": "SXT/USD",
+    "baseName": "SXT"
+  },
+  {
+    "pair": "SYNDUSD",
+    "base": "SYND",
+    "quote": "USD",
+    "wsname": "SYND/USD",
+    "name": "SYND/USD",
+    "baseName": "SYND"
+  },
+  {
+    "pair": "SYNUSD",
+    "base": "SYN",
+    "quote": "USD",
+    "wsname": "SYN/USD",
+    "name": "SYN/USD",
+    "baseName": "SYN"
+  },
+  {
+    "pair": "SYRUPUSD",
+    "base": "SYRUP",
+    "quote": "USD",
+    "wsname": "SYRUP/USD",
+    "name": "SYRUP/USD",
+    "baseName": "SYRUP"
+  },
+  {
+    "pair": "TACUSD",
+    "base": "TAC",
+    "quote": "USD",
+    "wsname": "TAC/USD",
+    "name": "TAC/USD",
+    "baseName": "TAC"
+  },
+  {
+    "pair": "TAKEUSD",
+    "base": "TAKE",
+    "quote": "USD",
+    "wsname": "TAKE/USD",
+    "name": "TAKE/USD",
+    "baseName": "TAKE"
+  },
+  {
+    "pair": "TANSSIUSD",
+    "base": "TANSSI",
+    "quote": "USD",
+    "wsname": "TANSSI/USD",
+    "name": "TANSSI/USD",
+    "baseName": "TANSSI"
+  },
+  {
+    "pair": "TAOUSD",
+    "base": "TAO",
+    "quote": "USD",
+    "wsname": "TAO/USD",
+    "name": "TAO/USD",
+    "baseName": "TAO"
+  },
+  {
+    "pair": "TBTCUSD",
+    "base": "TBTC",
+    "quote": "USD",
+    "wsname": "TBTC/USD",
+    "name": "TBTC/USD",
+    "baseName": "TBTC"
+  },
+  {
+    "pair": "TEAUSD",
+    "base": "TEA",
+    "quote": "USD",
+    "wsname": "TEA/USD",
+    "name": "TEA/USD",
+    "baseName": "TEA"
+  },
+  {
+    "pair": "TEERUSD",
+    "base": "TEER",
+    "quote": "USD",
+    "wsname": "TEER/USD",
+    "name": "TEER/USD",
+    "baseName": "TEER"
+  },
+  {
+    "pair": "TELUSD",
+    "base": "TEL",
+    "quote": "USD",
+    "wsname": "TEL/USD",
+    "name": "TEL/USD",
+    "baseName": "TEL"
+  },
+  {
+    "pair": "TERMUSD",
+    "base": "TERM",
+    "quote": "USD",
+    "wsname": "TERM/USD",
+    "name": "TERM/USD",
+    "baseName": "TERM"
+  },
+  {
+    "pair": "TGBPUSD",
+    "base": "TGBP",
+    "quote": "USD",
+    "wsname": "TGBP/USD",
+    "name": "TGBP/USD",
+    "baseName": "TGBP"
+  },
+  {
+    "pair": "THQUSD",
+    "base": "THQ",
+    "quote": "USD",
+    "wsname": "THQ/USD",
+    "name": "THQ/USD",
+    "baseName": "THQ"
+  },
+  {
+    "pair": "TIAUSD",
+    "base": "TIA",
+    "quote": "USD",
+    "wsname": "TIA/USD",
+    "name": "TIA/USD",
+    "baseName": "TIA"
+  },
+  {
+    "pair": "TITCOINUSD",
+    "base": "TITCOIN",
+    "quote": "USD",
+    "wsname": "TITCOIN/USD",
+    "name": "TITCOIN/USD",
+    "baseName": "TITCOIN"
+  },
+  {
+    "pair": "TLMUSD",
+    "base": "TLM",
+    "quote": "USD",
+    "wsname": "TLM/USD",
+    "name": "TLM/USD",
+    "baseName": "TLM"
+  },
+  {
+    "pair": "TNSRUSD",
+    "base": "TNSR",
+    "quote": "USD",
+    "wsname": "TNSR/USD",
+    "name": "TNSR/USD",
+    "baseName": "TNSR"
+  },
+  {
+    "pair": "TOKENUSD",
+    "base": "TOKEN",
+    "quote": "USD",
+    "wsname": "TOKEN/USD",
+    "name": "TOKEN/USD",
+    "baseName": "TOKEN"
+  },
+  {
+    "pair": "TOKEUSD",
+    "base": "TOKE",
+    "quote": "USD",
+    "wsname": "TOKE/USD",
+    "name": "TOKE/USD",
+    "baseName": "TOKE"
+  },
+  {
+    "pair": "TONUSD",
+    "base": "TON",
+    "quote": "USD",
+    "wsname": "TON/USD",
+    "name": "TON/USD",
+    "baseName": "TON"
+  },
+  {
+    "pair": "TONUSDC",
+    "base": "TON",
+    "quote": "USDC",
+    "wsname": "TON/USDC",
+    "name": "TON/USDC",
+    "baseName": "TON"
+  },
+  {
+    "pair": "TONUSDT",
+    "base": "TON",
+    "quote": "USDT",
+    "wsname": "TON/USDT",
+    "name": "TON/USDT",
+    "baseName": "TON"
+  },
+  {
+    "pair": "TOSHIUSD",
+    "base": "TOSHI",
+    "quote": "USD",
+    "wsname": "TOSHI/USD",
+    "name": "TOSHI/USD",
+    "baseName": "TOSHI"
+  },
+  {
+    "pair": "TRACUSD",
+    "base": "TRAC",
+    "quote": "USD",
+    "wsname": "TRAC/USD",
+    "name": "TRAC/USD",
+    "baseName": "TRAC"
+  },
+  {
+    "pair": "TREEUSD",
+    "base": "TREE",
+    "quote": "USD",
+    "wsname": "TREE/USD",
+    "name": "TREE/USD",
+    "baseName": "TREE"
+  },
+  {
+    "pair": "TREMPUSD",
+    "base": "TREMP",
+    "quote": "USD",
+    "wsname": "TREMP/USD",
+    "name": "TREMP/USD",
+    "baseName": "TREMP"
+  },
+  {
+    "pair": "TRIAUSD",
+    "base": "TRIA",
+    "quote": "USD",
+    "wsname": "TRIA/USD",
+    "name": "TRIA/USD",
+    "baseName": "TRIA"
+  },
+  {
+    "pair": "TRUMPUSD",
+    "base": "TRUMP",
+    "quote": "USD",
+    "wsname": "TRUMP/USD",
+    "name": "TRUMP/USD",
+    "baseName": "TRUMP"
+  },
+  {
+    "pair": "TRUMPUSDC",
+    "base": "TRUMP",
+    "quote": "USDC",
+    "wsname": "TRUMP/USDC",
+    "name": "TRUMP/USDC",
+    "baseName": "TRUMP"
+  },
+  {
+    "pair": "TRUMPUSDT",
+    "base": "TRUMP",
+    "quote": "USDT",
+    "wsname": "TRUMP/USDT",
+    "name": "TRUMP/USDT",
+    "baseName": "TRUMP"
+  },
+  {
+    "pair": "TRUSTUSD",
+    "base": "TRUST",
+    "quote": "USD",
+    "wsname": "TRUST/USD",
+    "name": "TRUST/USD",
+    "baseName": "TRUST"
+  },
+  {
+    "pair": "TRUUSD",
+    "base": "TRU",
+    "quote": "USD",
+    "wsname": "TRU/USD",
+    "name": "TRU/USD",
+    "baseName": "TRU"
+  },
+  {
+    "pair": "TRXUSD",
+    "base": "TRX",
+    "quote": "USD",
+    "wsname": "TRX/USD",
+    "name": "TRX/USD",
+    "baseName": "TRX"
+  },
+  {
+    "pair": "TURBOUSD",
+    "base": "TURBO",
+    "quote": "USD",
+    "wsname": "TURBO/USD",
+    "name": "TURBO/USD",
+    "baseName": "TURBO"
+  },
+  {
+    "pair": "TUSD",
+    "base": "T",
+    "quote": "USD",
+    "wsname": "ACT/USD",
+    "name": "T/USD",
+    "baseName": "T"
+  },
+  {
+    "pair": "TUSDUSD",
+    "base": "TUSD",
+    "quote": "USD",
+    "wsname": "TUSD/USD",
+    "name": "TUSD/USD",
+    "baseName": "TUSD"
+  },
+  {
+    "pair": "TVKUSD",
+    "base": "TVK",
+    "quote": "USD",
+    "wsname": "TVK/USD",
+    "name": "TVK/USD",
+    "baseName": "TVK"
+  },
+  {
+    "pair": "U2UUSD",
+    "base": "U2U",
+    "quote": "USD",
+    "wsname": "U2U/USD",
+    "name": "U2U/USD",
+    "baseName": "U2U"
+  },
+  {
+    "pair": "UAIUSD",
+    "base": "UAI",
+    "quote": "USD",
+    "wsname": "BLUAI/USD",
+    "name": "UAI/USD",
+    "baseName": "UAI"
+  },
+  {
+    "pair": "UFDUSD",
+    "base": "UFD",
+    "quote": "USD",
+    "wsname": "UFD/USD",
+    "name": "UFD/USD",
+    "baseName": "UFD"
+  },
+  {
+    "pair": "UMAUSD",
+    "base": "UMA",
+    "quote": "USD",
+    "wsname": "UMA/USD",
+    "name": "UMA/USD",
+    "baseName": "UMA"
+  },
+  {
+    "pair": "UNFIUSD",
+    "base": "UNFI",
+    "quote": "USD",
+    "wsname": "UNFI/USD",
+    "name": "UNFI/USD",
+    "baseName": "UNFI"
+  },
+  {
+    "pair": "UNITEUSD",
+    "base": "UNITE",
+    "quote": "USD",
+    "wsname": "UNITE/USD",
+    "name": "UNITE/USD",
+    "baseName": "UNITE"
+  },
+  {
+    "pair": "UNIUSD",
+    "base": "UNI",
+    "quote": "USD",
+    "wsname": "UNI/USD",
+    "name": "UNI/USD",
+    "baseName": "UNI"
+  },
+  {
+    "pair": "USATUSD",
+    "base": "USAT",
+    "quote": "USD",
+    "wsname": "USAT/USD",
+    "name": "USAT/USD",
+    "baseName": "USAT"
+  },
+  {
+    "pair": "USATUSDT",
+    "base": "USAT",
+    "quote": "USDT",
+    "wsname": "USAT/USDT",
+    "name": "USAT/USDT",
+    "baseName": "USAT"
+  },
+  {
+    "pair": "USD1USD",
+    "base": "USD1",
+    "quote": "USD",
+    "wsname": "USD1/USD",
+    "name": "USD1/USD",
+    "baseName": "USD1"
+  },
+  {
+    "pair": "USD1USDC",
+    "base": "USD1",
+    "quote": "USDC",
+    "wsname": "USD1/USDC",
+    "name": "USD1/USDC",
+    "baseName": "USD1"
+  },
+  {
+    "pair": "USDCUSD",
+    "base": "USDC",
+    "quote": "USD",
+    "wsname": "USDC/USD",
+    "name": "USDC/USD",
+    "baseName": "USDC"
+  },
+  {
+    "pair": "USDCUSDT",
+    "base": "USDC",
+    "quote": "USDT",
+    "wsname": "USDC/USDT",
+    "name": "USDC/USDT",
+    "baseName": "USDC"
+  },
+  {
+    "pair": "USDDUSD",
+    "base": "USDD",
+    "quote": "USD",
+    "wsname": "USDD/USD",
+    "name": "USDD/USD",
+    "baseName": "USDD"
+  },
+  {
+    "pair": "USDEUSD",
+    "base": "USDE",
+    "quote": "USD",
+    "wsname": "USDE/USD",
+    "name": "USDE/USD",
+    "baseName": "USDE"
+  },
+  {
+    "pair": "USDEUSDC",
+    "base": "USDE",
+    "quote": "USDC",
+    "wsname": "USDE/USDC",
+    "name": "USDE/USDC",
+    "baseName": "USDE"
+  },
+  {
+    "pair": "USDEUSDT",
+    "base": "USDE",
+    "quote": "USDT",
+    "wsname": "USDE/USDT",
+    "name": "USDE/USDT",
+    "baseName": "USDE"
+  },
+  {
+    "pair": "USDGUSD",
+    "base": "USDG",
+    "quote": "USD",
+    "wsname": "USDG/USD",
+    "name": "USDG/USD",
+    "baseName": "USDG"
+  },
+  {
+    "pair": "USDGUSDC",
+    "base": "USDG",
+    "quote": "USDC",
+    "wsname": "USDG/USDC",
+    "name": "USDG/USDC",
+    "baseName": "USDG"
+  },
+  {
+    "pair": "USDGUSDT",
+    "base": "USDG",
+    "quote": "USDT",
+    "wsname": "USDG/USDT",
+    "name": "USDG/USDT",
+    "baseName": "USDG"
+  },
+  {
+    "pair": "USDQUSD",
+    "base": "USDQ",
+    "quote": "USD",
+    "wsname": "USDQ/USD",
+    "name": "USDQ/USD",
+    "baseName": "USDQ"
+  },
+  {
+    "pair": "USDQUSDC",
+    "base": "USDQ",
+    "quote": "USDC",
+    "wsname": "USDQ/USDC",
+    "name": "USDQ/USDC",
+    "baseName": "USDQ"
+  },
+  {
+    "pair": "USDQUSDT",
+    "base": "USDQ",
+    "quote": "USDT",
+    "wsname": "USDQ/USDT",
+    "name": "USDQ/USDT",
+    "baseName": "USDQ"
+  },
+  {
+    "pair": "USDRUSD",
+    "base": "USDR",
+    "quote": "USD",
+    "wsname": "USDR/USD",
+    "name": "USDR/USD",
+    "baseName": "USDR"
+  },
+  {
+    "pair": "USDRUSDC",
+    "base": "USDR",
+    "quote": "USDC",
+    "wsname": "USDR/USDC",
+    "name": "USDR/USDC",
+    "baseName": "USDR"
+  },
+  {
+    "pair": "USDRUSDT",
+    "base": "USDR",
+    "quote": "USDT",
+    "wsname": "USDR/USDT",
+    "name": "USDR/USDT",
+    "baseName": "USDR"
+  },
+  {
+    "pair": "USDSUSD",
+    "base": "USDS",
+    "quote": "USD",
+    "wsname": "USDS/USD",
+    "name": "USDS/USD",
+    "baseName": "USDS"
+  },
+  {
+    "pair": "USELESSUSD",
+    "base": "USELESS",
+    "quote": "USD",
+    "wsname": "USELESS/USD",
+    "name": "USELESS/USD",
+    "baseName": "USELESS"
+  },
+  {
+    "pair": "USTUSD",
+    "base": "UST",
+    "quote": "USD",
+    "wsname": "TRUST/USD",
+    "name": "UST/USD",
+    "baseName": "UST"
+  },
+  {
+    "pair": "USTUSDC",
+    "base": "UST",
+    "quote": "USDC",
+    "wsname": "UST/USDC",
+    "name": "UST/USDC",
+    "baseName": "UST"
+  },
+  {
+    "pair": "USTUSDT",
+    "base": "UST",
+    "quote": "USDT",
+    "wsname": "UST/USDT",
+    "name": "UST/USDT",
+    "baseName": "UST"
+  },
+  {
+    "pair": "USUALUSD",
+    "base": "USUAL",
+    "quote": "USD",
+    "wsname": "USUAL/USD",
+    "name": "USUAL/USD",
+    "baseName": "USUAL"
+  },
+  {
+    "pair": "USUSD",
+    "base": "US",
+    "quote": "USD",
+    "wsname": "US/USD",
+    "name": "US/USD",
+    "baseName": "US"
+  },
+  {
+    "pair": "UUSD",
+    "base": "U",
+    "quote": "USD",
+    "wsname": "ACU/USD",
+    "name": "U/USD",
+    "baseName": "U"
+  },
+  {
+    "pair": "UXLINKUSD",
+    "base": "UXLINK",
+    "quote": "USD",
+    "wsname": "UXLINK/USD",
+    "name": "UXLINK/USD",
+    "baseName": "UXLINK"
+  },
+  {
+    "pair": "VANRYUSD",
+    "base": "VANRY",
+    "quote": "USD",
+    "wsname": "VANRY/USD",
+    "name": "VANRY/USD",
+    "baseName": "VANRY"
+  },
+  {
+    "pair": "VELODROMEUSD",
+    "base": "VELODROME",
+    "quote": "USD",
+    "wsname": "VELODROME/USD",
+    "name": "VELODROME/USD",
+    "baseName": "VELODROME"
+  },
+  {
+    "pair": "VELVETUSD",
+    "base": "VELVET",
+    "quote": "USD",
+    "wsname": "VELVET/USD",
+    "name": "VELVET/USD",
+    "baseName": "VELVET"
+  },
+  {
+    "pair": "VERSEUSD",
+    "base": "VERSE",
+    "quote": "USD",
+    "wsname": "VERSE/USD",
+    "name": "VERSE/USD",
+    "baseName": "VERSE"
+  },
+  {
+    "pair": "VETUSD",
+    "base": "VET",
+    "quote": "USD",
+    "wsname": "VELVET/USD",
+    "name": "VET/USD",
+    "baseName": "VET"
+  },
+  {
+    "pair": "VETUSDC",
+    "base": "VET",
+    "quote": "USDC",
+    "wsname": "VET/USDC",
+    "name": "VET/USDC",
+    "baseName": "VET"
+  },
+  {
+    "pair": "VETUSDT",
+    "base": "VET",
+    "quote": "USDT",
+    "wsname": "VET/USDT",
+    "name": "VET/USDT",
+    "baseName": "VET"
+  },
+  {
+    "pair": "VFYUSD",
+    "base": "VFY",
+    "quote": "USD",
+    "wsname": "VFY/USD",
+    "name": "VFY/USD",
+    "baseName": "VFY"
+  },
+  {
+    "pair": "VINEUSD",
+    "base": "VINE",
+    "quote": "USD",
+    "wsname": "VINE/USD",
+    "name": "VINE/USD",
+    "baseName": "VINE"
+  },
+  {
+    "pair": "VIRTUALUSD",
+    "base": "VIRTUAL",
+    "quote": "USD",
+    "wsname": "VIRTUAL/USD",
+    "name": "VIRTUAL/USD",
+    "baseName": "VIRTUAL"
+  },
+  {
+    "pair": "VIRTUALUSDC",
+    "base": "VIRTUAL",
+    "quote": "USDC",
+    "wsname": "VIRTUAL/USDC",
+    "name": "VIRTUAL/USDC",
+    "baseName": "VIRTUAL"
+  },
+  {
+    "pair": "VIRTUALUSDT",
+    "base": "VIRTUAL",
+    "quote": "USDT",
+    "wsname": "VIRTUAL/USDT",
+    "name": "VIRTUAL/USDT",
+    "baseName": "VIRTUAL"
+  },
+  {
+    "pair": "VOOIUSD",
+    "base": "VOOI",
+    "quote": "USD",
+    "wsname": "VOOI/USD",
+    "name": "VOOI/USD",
+    "baseName": "VOOI"
+  },
+  {
+    "pair": "VSNUSD",
+    "base": "VSN",
+    "quote": "USD",
+    "wsname": "VSN/USD",
+    "name": "VSN/USD",
+    "baseName": "VSN"
+  },
+  {
+    "pair": "VTHOUSD",
+    "base": "VTHO",
+    "quote": "USD",
+    "wsname": "VTHO/USD",
+    "name": "VTHO/USD",
+    "baseName": "VTHO"
+  },
+  {
+    "pair": "VULTUSD",
+    "base": "VULT",
+    "quote": "USD",
+    "wsname": "VULT/USD",
+    "name": "VULT/USD",
+    "baseName": "VULT"
+  },
+  {
+    "pair": "VVVUSD",
+    "base": "VVV",
+    "quote": "USD",
+    "wsname": "VVV/USD",
+    "name": "VVV/USD",
+    "baseName": "VVV"
+  },
+  {
+    "pair": "WALUSD",
+    "base": "WAL",
+    "quote": "USD",
+    "wsname": "WAL/USD",
+    "name": "WAL/USD",
+    "baseName": "WAL"
+  },
+  {
+    "pair": "WARDUSD",
+    "base": "WARD",
+    "quote": "USD",
+    "wsname": "WARD/USD",
+    "name": "WARD/USD",
+    "baseName": "WARD"
+  },
+  {
+    "pair": "WAXLUSD",
+    "base": "WAXL",
+    "quote": "USD",
+    "wsname": "WAXL/USD",
+    "name": "WAXL/USD",
+    "baseName": "WAXL"
+  },
+  {
+    "pair": "WBTCUSD",
+    "base": "WBTC",
+    "quote": "USD",
+    "wsname": "WBTC/USD",
+    "name": "WBTC/USD",
+    "baseName": "WBTC"
+  },
+  {
+    "pair": "WCTUSD",
+    "base": "WCT",
+    "quote": "USD",
+    "wsname": "WCT/USD",
+    "name": "WCT/USD",
+    "baseName": "WCT"
+  },
+  {
+    "pair": "WELLUSD",
+    "base": "WELL",
+    "quote": "USD",
+    "wsname": "SWELL/USD",
+    "name": "WELL/USD",
+    "baseName": "WELL"
+  },
+  {
+    "pair": "WENUSD",
+    "base": "WEN",
+    "quote": "USD",
+    "wsname": "WEN/USD",
+    "name": "WEN/USD",
+    "baseName": "WEN"
+  },
+  {
+    "pair": "WIFUSD",
+    "base": "WIF",
+    "quote": "USD",
+    "wsname": "WIF/USD",
+    "name": "WIF/USD",
+    "baseName": "WIF"
+  },
+  {
+    "pair": "WINUSD",
+    "base": "WIN",
+    "quote": "USD",
+    "wsname": "WIN/USD",
+    "name": "WIN/USD",
+    "baseName": "WIN"
+  },
+  {
+    "pair": "WLDUSD",
+    "base": "WLD",
+    "quote": "USD",
+    "wsname": "WLD/USD",
+    "name": "WLD/USD",
+    "baseName": "WLD"
+  },
+  {
+    "pair": "WLFIUSD",
+    "base": "WLFI",
+    "quote": "USD",
+    "wsname": "WLFI/USD",
+    "name": "WLFI/USD",
+    "baseName": "WLFI"
+  },
+  {
+    "pair": "WMTXUSD",
+    "base": "WMTX",
+    "quote": "USD",
+    "wsname": "WMTX/USD",
+    "name": "WMTX/USD",
+    "baseName": "WMTX"
+  },
+  {
+    "pair": "WOOUSD",
+    "base": "WOO",
+    "quote": "USD",
+    "wsname": "WOO/USD",
+    "name": "WOO/USD",
+    "baseName": "WOO"
+  },
+  {
+    "pair": "WUSD",
+    "base": "W",
+    "quote": "USD",
+    "wsname": "COW/USD",
+    "name": "W/USD",
+    "baseName": "W"
+  },
+  {
+    "pair": "XANUSD",
+    "base": "XAN",
+    "quote": "USD",
+    "wsname": "XAN/USD",
+    "name": "XAN/USD",
+    "baseName": "XAN"
+  },
+  {
+    "pair": "XAUTUSD",
+    "base": "XAUT",
+    "quote": "USD",
+    "wsname": "XAUT/USD",
+    "name": "XAUT/USD",
+    "baseName": "XAUT"
+  },
+  {
+    "pair": "XAUTUSDT",
+    "base": "XAUT",
+    "quote": "USDT",
+    "wsname": "XAUT/USDT",
+    "name": "XAUT/USDT",
+    "baseName": "XAUT"
+  },
+  {
+    "pair": "XBTAUSD",
+    "base": "XBTA",
+    "quote": "USD",
+    "wsname": "XBTA/USD",
+    "name": "XBTA/USD",
+    "baseName": "XBTA"
+  },
+  {
+    "pair": "XBTUSDC",
+    "base": "XBT",
+    "quote": "USDC",
+    "wsname": "XBT/USDC",
+    "name": "XBT/USDC",
+    "baseName": "XBT"
+  },
+  {
+    "pair": "XBTUSDT",
+    "base": "XBT",
+    "quote": "USDT",
+    "wsname": "XBT/USDT",
+    "name": "XBT/USDT",
+    "baseName": "XBT"
+  },
+  {
+    "pair": "XCNUSD",
+    "base": "XCN",
+    "quote": "USD",
+    "wsname": "XCN/USD",
+    "name": "XCN/USD",
+    "baseName": "XCN"
+  },
+  {
+    "pair": "XDCUSD",
+    "base": "XDC",
+    "quote": "USD",
+    "wsname": "XDC/USD",
+    "name": "XDC/USD",
+    "baseName": "XDC"
+  },
+  {
+    "pair": "XDCUSDC",
+    "base": "XDC",
+    "quote": "USDC",
+    "wsname": "XDC/USDC",
+    "name": "XDC/USDC",
+    "baseName": "XDC"
+  },
+  {
+    "pair": "XDGUSD",
+    "base": "XDG",
+    "quote": "USD",
+    "wsname": "XDG/USD",
+    "name": "XDG/USD",
+    "baseName": "XDG"
+  },
+  {
+    "pair": "XDGUSDC",
+    "base": "XDG",
+    "quote": "USDC",
+    "wsname": "XDG/USDC",
+    "name": "XDG/USDC",
+    "baseName": "XDG"
+  },
+  {
+    "pair": "XDGUSDT",
+    "base": "XDG",
+    "quote": "USDT",
+    "wsname": "XDG/USDT",
+    "name": "XDG/USDT",
+    "baseName": "XDG"
+  },
+  {
+    "pair": "XETCZUSD",
+    "base": "XETCZ",
+    "quote": "USD",
+    "wsname": "XETCZ/USD",
+    "name": "XETCZ/USD",
+    "baseName": "XETCZ"
+  },
+  {
+    "pair": "XETHZUSD",
+    "base": "XETHZ",
+    "quote": "USD",
+    "wsname": "XETHZ/USD",
+    "name": "XETHZ/USD",
+    "baseName": "XETHZ"
+  },
+  {
+    "pair": "XIONUSD",
+    "base": "XION",
+    "quote": "USD",
+    "wsname": "XION/USD",
+    "name": "XION/USD",
+    "baseName": "XION"
+  },
+  {
+    "pair": "XL1USD",
+    "base": "XL1",
+    "quote": "USD",
+    "wsname": "XL1/USD",
+    "name": "XL1/USD",
+    "baseName": "XL1"
+  },
+  {
+    "pair": "XLTCZUSD",
+    "base": "XLTCZ",
+    "quote": "USD",
+    "wsname": "XLTCZ/USD",
+    "name": "XLTCZ/USD",
+    "baseName": "XLTCZ"
+  },
+  {
+    "pair": "XMLNZUSD",
+    "base": "XMLNZ",
+    "quote": "USD",
+    "wsname": "XMLNZ/USD",
+    "name": "XMLNZ/USD",
+    "baseName": "XMLNZ"
+  },
+  {
+    "pair": "XMNUSD",
+    "base": "XMN",
+    "quote": "USD",
+    "wsname": "XMN/USD",
+    "name": "XMN/USD",
+    "baseName": "XMN"
+  },
+  {
+    "pair": "XNAPUSD",
+    "base": "XNAP",
+    "quote": "USD",
+    "wsname": "XNAP/USD",
+    "name": "XNAP/USD",
+    "baseName": "XNAP"
+  },
+  {
+    "pair": "XNYUSD",
+    "base": "XNY",
+    "quote": "USD",
+    "wsname": "XNY/USD",
+    "name": "XNY/USD",
+    "baseName": "XNY"
+  },
+  {
+    "pair": "XPLUSD",
+    "base": "XPL",
+    "quote": "USD",
+    "wsname": "XPL/USD",
+    "name": "XPL/USD",
+    "baseName": "XPL"
+  },
+  {
+    "pair": "XREPZUSD",
+    "base": "XREPZ",
+    "quote": "USD",
+    "wsname": "XREPZ/USD",
+    "name": "XREPZ/USD",
+    "baseName": "XREPZ"
+  },
+  {
+    "pair": "XRPUSDC",
+    "base": "XRP",
+    "quote": "USDC",
+    "wsname": "XRP/USDC",
+    "name": "XRP/USDC",
+    "baseName": "XRP"
+  },
+  {
+    "pair": "XRPUSDT",
+    "base": "XRP",
+    "quote": "USDT",
+    "wsname": "XRP/USDT",
+    "name": "XRP/USDT",
+    "baseName": "XRP"
+  },
+  {
+    "pair": "XRTUSD",
+    "base": "XRT",
+    "quote": "USD",
+    "wsname": "XRT/USD",
+    "name": "XRT/USD",
+    "baseName": "XRT"
+  },
+  {
+    "pair": "XTERUSD",
+    "base": "XTER",
+    "quote": "USD",
+    "wsname": "XTER/USD",
+    "name": "XTER/USD",
+    "baseName": "XTER"
+  },
+  {
+    "pair": "XTZUSD",
+    "base": "XTZ",
+    "quote": "USD",
+    "wsname": "XTZ/USD",
+    "name": "XTZ/USD",
+    "baseName": "XTZ"
+  },
+  {
+    "pair": "XTZUSDC",
+    "base": "XTZ",
+    "quote": "USDC",
+    "wsname": "XTZ/USDC",
+    "name": "XTZ/USDC",
+    "baseName": "XTZ"
+  },
+  {
+    "pair": "XTZUSDT",
+    "base": "XTZ",
+    "quote": "USDT",
+    "wsname": "XTZ/USDT",
+    "name": "XTZ/USDT",
+    "baseName": "XTZ"
+  },
+  {
+    "pair": "XXBTZUSD",
+    "base": "XXBTZ",
+    "quote": "USD",
+    "wsname": "XXBTZ/USD",
+    "name": "XXBTZ/USD",
+    "baseName": "XXBTZ"
+  },
+  {
+    "pair": "XYOUSD",
+    "base": "XYO",
+    "quote": "USD",
+    "wsname": "XYO/USD",
+    "name": "XYO/USD",
+    "baseName": "XYO"
+  },
+  {
+    "pair": "XZECZUSD",
+    "base": "XZECZ",
+    "quote": "USD",
+    "wsname": "XZECZ/USD",
+    "name": "XZECZ/USD",
+    "baseName": "XZECZ"
+  },
+  {
+    "pair": "YALAUSD",
+    "base": "YALA",
+    "quote": "USD",
+    "wsname": "YALA/USD",
+    "name": "YALA/USD",
+    "baseName": "YALA"
+  },
+  {
+    "pair": "YBUSD",
+    "base": "YB",
+    "quote": "USD",
+    "wsname": "YB/USD",
+    "name": "YB/USD",
+    "baseName": "YB"
+  },
+  {
+    "pair": "YFIUSD",
+    "base": "YFI",
+    "quote": "USD",
+    "wsname": "YFI/USD",
+    "name": "YFI/USD",
+    "baseName": "YFI"
+  },
+  {
+    "pair": "YGGUSD",
+    "base": "YGG",
+    "quote": "USD",
+    "wsname": "YGG/USD",
+    "name": "YGG/USD",
+    "baseName": "YGG"
+  },
+  {
+    "pair": "ZAMAUSD",
+    "base": "ZAMA",
+    "quote": "USD",
+    "wsname": "ZAMA/USD",
+    "name": "ZAMA/USD",
+    "baseName": "ZAMA"
+  },
+  {
+    "pair": "ZBCNUSD",
+    "base": "ZBCN",
+    "quote": "USD",
+    "wsname": "ZBCN/USD",
+    "name": "ZBCN/USD",
+    "baseName": "ZBCN"
+  },
+  {
+    "pair": "ZBTUSD",
+    "base": "ZBT",
+    "quote": "USD",
+    "wsname": "ZBT/USD",
+    "name": "ZBT/USD",
+    "baseName": "ZBT"
+  },
+  {
+    "pair": "ZEREBROUSD",
+    "base": "ZEREBRO",
+    "quote": "USD",
+    "wsname": "ZEREBRO/USD",
+    "name": "ZEREBRO/USD",
+    "baseName": "ZEREBRO"
+  },
+  {
+    "pair": "ZETAUSD",
+    "base": "ZETA",
+    "quote": "USD",
+    "wsname": "ZETA/USD",
+    "name": "ZETA/USD",
+    "baseName": "ZETA"
+  },
+  {
+    "pair": "ZEURZUSD",
+    "base": "ZEURZ",
+    "quote": "USD",
+    "wsname": "ZEURZ/USD",
+    "name": "ZEURZ/USD",
+    "baseName": "ZEURZ"
+  },
+  {
+    "pair": "ZEUSUSD",
+    "base": "ZEUS",
+    "quote": "USD",
+    "wsname": "ZEUS/USD",
+    "name": "ZEUS/USD",
+    "baseName": "ZEUS"
+  },
+  {
+    "pair": "ZEXUSD",
+    "base": "ZEX",
+    "quote": "USD",
+    "wsname": "ZEX/USD",
+    "name": "ZEX/USD",
+    "baseName": "ZEX"
+  },
+  {
+    "pair": "ZIGUSD",
+    "base": "ZIG",
+    "quote": "USD",
+    "wsname": "ZIG/USD",
+    "name": "ZIG/USD",
+    "baseName": "ZIG"
+  },
+  {
+    "pair": "ZKPUSD",
+    "base": "ZKP",
+    "quote": "USD",
+    "wsname": "ZKP/USD",
+    "name": "ZKP/USD",
+    "baseName": "ZKP"
+  },
+  {
+    "pair": "ZKUSD",
+    "base": "ZK",
+    "quote": "USD",
+    "wsname": "ZK/USD",
+    "name": "ZK/USD",
+    "baseName": "ZK"
+  },
+  {
+    "pair": "ZORAUSD",
+    "base": "ZORA",
+    "quote": "USD",
+    "wsname": "ZORA/USD",
+    "name": "ZORA/USD",
+    "baseName": "ZORA"
+  },
+  {
+    "pair": "ZRCUSD",
+    "base": "ZRC",
+    "quote": "USD",
+    "wsname": "ZRC/USD",
+    "name": "ZRC/USD",
+    "baseName": "ZRC"
+  },
+  {
+    "pair": "ZROUSD",
+    "base": "ZRO",
+    "quote": "USD",
+    "wsname": "ZRO/USD",
+    "name": "ZRO/USD",
+    "baseName": "ZRO"
+  },
+  {
+    "pair": "ZRXUSD",
+    "base": "ZRX",
+    "quote": "USD",
+    "wsname": "ZRX/USD",
+    "name": "ZRX/USD",
+    "baseName": "ZRX"
+  }
+]

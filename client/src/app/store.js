@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import authReducer from '../auth/authSlice';
 import watchlistsReducer from '../features/watchlists/watchlistsSlice';
-import cryptoReducer from '../features/marketData/cryptoSlice';
+import cryptoReducer from '../features/crypto/cryptoSlice';
 import workspaceReducer from '../workspace/workspaceSlice';
 import scannerReducer from '../features/scanner/scannerSlice';
 import krakenReducer from '../features/kraken/krakenSlice';

@@ -1,8 +1,8 @@
+// src/features/scanner/scannerSlice.js
 import { createSlice, nanoid } from "@reduxjs/toolkit";
 
-/* =======================
-   UTILITY: SYMBOL MAPPER
-======================= */
+/* ======================= SYMBOL NORMALIZER ======================= */
+
 const symbolMap = {
   BTC: "XBT",
   DOGE: "XDG",
@@ -12,9 +12,8 @@ const normalizeSymbol = (symbol) => {
   return symbol.replace(/^(BTC|DOGE)/, (match) => symbolMap[match]);
 };
 
-/* =======================
-   DEFAULTS
-======================= */
+/* ======================= DEFAULT COLUMNS ======================= */
+
 const defaultColumns = [
   { key: "pair", label: "Pair" },
   { key: "price", label: "Price" },
@@ -22,24 +21,13 @@ const defaultColumns = [
   { key: "change24", label: "Change %" },
 ];
 
-/* =======================
-   PRESET SCANNERS
-======================= */
-const presetTopAltcoins = {
-  name: "topAltcoins",
+/* ======================= PRESET SCANNERS ======================= */
+
+const createPreset = (name, symbols) => ({
+  name,
+  provider: "kraken",
   columns: defaultColumns,
-  items: [
-    "BTC/USD",
-    "LTC/USD",
-    "ETH/USD",
-    "BNB/USD",
-    "SOL/USD",
-    "DOGE/USD",
-    "ADA/USD",
-    "LINK/USD",
-    "TRX/USD",
-    "ALGO/USD",
-  ].map((symbol) => ({
+  items: symbols.map((symbol) => ({
     symbol: normalizeSymbol(symbol),
     provider: "kraken",
     data: null,
@@ -53,27 +41,47 @@ const presetTopAltcoins = {
     preset: true,
     createdAt: Date.now(),
   },
-};
+});
 
-/* =======================
-   INITIAL STATE
-======================= */
+const presetTopAltcoins = createPreset("topAltcoins", [
+  "BTC/USD",
+  "LTC/USD",
+  "ETH/USD",
+  "BNB/USD",
+  "SOL/USD",
+  "DOGE/USD",
+  "ADA/USD",
+  "LINK/USD",
+  "TRX/USD",
+  "ALGO/USD",
+]);
+
+const presetTopFiveCrypto = createPreset("topFiveCrypto", [
+  "BTC/USD",
+  "LTC/USD",
+  "ETH/USD",
+  "BNB/USD",
+]);
+
+/* ======================= INITIAL STATE ======================= */
+
 const initialState = {
   krakenScanners: {
     presetScanners: {
       topAltcoins: presetTopAltcoins,
+      topFiveCrypto: presetTopFiveCrypto,
     },
     userScanners: {},
-    activeScanners: ["topAltcoins"],
+    activeScanners: ["topAltcoins", "topFiveCrypto"],
+
     connection: {
       isConnected: false,
     },
   },
 };
 
-/* =======================
-   SLICE
-======================= */
+/* ======================= SLICE ======================= */
+
 const scannerSlice = createSlice({
   name: "scanner",
   initialState,
@@ -92,6 +100,7 @@ const scannerSlice = createSlice({
         return {
           payload: {
             name,
+            provider: "kraken",
             columns,
             items: [],
             status: { isActive: true, isOpen: true },
@@ -103,22 +112,28 @@ const scannerSlice = createSlice({
 
     addItemToScanner(state, action) {
       const { scannerName, item } = action.payload;
+
       const scanner =
         state.krakenScanners.userScanners[scannerName] ||
         state.krakenScanners.presetScanners[scannerName];
 
       if (!scanner) return;
 
-      // Normalize symbol automatically
-      const normalizedItem = { ...item, symbol: normalizeSymbol(item.symbol) };
+      const normalizedSymbol = normalizeSymbol(item.symbol);
 
-      if (!scanner.items.find((i) => i.symbol === normalizedItem.symbol)) {
-        scanner.items.push(normalizedItem);
+      if (!scanner.items.find((i) => i.symbol === normalizedSymbol)) {
+        scanner.items.push({
+          symbol: normalizedSymbol,
+          provider: scanner.provider,
+          data: null,
+          meta: item.meta || {},
+        });
       }
     },
 
-    updateItemInScanner(state, action) {
-      const { scannerName, symbol, updates } = action.payload;
+    removeItemFromScanner(state, action) {
+      const { scannerName, symbol } = action.payload;
+
       const scanner =
         state.krakenScanners.userScanners[scannerName] ||
         state.krakenScanners.presetScanners[scannerName];
@@ -126,12 +141,41 @@ const scannerSlice = createSlice({
       if (!scanner) return;
 
       const normalizedSymbol = normalizeSymbol(symbol);
-      const item = scanner.items.find((i) => i.symbol === normalizedSymbol);
-      if (item) Object.assign(item, updates);
+
+      scanner.items = scanner.items.filter(
+        (item) => item.symbol !== normalizedSymbol
+      );
+    },
+
+    updateItemInScanner(state, action) {
+      const { scannerName, symbol, updates } = action.payload;
+
+      const scanner =
+        state.krakenScanners.userScanners[scannerName] ||
+        state.krakenScanners.presetScanners[scannerName];
+
+      if (!scanner) return;
+
+      const normalizedSymbol = normalizeSymbol(symbol);
+
+      const item = scanner.items.find(
+        (i) => i.symbol === normalizedSymbol
+      );
+
+      if (item) {
+        // Merge updates into the item
+        const updatedItem = { ...item, ...updates };
+
+        // Replace item in a **new array**, so scanner reference changes
+        scanner.items = scanner.items.map((i) =>
+          i.symbol === updatedItem.symbol ? updatedItem : i
+        );
+      }
     },
 
     updateScannerStatus(state, action) {
       const { scannerName, status } = action.payload;
+
       const scanner =
         state.krakenScanners.userScanners[scannerName] ||
         state.krakenScanners.presetScanners[scannerName];
@@ -143,20 +187,30 @@ const scannerSlice = createSlice({
   },
 });
 
-/* =======================
-   ACTION EXPORTS
-======================= */
+/* ======================= ACTION EXPORTS ======================= */
+
 export const {
   setConnected,
   addUserScanner,
   addItemToScanner,
+  removeItemFromScanner,
   updateItemInScanner,
   updateScannerStatus,
 } = scannerSlice.actions;
 
-/* =======================
-   SELECTORS
-======================= */
+/* ======================= SELECTORS ======================= */
+
+export const selectScannerByName = (state, scannerName) => {
+  const { presetScanners, userScanners } =
+    state.scanner.krakenScanners;
+
+  return (
+    presetScanners[scannerName] ||
+    userScanners[scannerName] ||
+    null
+  );
+};
+
 export const selectKrakenActiveScanners = (state) => {
   const { presetScanners, userScanners, activeScanners } =
     state.scanner.krakenScanners;
@@ -166,15 +220,9 @@ export const selectKrakenActiveScanners = (state) => {
     .filter(Boolean);
 };
 
-export const selectScannerByName = (state, scannerName) => {
-  const { presetScanners, userScanners } = state.scanner.krakenScanners;
-  return presetScanners[scannerName] || userScanners[scannerName] || null;
-};
-
 export const selectKrakenConnection = (state) =>
   state.scanner.krakenScanners.connection.isConnected;
 
-/* =======================
-   REDUCER
-======================= */
+/* ======================= REDUCER ======================= */
+
 export default scannerSlice.reducer;
