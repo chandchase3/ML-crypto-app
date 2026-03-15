@@ -6,7 +6,7 @@ const initialState = {
   // Side panels with fully dynamic config
   leftPanel: {
     config: {
-      type: "singleFeature",        // simple | singleFeature | split | widgetPanel
+      type: "splt",        // simple | singleFeature | split | widgetPanel
       feature: "scanner",         // e.g., "watchlist", "scanner"
       widgets: [],           // optional array for future widget panels
     },
@@ -18,7 +18,7 @@ const initialState = {
 
   rightPanel: {
     config: {
-      type: "singleFeature",
+      type: "split",
       feature: "watchlist",
       widgets: [],
     },

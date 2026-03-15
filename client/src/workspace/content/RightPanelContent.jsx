@@ -9,9 +9,13 @@ export default function RightPanelContent() {
 
   return (
     <PanelShell panel="rightPanel" direction="right">
+      
       {panelType === "simple" && <SimplePanel />}
+
       {panelType === "singleFeature" && <SingleFeaturePanel panelId="rightPanel" />}
+
       {!["simple", "singleFeature"].includes(panelType) && <p>Noo panel type selected</p>}
+
     </PanelShell>
   );
 }
